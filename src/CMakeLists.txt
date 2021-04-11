@@ -1,4 +1,5 @@
-add_executable(optiimage main.cpp resources.qrc)
+add_executable(optiimage main.cpp imagemodel.cpp optipngjob.cpp jpegoptimjob.cpp resources.qrc)
+target_include_directories(optiimage PRIVATE ${CMAKE_BINARY_DIR})
 target_link_libraries(optiimage
     Qt5::Core
     Qt5::Gui
@@ -6,5 +7,6 @@ target_link_libraries(optiimage
     Qt5::Quick
     Qt5::QuickControls2
     Qt5::Svg
-    KF5::I18n)
+    KF5::I18n
+    KF5::CoreAddons)
 install(TARGETS optiimage ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

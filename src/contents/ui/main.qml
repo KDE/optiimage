@@ -1,6 +1,13 @@
-import QtQuick 2.1
-import org.kde.kirigami 2.4 as Kirigami
-import QtQuick.Controls 2.0 as Controls
+// SPDX-FileCopyrightText: 2021 Carl Schwan <carlschwan@kde.org>
+// SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
+
+import QtQuick 2.15
+import org.kde.kirigami 2.14 as Kirigami
+import QtQuick.Controls 2.15 as Controls
+import QtQuick.Layouts 1.15
+import Qt.labs.platform 1.1
+import org.kde.optiimage 1.0
+import org.kde.kcoreaddons 1.0 as KCA
 
 Kirigami.ApplicationWindow {
     id: root
@@ -39,38 +46,66 @@ Kirigami.ApplicationWindow {
     }
 
     pageStack.initialPage: mainPageComponent
+    
 
     Component {
         id: mainPageComponent
 
-        Kirigami.Page {
-            title: i18n("OptiImage")
+        Kirigami.ScrollablePage {
+            title: i18n("Optimize your images")
+    
+            FileDialog {
+                id: fileDialog
+                folder: StandardPaths.writableLocation(StandardPaths.PicturesLocation)
+                fileMode: FileDialog.OpenFiles
+                onAccepted: imageModel.addImages(files)
+                nameFilters: [i18n("Supported images files (*.jpg *.jpeg *.png)")]
+            }
 
             actions {
                 main: Kirigami.Action {
-                    icon.name: "go-home"
-                    onTriggered: showPassiveNotification(i18n("Main action triggered"))
+                    id: addImages
+                    icon.name: "list-add"
+                    text: i18n("Add images")
+                    onTriggered: fileDialog.open()
                 }
-                left: Kirigami.Action {
-                    icon.name: "go-previous"
-                    onTriggered: showPassiveNotification(i18n("Left action triggered"))
+            }
+            
+            ListView {
+                id: imageView
+                model: ImageModel {
+                    id: imageModel
                 }
-                right: Kirigami.Action {
-                    icon.name: "go-next"
-                    onTriggered: showPassiveNotification(i18n("Right action triggered"))
-                }
-                contextualActions: [
-                    Kirigami.Action {
-                        text: i18n("Contextual Action 1")
-                        icon.name: "bookmarks"
-                        onTriggered: showPassiveNotification(i18n("Contextual action 1 clicked"))
-                    },
-                    Kirigami.Action {
-                        text: i18n("Contextual Action 2")
-                        icon.name: "folder"
+                
+                delegate: Kirigami.BasicListItem {
+                    label: display
+                    icon: filename
+                    subtitle: KCA.Format.formatByteSize(size) + (newSize ?  " → " + KCA.Format.formatByteSize(newSize) + i18n(" (%1% decrease)", ((size - newSize) / size).toFixed(2) * 100) : "")
+                    trailing: Controls.CheckBox {
+                        visible: processed
+                        checkState: Qt.Checked
                         enabled: false
                     }
-                ]
+                }
+                
+                Kirigami.PlaceholderMessage {
+                    visible: imageView.count === 0
+                    text: i18n("No Images to optimize")
+                    helpfulAction: addImages
+                    anchors.centerIn: parent
+                }
+            }
+            
+            footer: Controls.ToolBar {
+                visible: imageView.count > 0
+                contentItem: RowLayout {
+                    Controls.Button {
+                        Layout.alignment: Qt.AlignRight
+                        icon.name: "media-playback-start"
+                        text: i18n("Optimize")
+                        onClicked: imageModel.optimize()
+                    }
+                }
             }
         }
     }

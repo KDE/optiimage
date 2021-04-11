@@ -18,8 +18,16 @@ include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 
+ecm_setup_version(1.0.0
+    VARIABLE_PREFIX OPTIIMAGE
+    VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/optiimage-version.h
+)
+
+set(CMAKE_CXX_STANDARD 17)
+
+
 find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n)
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
 
 add_subdirectory(src)
 
