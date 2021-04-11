@@ -6,7 +6,7 @@
 #include <QTimer>
 
 OptipngJob::OptipngJob(QUrl path, QObject *parent)
-    : KJob(parent)
+    : AbstractOptiJob(parent)
     , m_path(path)
 {
 }

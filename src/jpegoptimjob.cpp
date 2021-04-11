@@ -6,7 +6,7 @@
 #include <QTimer>
 
 JpegOptimJob::JpegOptimJob(const QUrl &path, QObject *parent)
-    : KJob(parent)
+    : AbstractOptiJob(parent)
     , m_path(path)
 {
 }

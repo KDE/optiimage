@@ -27,6 +27,8 @@ QVariant ImageModel::data(const QModelIndex& index, int role) const
     
     const auto imageInfo = m_images[index.row()];
     switch (role) {
+        case Qt::DisplayRole:
+            return imageInfo.path.fileName();
         case FileNameRole:
             return imageInfo.path.toDisplayString();
         case NewSizeRole:
@@ -88,9 +90,13 @@ void ImageModel::optimize(bool next)
             continue;
         }
         
-        // TODO use abstract class
+        AbstractOptiJob *job = nullptr;
         if (image.imageType == ImageType::PNG) {
-            auto job = new OptipngJob(image.path, this);
+            job = new OptipngJob(image.path, this);
+        } else if (image.imageType == ImageType::JPEG) {
+            job = new JpegOptimJob(image.path, this);
+        }
+        if (job) {
             connect(job, &OptipngJob::result, this, [this, i, job, &image](KJob *) {
                 if (job->newSize() != -1) {
                     image.size = job->newSize();
@@ -99,22 +105,6 @@ void ImageModel::optimize(bool next)
                 }
                 image.processed = true;
                 qDebug() << image.size;
-                Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
-                optimize(true);
-                job->deleteLater();
-            });
-            job->start();
-            return;
-        }
-        if (image.imageType == ImageType::JPEG) {
-            auto job = new JpegOptimJob(image.path, this);
-            connect(job, &JpegOptimJob::result, this, [this, i, job, &image](KJob *) {
-                if (job->newSize() != -1) {
-                    image.size = job->newSize();
-                } else {
-                    image.size = image.oldSize;
-                }
-                image.processed = true;
                 Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
                 optimize(true);
                 job->deleteLater();

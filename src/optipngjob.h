@@ -3,10 +3,9 @@
 
 #pragma once
 
-#include <KJob>
-#include <QUrl>
+#include "abstractoptijob.h"
 
-class OptipngJob : public KJob
+class OptipngJob : public AbstractOptiJob
 {
     Q_OBJECT
 
@@ -17,7 +16,7 @@ public:
     void start() override;
     void optimize();
     
-    qint64 newSize();
+    qint64 newSize() override;
     
 private:
     QString m_output;

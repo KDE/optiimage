@@ -1,4 +1,4 @@
-add_executable(optiimage main.cpp imagemodel.cpp optipngjob.cpp jpegoptimjob.cpp resources.qrc)
+add_executable(optiimage main.cpp imagemodel.cpp optipngjob.cpp jpegoptimjob.cpp abstractoptijob.cpp resources.qrc)
 target_include_directories(optiimage PRIVATE ${CMAKE_BINARY_DIR})
 target_link_libraries(optiimage
     Qt5::Core
