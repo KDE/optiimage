@@ -80,9 +80,15 @@ void ImageModel::addImages(const QList<QUrl> &paths)
 void ImageModel::optimize(bool next)
 {
     if (m_running && !next) {
+        // We are already running
+        return;
+    }
+    if (!m_running && next) {
+        // User asked to stop
         return;
     }
     m_running = true;
+    Q_EMIT runningChanged();
     int i = 0;
     for (auto &image : m_images) {
         if (image.processed) {
@@ -104,7 +110,6 @@ void ImageModel::optimize(bool next)
                     image.size = image.oldSize;
                 }
                 image.processed = true;
-                qDebug() << image.size;
                 Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
                 optimize(true);
                 job->deleteLater();
@@ -115,6 +120,7 @@ void ImageModel::optimize(bool next)
         i++;
     }
     m_running = false;
+    Q_EMIT runningChanged();
 }
 
 QHash<int, QByteArray> ImageModel::roleNames() const
@@ -127,6 +133,17 @@ QHash<int, QByteArray> ImageModel::roleNames() const
         {AlreadyOptimizedRole, QByteArrayLiteral("alreadyOptimized")},
         {ProcessedRole, QByteArrayLiteral("processed")}
     };
+}
+
+bool ImageModel::running() const
+{
+    return m_running;
+}
+
+void ImageModel::stop()
+{
+    m_running = false;
+    Q_EMIT runningChanged();
 }
 
 

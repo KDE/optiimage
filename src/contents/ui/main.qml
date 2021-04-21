@@ -98,6 +98,7 @@ Kirigami.ApplicationWindow {
             
             footer: Controls.ToolBar {
                 visible: imageView.count > 0
+                height: visible ? implicitHeight : 0
                 contentItem: RowLayout {
                     Controls.Button {
                         Layout.alignment: Qt.AlignRight

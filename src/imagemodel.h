@@ -25,6 +25,7 @@ struct ImageInfo {
 class ImageModel : public QAbstractListModel
 {
     Q_OBJECT
+    Q_PROPERTY(bool running READ running NOTIFY runningChanged)
 
 public:
     enum Roles {
@@ -45,6 +46,12 @@ public:
     QHash<int, QByteArray> roleNames() const override;
     Q_INVOKABLE void addImages(const QList<QUrl> &paths);
     Q_INVOKABLE void optimize(bool next = false);
+    Q_INVOKABLE void stop();
+    
+    bool running() const;
+
+Q_SIGNALS:
+    void runningChanged();
     
 private:
     QList<ImageInfo> m_images;
