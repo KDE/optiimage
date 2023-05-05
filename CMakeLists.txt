@@ -1,6 +1,5 @@
 # SPDX-FileCopyrightText: 2023 Carl Schwan <carl@carlschwan.eu>
 # SPDX-License-Identifier: BSD-2-Clause
-
 cmake_minimum_required(VERSION 3.16)
 
 set(QT_MIN_VERSION 5.15)
