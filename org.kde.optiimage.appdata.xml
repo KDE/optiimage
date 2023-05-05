@@ -5,24 +5,30 @@
  SPDX-License-Identifier: FSFAP
 -->
   <id>org.kde.optiimage</id>
+  <name>OptiImage</name>
   <provides>
     <binary>optiimage</binary>
   </provides>
-  <name>OptiImage</name>
+  <summary>Image optimizer to reduce the size of images</summary>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL</project_license>
+  <developer_name>Carl Schwan</developer_name>
   <description>
     <p>OptiImage is an image optimizer. It allows you to optimize the optimize the spaced used by an image by removing metadata and improve the compression.</p>
+    <p>It uses the following tools:</p>
+    <ul>
+      <li>optipng</li>
+      <li>jpegoptim</li>
+    </ul>
   </description>
   <url type="homepage">https://apps.kde.org/optiimage/</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=OptitImage</url>
   <categories>
     <category>Graphics</category>
   </categories>
-  <developer_name>Carl Schwan</developer_name>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0</project_license>
   <custom>
     <value key="KDE::matrix">#plasma-mobile:kde.org</value>
   </custom>
   <launchable type="desktop-id">org.kde.optiimage.desktop</launchable>
-  <content_rating type="oars-1.1"></content_rating>
+  <content_rating type="oars-1.1"/>
 </component>
