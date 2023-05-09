@@ -11,6 +11,8 @@ import org.kde.optiimage 1.0
 Kirigami.ApplicationWindow {
     id: root
 
+    width: 600
+
     globalDrawer: Kirigami.GlobalDrawer {
         isMenu: true
         actions: [

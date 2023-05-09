@@ -1,9 +1,9 @@
 [Desktop Entry]
 Name=OptiImage
-Comment=OptiImage Kirigami Application
+Comment=Image optimizer
 Version=1.0
 Exec=optiimage
-Icon=applications-development
+Icon=org.kde.optiimage
 Type=Application
 Terminal=false
-Categories=Qt;KDE;
+Categories=Qt;KDE;Graphics

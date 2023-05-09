@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component type="desktop-application">
+<!--
+  - SPDX-License-Identifier: CC0-1.0
+  - SPDX-FileCopyrightText: 2023 Carl Schwan <carlschwan@kde.org>
+ -->
+<component type="desktop">
   <id>org.kde.optiimage</id>
-  <name>Kirigami Application</name>
-  <summary>A short summary describing what this software is about</summary>
-  <metadata_license>A permissive license for this metadata, e.g. "FSFAP"</metadata_license>
-  <project_license>The license of this software as SPDX string, e.g. "GPL-3+"</project_license>
-  <developer_name>The software vendor name, e.g. "ACME Corporation"</developer_name>
+  <provides>
+    <binary>optiimage</binary>
+  </provides>
+  <name>OptiImage</name>
   <description>
-    <p>Multiple paragraphs of long description, describing this software component.</p>
-    <p>You can also use ordered and unordered lists:</p>
-    <ul>
-      <li>Feature 1</li>
-      <li>Feature 2</li>
-    </ul>
-    <p>Keep in mind to XML-escape characters, and that this is not HTML markup.</p>
+    <p>OptiImage is an image optimizer. It allows you to optimize the optimize the spaced used by an image by removing metadata and improve the compression.</p>
   </description>
+  <url type="homepage">https://apps.kde.org/optiimage/</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=OptitImage</url>
+  <categories>
+    <category>Graphics</category>
+  </categories>
+  <developer_name>Carl Schwan</developer_name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <custom>
+    <value key="KDE::matrix">#plasma-mobile:kde.org</value>
+  </custom>
+  <launchable type="desktop-id">org.kde.optiimage.desktop</launchable>
+  <content_rating type="oars-1.1"></content_rating>
 </component>

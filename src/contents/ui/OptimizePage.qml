@@ -50,6 +50,8 @@ Kirigami.ScrollablePage {
             visible: imageView.count === 0
             text: i18n("No Images to optimize")
             helpfulAction: addImages
+            width: parent.width - Kirigami.Units.gridUnit * 4
+            icon.name: "org.kde.optiimage"
             anchors.centerIn: parent
         }
     }

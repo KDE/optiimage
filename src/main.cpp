@@ -5,6 +5,7 @@
 #include <QQmlApplicationEngine>
 #include <QtQml>
 #include <QUrl>
+#include <QIcon>
 #include <QQuickStyle>
 #include <QCoroQml>
 #include <KLocalizedContext>
@@ -30,15 +31,20 @@ int main(int argc, char *argv[])
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     }
 
-    KAboutData about(QStringLiteral("optiimgage"),
+    KAboutData about(QStringLiteral("optiimage"),
                     i18n("OptiImage"),
                     QStringLiteral(OPTIIMAGE_VERSION_STRING),
                     i18n("Images Optimiser"),
                     KAboutLicense::GPL_V3,
                     i18n("© 2021 Carl Schwan"));
 
-    about.addAuthor(i18n("Carl Schwan"), QString(), QStringLiteral("carl@carlschwan.eu"));
+    about.addAuthor(i18n("Carl Schwan"), i18n("Maintainer"), QStringLiteral("carl@carlschwan.eu"));
+    about.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
     about.setOrganizationDomain("kde.org");
+    about.setBugAddress("https://bugs.kde.org/describecomponents.cgi?product=optiimage");
+
+    KAboutData::setApplicationData(about);
+    QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.optiimage")));
 
     QQmlApplicationEngine engine;
     qmlRegisterType<ImageModel>("org.kde.optiimage", 1, 0, "ImageModel");
