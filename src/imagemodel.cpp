@@ -3,68 +3,61 @@
 
 #include "imagemodel.h"
 
-#include <QMimeDatabase>    
+#include <QMimeDatabase>
 #include <QDebug>
 #include <QFileInfo>
-
-#include "optipngjob.h"
-#include "jpegoptimjob.h"
+#include "optimizer.h"
 
 ImageModel::ImageModel(QObject *parent)
     : QAbstractListModel(parent)
 {
 }
 
-ImageModel::~ImageModel()
-{
-}
-
 QVariant ImageModel::data(const QModelIndex& index, int role) const
 {
-    if (!index.isValid()) {
-        return {};
-    }
-    
+    Q_ASSERT(checkIndex(index, QAbstractItemModel::CheckIndexOption::IndexIsValid));
+
     const auto imageInfo = m_images[index.row()];
     switch (role) {
-        case Qt::DisplayRole:
-            return imageInfo.path.fileName();
-        case FileNameRole:
-            return imageInfo.path.toDisplayString();
-        case NewSizeRole:
-            return imageInfo.size != -1 && imageInfo.size != imageInfo.oldSize ? imageInfo.size : QVariant();
-        case AlreadyOptimizedRole:
-            return imageInfo.size != -1 && imageInfo.size == imageInfo.oldSize;
-        case SizeRole:
-            return imageInfo.oldSize != -1 ? imageInfo.oldSize : QVariant();
-        case ProcessedRole:
-            return imageInfo.processed;
-        
+    case Qt::DisplayRole:
+        return imageInfo.path.fileName();
+    case FileNameRole:
+        return imageInfo.path.toDisplayString();
+    case NewSizeRole:
+        return imageInfo.size != -1 && imageInfo.size != imageInfo.oldSize ? imageInfo.size : QVariant();
+    case AlreadyOptimizedRole:
+        return imageInfo.size != -1 && imageInfo.size == imageInfo.oldSize;
+    case SizeRole:
+        return imageInfo.oldSize != -1 ? imageInfo.oldSize : QVariant();
+    case ProcessedRole:
+        return imageInfo.processed;
+    default:
+        Q_UNREACHABLE();
     }
-    return {};
 }
 
 
 int ImageModel::rowCount(const QModelIndex& parent) const
 {
+    Q_UNUSED(parent);
     return m_images.count();
 }
 
 void ImageModel::addImages(const QList<QUrl> &paths)
 {
     for (const auto &path : paths) {
-        beginInsertRows(QModelIndex(), m_images.count(), m_images.count());
+        beginInsertRows({}, m_images.count(), m_images.count());
         QFileInfo fileInfo(path.toLocalFile());
         QMimeDatabase db;
-        QMimeType type = db.mimeTypeForFile(path.toLocalFile());       
-        
+        QMimeType type = db.mimeTypeForFile(path.toLocalFile());
+
         ImageInfo info;
         info.path = path;
         info.oldSize = fileInfo.size();
         if (!path.isLocalFile() || !fileInfo.isWritable()) {
             info.error = true;
         }
-        
+
         if (type.name() == QStringLiteral("image/png")) {
             info.imageType = ImageType::PNG;
         } else if (type.name() == QStringLiteral("image/jpeg")) {
@@ -77,45 +70,34 @@ void ImageModel::addImages(const QList<QUrl> &paths)
     }
 }
 
-void ImageModel::optimize(bool next)
+void ImageModel::optimize()
 {
-    if (m_running && !next) {
-        // We are already running
-        return;
-    }
-    if (!m_running && next) {
-        // User asked to stop
-        return;
+    runOptimize();
+}
+
+QCoro::Task<> ImageModel::runOptimize()
+{
+    if (m_running) {
+        co_return;
     }
     m_running = true;
     Q_EMIT runningChanged();
+
     int i = 0;
     for (auto &image : m_images) {
         if (image.processed) {
             i++;
             continue;
         }
-        
-        AbstractOptiJob *job = nullptr;
+
         if (image.imageType == ImageType::PNG) {
-            job = new OptipngJob(image.path, this);
+            image.size = co_await optimizePng(image.path);
+            image.processed = true;
+            Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
         } else if (image.imageType == ImageType::JPEG) {
-            job = new JpegOptimJob(image.path, this);
-        }
-        if (job) {
-            connect(job, &OptipngJob::result, this, [this, i, job, &image](KJob *) {
-                if (job->newSize() != -1) {
-                    image.size = job->newSize();
-                } else {
-                    image.size = image.oldSize;
-                }
-                image.processed = true;
-                Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
-                optimize(true);
-                job->deleteLater();
-            });
-            job->start();
-            return;
+            image.size = co_await optimizeJpeg(image.path);
+            image.processed = true;
+            Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
         }
         i++;
     }

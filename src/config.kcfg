@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="optiimagerc" />
+  <group name="General">
+    <entry name="Lossless" type="bool">
+      <label>Lossless compression</label>
+      <default>true</default>
+    </entry>
+  </group>
+  <group name="png">
+    <entry name="pngLosslessLevel" type="int">
+      <label>Default optimization level of lossless optimization</label>
+      <default>4</default>
+    </entry>
+    <entry name="pngLossyLevel" type="int">
+      <label>Default optimization level of lossy optimization</label>
+      <default>4</default>
+    </entry>
+  </group>
+</kcfg>
+

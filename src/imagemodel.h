@@ -6,6 +6,7 @@
 #include <QAbstractListModel>
 #include <QUrl>
 #include <QList>
+#include <QCoroQmlTask>
 
 enum ImageType {
     PNG,
@@ -39,21 +40,22 @@ public:
 
 public:
     ImageModel(QObject *parent = nullptr);
-    ~ImageModel();
 
     QVariant data(const QModelIndex &index, int role) const override;
-    int rowCount(const QModelIndex &parent) const override;
+    int rowCount(const QModelIndex &parent = {}) const override;
     QHash<int, QByteArray> roleNames() const override;
     Q_INVOKABLE void addImages(const QList<QUrl> &paths);
-    Q_INVOKABLE void optimize(bool next = false);
+    Q_INVOKABLE void optimize();
     Q_INVOKABLE void stop();
-    
+
     bool running() const;
 
 Q_SIGNALS:
     void runningChanged();
-    
+
 private:
-    QList<ImageInfo> m_images;
-    bool m_running;
+    QCoro::Task<> runOptimize();
+
+    QVector<ImageInfo> m_images;
+    bool m_running = false;
 };
