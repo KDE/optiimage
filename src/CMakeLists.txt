@@ -9,6 +9,7 @@ add_executable(optiimage
     resources.qrc
 )
 
+target_include_directories(optiimage PRIVATE ${CMAKE_BINARY_DIR})
 target_link_libraries(optiimage
     Qt::Core
     Qt::Gui
