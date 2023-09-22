@@ -5,21 +5,26 @@ add_executable(optiimage
     main.cpp
     imagemodel.cpp
     optimizer.cpp
-    format.cpp
-    resources.qrc
+)
+
+qt_add_qml_module(optiimage URI org.kde.optiimage NO_RESOURCE_TARGET_PATH
+    QML_FILES
+        contents/ui/main.qml
+        contents/ui/OptimizePage.qml
 )
 
 target_include_directories(optiimage PRIVATE ${CMAKE_BINARY_DIR})
-target_link_libraries(optiimage
+target_link_libraries(optiimage PRIVATE
     Qt::Core
     Qt::Gui
     Qt::Qml
     Qt::Quick
     Qt::QuickControls2
     Qt::Svg
-    KF${QT_MAJOR_VERSION}::I18n
-    KF${QT_MAJOR_VERSION}::CoreAddons
-    KF${QT_MAJOR_VERSION}::ConfigGui
+    Qt::Widgets
+    KF6::I18n
+    KF6::CoreAddons
+    KF6::ConfigGui
     QCoro::Core
     QCoro::Qml
 )

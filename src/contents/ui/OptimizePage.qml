@@ -3,17 +3,18 @@
 
 import QtQuick 2.15
 import org.kde.kirigami 2.20 as Kirigami
+import org.kde.coreaddons
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import Qt.labs.platform 1.1
-import org.kde.optiimage 1.0
+import org.kde.optiimage
 
 Kirigami.ScrollablePage {
     id: root
 
     title: i18n("Optimize your images")
 
-    actions.main: Kirigami.Action {
+    actions: Kirigami.Action {
         id: addImages
         icon.name: "list-add"
         text: i18n("Add images")
@@ -36,8 +37,8 @@ Kirigami.ScrollablePage {
         }
 
         delegate: Kirigami.BasicListItem {
-            label: display
-            icon: filename
+            label: model.display
+            icon: model.filename
             subtitle: Format.formatByteSize(size) + (newSize ?  " → " + Format.formatByteSize(newSize) + i18n(" (%1% decrease)", ((size - newSize) / size).toFixed(2) * 100) : "")
             trailing: QQC2.CheckBox {
                 visible: processed

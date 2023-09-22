@@ -23,7 +23,7 @@ QCoro::Task<qint64> optimizeJpeg(const QUrl &path)
     const auto output = QString::fromUtf8(outputUtf8);
     qDebug() << output;
 
-    co_return output.split(QStringLiteral(" --> "))[1].split(QChar(' '))[0].toInt();
+    co_return output.split(QStringLiteral(" --> "))[1].split(QChar(u' '))[0].toInt();
 }
 
 QCoro::Task<qint64> optimizePng(const QUrl &path) {
@@ -41,8 +41,8 @@ QCoro::Task<qint64> optimizePng(const QUrl &path) {
     const QByteArray outputUtf8 = proc.readAll();
     const auto output = QString::fromUtf8(outputUtf8);
 
-    if (!output.contains("is already optimized")) {
-        const auto size = output.split("Output file size = ")[1].split(' ')[0].toInt();
+    if (!output.contains(QStringLiteral("is already optimized"))) {
+        const auto size = output.split(QStringLiteral("Output file size = "))[1].split(u' ')[0].toInt();
         co_return size;
     }
 

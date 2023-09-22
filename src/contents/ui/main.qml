@@ -3,10 +3,12 @@
 
 import QtQuick 2.15
 import org.kde.kirigami 2.20 as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 import QtQuick.Controls 2.15 as Controls
 import QtQuick.Layouts 1.15
 import Qt.labs.platform 1.1
-import org.kde.optiimage 1.0
+import org.kde.optiimage
+import org.kde.coreaddons
 
 Kirigami.ApplicationWindow {
     id: root
@@ -17,22 +19,30 @@ Kirigami.ApplicationWindow {
         isMenu: true
         actions: [
             Kirigami.Action {
-                icon.name: "settings-configure"
-                text: i18n("Settings")
-                onTriggered: showPassiveNotification(i18n("Action 2 clicked"))
-            },
-            Kirigami.Action {
                 icon.name: "help-about-symbolic"
                 text: i18n("About OptiImage")
-                onTriggered: showPassiveNotification(i18n("Action 1 clicked"))
+                onTriggered: pageStack.pushDialogLayer(aboutOptiImage, {}, {
+                })
             },
             Kirigami.Action {
                 icon.name: "kde"
                 text: i18n("About KDE")
-                onTriggered: showPassiveNotification(i18n("Action 2 clicked"))
+                onTriggered: pageStack.pushDialogLayer(aboutKde)
             }
         ]
     }
 
     pageStack.initialPage: OptimizePage {}
+
+    Component {
+        id: aboutKde
+        FormCard.AboutKDE {}
+    }
+
+    Component {
+        id: aboutOptiImage
+        FormCard.AboutPage {
+            aboutData: AboutData
+        }
+    }
 }

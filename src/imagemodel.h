@@ -7,6 +7,7 @@
 #include <QUrl>
 #include <QList>
 #include <QCoroQmlTask>
+#include <QQmlEngine>
 
 enum ImageType {
     PNG,
@@ -26,6 +27,7 @@ struct ImageInfo {
 class ImageModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
     Q_PROPERTY(bool running READ running NOTIFY runningChanged)
 
 public:
