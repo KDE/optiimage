@@ -13,7 +13,6 @@
 #include <KAboutData>
 
 #include "imagemodel.h"
-#include "format.h"
 
 #include "optiimage-version.h"
 
@@ -36,7 +35,7 @@ int main(int argc, char *argv[])
                     QStringLiteral(OPTIIMAGE_VERSION_STRING),
                     i18n("Images Optimiser"),
                     KAboutLicense::GPL_V3,
-                    i18n("© 2021 Carl Schwan"));
+                    i18n("© 2021 - 2023 Carl Schwan"));
 
     about.addAuthor(i18n("Carl Schwan"), i18n("Maintainer"), QStringLiteral("carl@carlschwan.eu"));
     about.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
@@ -47,17 +46,10 @@ int main(int argc, char *argv[])
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.optiimage")));
 
     QQmlApplicationEngine engine;
-    qmlRegisterType<ImageModel>("org.kde.optiimage", 1, 0, "ImageModel");
-    qmlRegisterSingletonType("org.kde.optiimage", 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
-        return engine->toScriptValue(KAboutData::applicationData());
-    });
-    qmlRegisterSingletonType<Format>("org.kde.optiimage", 1, 0, "Format", [](QQmlEngine *, QJSEngine *) -> QObject * {
-        return new Format();
-    });
     QCoro::Qml::registerTypes();
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:/contents/ui/main.qml")));
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
