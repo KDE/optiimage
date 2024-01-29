@@ -12,7 +12,6 @@
 #include <KLocalizedString>
 #include <KAboutData>
 
-#include "imagemodel.h"
 #include "config.h"
 
 #include "optiimage-version.h"
@@ -45,6 +44,9 @@ int main(int argc, char *argv[])
 
     KAboutData::setApplicationData(about);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.optiimage")));
+
+    auto config = Config::self();
+    qmlRegisterSingletonInstance("org.kde.optiimage.private", 1, 0, "Config", config);
 
     QQmlApplicationEngine engine;
     QCoro::Qml::registerTypes();

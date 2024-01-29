@@ -15,12 +15,23 @@ Kirigami.ScrollablePage {
 
     title: i18n("Optimize your images")
 
-    actions: Kirigami.Action {
-        id: addImages
-        icon.name: "list-add"
-        text: i18n("Add images")
-        onTriggered: fileDialog.open()
-    }
+    actions: [
+        Kirigami.Action {
+            id: addImages
+            icon.name: "list-add"
+            text: i18n("Add images")
+            onTriggered: fileDialog.open()
+        },
+        Kirigami.Action {
+            icon.name: "settings-configure"
+            text: i18n("Settings")
+            onTriggered: pageStack.pushDialogLayer(settings, {}, {
+                title: i18n("Settings"),
+                width: Kirigami.Units.gridUnit * 16,
+                width: Kirigami.Units.gridUnit * 40,
+            });
+        }
+    ]
 
     FileDialog {
         id: fileDialog
@@ -80,6 +91,8 @@ Kirigami.ScrollablePage {
                     visible: imageDelegate.processed
                 }
             }
+
+            background: null
         }
 
         Kirigami.PlaceholderMessage {
