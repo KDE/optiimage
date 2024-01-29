@@ -25,13 +25,15 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             icon.name: "settings-configure"
             text: i18n("Settings")
-            onTriggered: pageStack.pushDialogLayer(settings, {}, {
-                title: i18n("Settings"),
-                width: Kirigami.Units.gridUnit * 16,
-                width: Kirigami.Units.gridUnit * 40,
-            });
+            onTriggered: pageStack.layers.push(settings);
+
         }
     ]
+
+    Component {
+        id: settings
+        SettingsPage {}
+    }
 
     FileDialog {
         id: fileDialog

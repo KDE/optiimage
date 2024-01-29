@@ -16,21 +16,4 @@ Kirigami.ApplicationWindow {
     width: 600
 
     pageStack.initialPage: OptimizePage {}
-
-    Component {
-        id: aboutKde
-        FormCard.AboutKDE {}
-    }
-
-    Component {
-        id: settings
-        SettingsPage {}
-    }
-
-    Component {
-        id: aboutOptiImage
-        FormCard.AboutPage {
-            aboutData: AboutData
-        }
-    }
 }
