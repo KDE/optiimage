@@ -13,7 +13,7 @@ enum ImageType {
     PNG,
     JPEG,
     SVG,
-    WEB,
+    WEBP,
     UNSURPORTED,
 };
 

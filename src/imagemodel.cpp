@@ -70,6 +70,8 @@ void ImageModel::addImages(const QList<QUrl> &paths)
             info.imageType = ImageType::PNG;
         } else if (type.name() == u"image/jpeg"_s) {
             info.imageType = ImageType::JPEG;
+        } else if (type.name() == u"image/svg+xml"_s) {
+            info.imageType = ImageType::SVG;
         } else {
             info.imageType = ImageType::UNSURPORTED;
         }
@@ -101,19 +103,26 @@ QCoro::Task<> ImageModel::optimize()
         image.processed = true;
         processedImages = true;
 
+        if (image.imageType == ImageType::UNSURPORTED) {
+            i++;
+            continue;
+        }
+
+        qWarning() << image.imageType;
+
         if (image.imageType == ImageType::PNG) {
             co_await optimizePng(config, image);
-            QFileInfo fileInfo(image.newPath.toLocalFile());
-            image.size = fileInfo.size();
-            image.processed = true;
-            Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
         } else if (image.imageType == ImageType::JPEG) {
             co_await optimizeJpeg(config, image);
-            QFileInfo fileInfo(image.newPath.toLocalFile());
-            image.size = fileInfo.size();
-            image.processed = true;
-            Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
+        } else if (image.imageType == ImageType::SVG) {
+            co_await optimizeSvg(config, image);
         }
+
+        QFileInfo fileInfo(image.newPath.toLocalFile());
+        image.size = fileInfo.size();
+        image.processed = true;
+        Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
+
         i++;
     }
     m_running = false;

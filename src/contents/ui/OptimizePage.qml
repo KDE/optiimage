@@ -40,7 +40,7 @@ Kirigami.ScrollablePage {
         folder: StandardPaths.writableLocation(StandardPaths.PicturesLocation)
         fileMode: FileDialog.OpenFiles
         onAccepted: imageModel.addImages(files)
-        nameFilters: [i18n("Supported images files (*.jpg *.jpeg *.png)")]
+        nameFilters: [i18n("Supported images files (*.jpg *.jpeg *.png, *.svg, *.wep)")]
     }
 
     ListView {

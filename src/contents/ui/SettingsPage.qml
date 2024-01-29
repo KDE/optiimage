@@ -61,14 +61,14 @@ FormCard.FormCardPage {
     }
 
     FormCard.FormHeader {
-        title: i18n("JPEG")
+        title: i18n("JPG")
     }
 
     FormCard.FormCard {
         FormCard.FormSwitchDelegate {
             id: jpgProgressiveCheck
-            text: i18n("Progressive encode JPEG image")
-            description: i18n("Progressive encoded image can improve your website perceived performance.")
+            text: i18n("Progressive Encode")
+            description: i18n("To enable incremental image rendering: blurry to clear.")
             checked: Config.jpgProgressive
             onCheckedChanged: {
                 Config.jpgProgressive = checked;
@@ -121,6 +121,22 @@ FormCard.FormCardPage {
             to: 6
             onTextChanged: {
                 Config.pngLossyLevel = value;
+                Config.save();
+            }
+        }
+    }
+
+    FormCard.FormHeader {
+        title: i18n("SVG")
+    }
+
+    FormCard.FormCard {
+        FormCard.FormSwitchDelegate {
+            text: i18nc("@label", "Maximum Compression Level")
+            description: i18nc("@info", "Can be more destructive for the image.")
+            checked: Config.svgMaximumValue
+            onCheckedChanged: {
+                Config.svgMaximumValue = checked;
                 Config.save();
             }
         }

@@ -42,5 +42,12 @@
       <default>4</default>
     </entry>
   </group>
+
+  <group name="svg">
+    <entry name="svgMaximumLevel" type="bool">
+      <label>Enable full minification</label>
+      <default>false</default>
+    </entry>
+  </group>
 </kcfg>
 

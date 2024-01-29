@@ -89,3 +89,45 @@ QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &image) {
     const QByteArray outputUtf8 = proc.readAllStandardError();
     const auto output = QString::fromUtf8(outputUtf8);
 }
+
+
+QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image) {
+    QProcess proc;
+    auto process = qCoro(proc);
+
+    QString newPath = image.newPath.toLocalFile();
+    if (!config->safeMode()) {
+        newPath += u".temp";
+    }
+
+    QStringList arguments;
+    if (config->svgMaximumLevel()) {
+        arguments = {
+            u"-i"_s,
+            image.path.toLocalFile(),
+            u"-o"_s,
+            newPath,
+            u"--enable-viewboxing"_s,
+            u"--enable-id-stripping"_s,
+            u"--enable-comment-stripping"_s,
+            u"--shorten-ids"_s,
+            u"--indent=none"_s
+        };
+    } else {
+        arguments = {
+            u"-i"_s,
+            image.path.toLocalFile(),
+            u"-o"_s,
+            newPath,
+        };
+    }
+
+    co_await process.start(u"scour"_s, arguments);
+    qWarning() << "scour" << arguments;
+    co_await process.waitForFinished();
+
+    if (!config->safeMode()) {
+        QFile newPathFile(newPath);
+        newPathFile.rename(image.path.toLocalFile());
+    }
+}
