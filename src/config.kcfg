@@ -5,9 +5,31 @@
                           http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
   <kcfgfile name="optiimagerc" />
   <group name="General">
-    <entry name="Lossless" type="bool">
-      <label>Lossless compression</label>
+    <entry name="SafeMode" type="bool">
+      <label>Save the compressed image in a new file</label>
       <default>true</default>
+    </entry>
+    <entry name="Suffix" type="String">
+      <label>Suffix to append at the end of new file</label>
+      <default>-min</default>
+    </entry>
+    <entry name="keepMetadata" type="bool">
+      <label>Keep metadata</label>
+      <default>false</default>
+    </entry>
+  </group>
+  <group name="jpg">
+    <entry name="jpgLossless" type="bool">
+      <label>Whether jpg compression is lossless</label>
+      <default>true</default>
+    </entry>
+    <entry name="jpgLossyLevel" type="int">
+      <label>Default optimization level of lossy optimization</label>
+      <default>90</default>
+    </entry>
+    <entry name="jpgProgressive" type="bool">
+      <label>Progressive encode jpg image</label>
+      <default>false</default>
     </entry>
   </group>
   <group name="png">

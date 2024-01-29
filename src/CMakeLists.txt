@@ -11,12 +11,14 @@ qt_add_qml_module(optiimage URI org.kde.optiimage NO_RESOURCE_TARGET_PATH
     QML_FILES
         contents/ui/main.qml
         contents/ui/OptimizePage.qml
+        contents/ui/SettingsPage.qml
 )
 
 target_include_directories(optiimage PRIVATE ${CMAKE_BINARY_DIR})
 target_link_libraries(optiimage PRIVATE
     Qt::Core
     Qt::Gui
+    Qt::Widgets
     Qt::Qml
     Qt::Quick
     Qt::QuickControls2

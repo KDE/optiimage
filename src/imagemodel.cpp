@@ -8,6 +8,8 @@
 #include <QFileInfo>
 #include "optimizer.h"
 
+using namespace Qt::Literals::StringLiterals;
+
 ImageModel::ImageModel(QObject *parent)
     : QAbstractListModel(parent)
 {
@@ -24,7 +26,7 @@ QVariant ImageModel::data(const QModelIndex& index, int role) const
     case FileNameRole:
         return imageInfo.path.toDisplayString();
     case NewSizeRole:
-        return imageInfo.size != -1 && imageInfo.size != imageInfo.oldSize ? imageInfo.size : QVariant();
+        return imageInfo.size != -1 && imageInfo.size != imageInfo.oldSize ? imageInfo.size : -1;
     case AlreadyOptimizedRole:
         return imageInfo.size != -1 && imageInfo.size == imageInfo.oldSize;
     case SizeRole:
@@ -45,6 +47,7 @@ int ImageModel::rowCount(const QModelIndex& parent) const
 
 void ImageModel::addImages(const QList<QUrl> &paths)
 {
+    const auto config = Config::self();
     for (const auto &path : paths) {
         beginInsertRows({}, m_images.count(), m_images.count());
         QFileInfo fileInfo(path.toLocalFile());
@@ -53,14 +56,19 @@ void ImageModel::addImages(const QList<QUrl> &paths)
 
         ImageInfo info;
         info.path = path;
+        if (config->safeMode()) {
+            info.newPath = QUrl(info.path.toString() + config->suffix());
+        } else {
+            info.newPath = path;
+        }
         info.oldSize = fileInfo.size();
         if (!path.isLocalFile() || !fileInfo.isWritable()) {
             info.error = true;
         }
 
-        if (type.name() == QStringLiteral("image/png")) {
+        if (type.name() == u"image/png"_s) {
             info.imageType = ImageType::PNG;
-        } else if (type.name() == QStringLiteral("image/jpeg")) {
+        } else if (type.name() == u"image/jpeg"_s) {
             info.imageType = ImageType::JPEG;
         } else {
             info.imageType = ImageType::UNSURPORTED;
@@ -68,14 +76,11 @@ void ImageModel::addImages(const QList<QUrl> &paths)
         m_images << info;
         endInsertRows();
     }
+
+    optimize();
 }
 
-void ImageModel::optimize()
-{
-    runOptimize();
-}
-
-QCoro::Task<> ImageModel::runOptimize()
+QCoro::Task<> ImageModel::optimize()
 {
     if (m_running) {
         co_return;
@@ -83,19 +88,29 @@ QCoro::Task<> ImageModel::runOptimize()
     m_running = true;
     Q_EMIT runningChanged();
 
+    bool processedImages = false;
+
+    const auto &config = Config::self();
+
     int i = 0;
     for (auto &image : m_images) {
         if (image.processed) {
             i++;
             continue;
         }
+        image.processed = true;
+        processedImages = true;
 
         if (image.imageType == ImageType::PNG) {
-            image.size = co_await optimizePng(image.path);
+            co_await optimizePng(config, image);
+            QFileInfo fileInfo(image.newPath.toLocalFile());
+            image.size = fileInfo.size();
             image.processed = true;
             Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
         } else if (image.imageType == ImageType::JPEG) {
-            image.size = co_await optimizeJpeg(image.path);
+            co_await optimizeJpeg(config, image);
+            QFileInfo fileInfo(image.newPath.toLocalFile());
+            image.size = fileInfo.size();
             image.processed = true;
             Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
         }
@@ -103,12 +118,17 @@ QCoro::Task<> ImageModel::runOptimize()
     }
     m_running = false;
     Q_EMIT runningChanged();
+
+    if (processedImages) {
+        // In case new images still need to be looped over
+        optimize();
+    }
 }
 
 QHash<int, QByteArray> ImageModel::roleNames() const
 {
     return {
-        {Qt::DisplayRole, QByteArrayLiteral("display")},
+        {Qt::DisplayRole, QByteArrayLiteral("displayName")},
         {FileNameRole, QByteArrayLiteral("filename")},
         {SizeRole, QByteArrayLiteral("size")},
         {NewSizeRole, QByteArrayLiteral("newSize")},
@@ -121,11 +141,3 @@ bool ImageModel::running() const
 {
     return m_running;
 }
-
-void ImageModel::stop()
-{
-    m_running = false;
-    Q_EMIT runningChanged();
-}
-
-

@@ -13,6 +13,7 @@
 #include <KAboutData>
 
 #include "imagemodel.h"
+#include "config.h"
 
 #include "optiimage-version.h"
 

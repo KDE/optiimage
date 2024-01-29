@@ -12,11 +12,14 @@
 enum ImageType {
     PNG,
     JPEG,
+    SVG,
+    WEB,
     UNSURPORTED,
 };
 
 struct ImageInfo {
     QUrl path;
+    QUrl newPath;
     qint64 size = -1;
     qint64 oldSize = -1;
     ImageType imageType;
@@ -41,14 +44,12 @@ public:
     };
 
 public:
-    ImageModel(QObject *parent = nullptr);
+    explicit ImageModel(QObject *parent = nullptr);
 
     QVariant data(const QModelIndex &index, int role) const override;
     int rowCount(const QModelIndex &parent = {}) const override;
     QHash<int, QByteArray> roleNames() const override;
     Q_INVOKABLE void addImages(const QList<QUrl> &paths);
-    Q_INVOKABLE void optimize();
-    Q_INVOKABLE void stop();
 
     bool running() const;
 
@@ -56,7 +57,7 @@ Q_SIGNALS:
     void runningChanged();
 
 private:
-    QCoro::Task<> runOptimize();
+    QCoro::Task<> optimize();
 
     QVector<ImageInfo> m_images;
     bool m_running = false;

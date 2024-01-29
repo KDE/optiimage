@@ -28,6 +28,11 @@ Kirigami.ApplicationWindow {
                 icon.name: "kde"
                 text: i18n("About KDE")
                 onTriggered: pageStack.pushDialogLayer(aboutKde)
+            },
+            Kirigami.Action {
+                icon.name: "settings-configure"
+                text: i18n("Settings")
+                onTriggered: pageStack.pushDialogLayer('qrc:/SettingsPage.qml', {}, { title: i18n("Settings") })
             }
         ]
     }

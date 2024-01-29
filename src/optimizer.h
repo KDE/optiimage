@@ -5,6 +5,8 @@
 
 #include <QCoroTask>
 #include <QUrl>
+#include "imagemodel.h"
+#include "config.h"
 
-QCoro::Task<qint64> optimizePng(const QUrl &path);
-QCoro::Task<qint64> optimizeJpeg(const QUrl &path);
+QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &path);
+QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &path);

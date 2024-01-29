@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: 2023 Carl Schwan <carl@carlschwan.eu>
 # SPDX-License-Identifier: BSD-2-Clause
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.20)
 
-set(QT_MIN_VERSION 6.4)
+set(QT_MIN_VERSION 6.6)
 set(KF_MIN_VERSION 5.240)
 set(RELEASE_SERVICE_VERSION "0.1.0") # TODO move to release service
 set(CMAKE_CXX_STANDARD 20)
@@ -39,7 +39,7 @@ qcoro_enable_coroutines()
 add_subdirectory(src)
 
 install(PROGRAMS org.kde.optiimage.desktop DESTINATION ${KDE_INSTALL_APPDIR})
-install(FILES org.kde.optiimage.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.optiimage.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 install(FILES org.kde.optiimage.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)

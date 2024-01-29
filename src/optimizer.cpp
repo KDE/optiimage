@@ -4,47 +4,88 @@
 #include "optimizer.h"
 #include "config.h"
 #include <QProcess>
+#include <QFile>
 #include <QCoroProcess>
 
-QCoro::Task<qint64> optimizeJpeg(const QUrl &path)
+using namespace Qt::Literals::StringLiterals;
+
+QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &image)
 {
-    QProcess proc;
+    QStringList params1;
+    QStringList params2;
 
-    proc.start(QStringLiteral("jpegoptim"), {
-        QStringLiteral("--strip-all"),
-        QStringLiteral("--totals"),
-        path.toLocalFile()
-    });
-    proc.waitForStarted();
-
-    auto process = qCoro(proc);
-    co_await process.waitForFinished();
-    const QByteArray outputUtf8 =  proc.readAll();
-    const auto output = QString::fromUtf8(outputUtf8);
-    qDebug() << output;
-
-    co_return output.split(QStringLiteral(" --> "))[1].split(QChar(u' '))[0].toInt();
-}
-
-QCoro::Task<qint64> optimizePng(const QUrl &path) {
-    auto config = Config::self();
-    QProcess proc;
-    QStringList oxipng = { QStringLiteral("-o") };
-    oxipng.append(QString::number(config->pngLosslessLevel()));
-    proc.start(QStringLiteral("oxipng"), {
-        QStringLiteral("-o"),
-
-        path.toLocalFile()
-    });
-
-    co_await qCoro(proc).waitForFinished();
-    const QByteArray outputUtf8 = proc.readAll();
-    const auto output = QString::fromUtf8(outputUtf8);
-
-    if (!output.contains(QStringLiteral("is already optimized"))) {
-        const auto size = output.split(QStringLiteral("Output file size = "))[1].split(u' ')[0].toInt();
-        co_return size;
+    if (config->safeMode()) {
+        params1 = {
+            u"--max="_s + QString::number(config->jpgLossyLevel()),
+            u"-o"_s,
+            u"-f"_s,
+            u"--stdout"_s,
+            image.path.toLocalFile(),
+        };
+        params2 = {
+            u"-o"_s,
+            u"-f"_s,
+            u"--stdout"_s,
+            image.path.toLocalFile(),
+        };
+    } else {
+        params1 = {
+            u"--max="_s + QString::number(config->jpgLossyLevel()),
+            u"-o"_s,
+            u"-f"_s,
+            image.path.toLocalFile(),
+        };
+        params2 = {
+            QStringLiteral("-o"),
+            QStringLiteral("-f"),
+            image.path.toLocalFile(),
+        };
     }
 
-    co_return -1;
+    if (config->jpgProgressive()) {
+        params1.prepend(QStringLiteral("--all-progressive"));
+        params2.prepend(QStringLiteral("--all-progressive"));
+    }
+
+    if (!config->keepMetadata()) {
+        params1.prepend(QStringLiteral("--strip-all"));
+        params2.prepend(QStringLiteral("--strip-all"));
+    }
+
+    QProcess proc;
+    auto process = qCoro(proc);
+
+    if (config->safeMode()) {
+        co_await process.start(u"jpegoptim"_s, config->jpgLossless() ? params1 : params2);
+        co_await process.waitForFinished();
+        QFile newFile(image.newPath.toLocalFile());
+        if (newFile.open(QIODeviceBase::WriteOnly)) {
+            newFile.write(proc.readAllStandardOutput());
+            newFile.close();
+        }
+    } else {
+        co_await process.start(u"jpegoptim"_s, config->jpgLossless() ? params1 : params2);
+        co_await process.waitForFinished();
+    }
+}
+
+QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &image) {
+    QProcess proc;
+    auto process = qCoro(proc);
+    QStringList oxipngArguments = {
+        u"-o"_s,
+        QString::number(config->pngLosslessLevel()),
+    };
+
+    if (!config->keepMetadata()) {
+        oxipngArguments.append(u"--strip"_s);
+        oxipngArguments.append(u"safe"_s);
+    }
+
+    oxipngArguments.append(image.path.toLocalFile());
+    co_await process.start(QStringLiteral("oxipng"), oxipngArguments);
+
+    co_await process.waitForFinished();
+    const QByteArray outputUtf8 = proc.readAllStandardError();
+    const auto output = QString::fromUtf8(outputUtf8);
 }
