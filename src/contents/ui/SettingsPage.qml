@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: LGPL-2.0-or-later
 
 import QtQuick
+import QtQuick.Controls as QQC2
 import org.kde.kirigami as Kirigami
 import QtQuick.Layouts
 import org.kde.kirigamiaddons.formcard as FormCard
@@ -131,7 +132,9 @@ FormCard.FormCardPage {
         FormCard.FormButtonDelegate {
             text: i18n("About OptiImage")
             icon.name: "org.kde.optiimage"
-            onClicked: applicationWindow().pageStack.layers.push(aboutPage)
+            onClicked: {
+                QQC2.ApplicationWindow.window.pageStack.layers.push(aboutPage);
+            }
 
             Component {
                 id: aboutPage
@@ -146,7 +149,9 @@ FormCard.FormCardPage {
         FormCard.FormButtonDelegate {
             text: i18n("About KDE")
             icon.name: "kde"
-            onClicked: applicationWindow().pageStack.layers.push(aboutKDE)
+            onClicked: {
+                QQC2.ApplicationWindow.window.pageStack.layers.push(aboutKDE);
+            }
 
             Component {
                 id: aboutKDE
