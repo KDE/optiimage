@@ -11,3 +11,4 @@
 QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &path);
 QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &path);
 QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &path);
+QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &path);

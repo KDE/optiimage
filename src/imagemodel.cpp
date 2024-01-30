@@ -72,6 +72,8 @@ void ImageModel::addImages(const QList<QUrl> &paths)
             info.imageType = ImageType::JPEG;
         } else if (type.name() == u"image/svg+xml"_s) {
             info.imageType = ImageType::SVG;
+        } else if (type.name() == u"image/webp"_s) {
+            info.imageType = ImageType::WEBP;
         } else {
             info.imageType = ImageType::UNSURPORTED;
         }
@@ -108,14 +110,14 @@ QCoro::Task<> ImageModel::optimize()
             continue;
         }
 
-        qWarning() << image.imageType;
-
         if (image.imageType == ImageType::PNG) {
             co_await optimizePng(config, image);
         } else if (image.imageType == ImageType::JPEG) {
             co_await optimizeJpeg(config, image);
         } else if (image.imageType == ImageType::SVG) {
             co_await optimizeSvg(config, image);
+        } else if (image.imageType == ImageType::WEBP) {
+            co_await optimizeWebp(config, image);
         }
 
         QFileInfo fileInfo(image.newPath.toLocalFile());

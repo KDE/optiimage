@@ -83,8 +83,8 @@ FormCard.FormCardPage {
 
         FormCard.FormSwitchDelegate {
             id: jpgLosslessCheck
-            text: i18n("Use lossless compression")
-            description: i18n("Only use compression algorithms which do not reduce image quality.")
+            text: i18nc("@label", "Use lossless compression")
+            description: i18nc("@info", "Only use compression algorithms which do not reduce image quality.")
             checked: Config.jpgLossless
             onCheckedChanged: {
                 Config.jpgLossless = checked;
@@ -134,9 +134,42 @@ FormCard.FormCardPage {
         FormCard.FormSwitchDelegate {
             text: i18nc("@label", "Maximum Compression Level")
             description: i18nc("@info", "Can be more destructive for the image.")
-            checked: Config.svgMaximumValue
+            checked: Config.svgMaximumLevel
             onCheckedChanged: {
-                Config.svgMaximumValue = checked;
+                Config.svgMaximumLevel = checked;
+                Config.save();
+            }
+        }
+    }
+
+    FormCard.FormHeader {
+        title: i18n("WebP")
+    }
+
+    FormCard.FormCard {
+        FormCard.FormSwitchDelegate {
+            id: webpLosslessCheck
+            text: i18nc("@label", "Use lossless compression")
+            description: i18nc("@info", "Only use compression algorithms which do not reduce image quality.")
+            checked: Config.webpLossless
+            onCheckedChanged: {
+                Config.webpLossless = checked;
+                Config.save();
+            }
+        }
+
+        FormCard.FormDelegateSeparator {
+            above: webpLosslessCheck
+        }
+
+        FormCard.FormSpinBoxDelegate {
+            enabled: webpLosslessCheck.checked
+            label: i18n("Default optimization level of lossy optimization:")
+            value: Config.webpLossyLevel
+            from: 10
+            to: 100
+            onTextChanged: {
+                Config.webpLossyLevel = value;
                 Config.save();
             }
         }

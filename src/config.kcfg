@@ -49,5 +49,20 @@
       <default>false</default>
     </entry>
   </group>
+
+  <group name="webp">
+    <entry name="webpLossless" type="bool">
+      <label>Whether webP compression is lossless</label>
+      <default>true</default>
+    </entry>
+    <entry name="webpLossyLevel" type="int">
+      <label>Default optimization level of lossy optimization</label>
+      <default>90</default>
+    </entry>
+    <entry name="webpLosslessLevel" type="int">
+      <label>Default optimization level of lossless optimization</label>
+      <default>6</default>
+    </entry>
+  </group>
 </kcfg>
 

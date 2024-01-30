@@ -5,6 +5,7 @@
 #include "config.h"
 #include <QProcess>
 #include <QFile>
+#include <QFileInfo>
 #include <QCoroProcess>
 
 using namespace Qt::Literals::StringLiterals;
@@ -97,7 +98,7 @@ QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image) {
 
     QString newPath = image.newPath.toLocalFile();
     if (!config->safeMode()) {
-        newPath += u".temp";
+        newPath += u".temp"_s;
     }
 
     QStringList arguments;
@@ -123,11 +124,64 @@ QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image) {
     }
 
     co_await process.start(u"scour"_s, arguments);
-    qWarning() << "scour" << arguments;
     co_await process.waitForFinished();
 
     if (!config->safeMode()) {
         QFile newPathFile(newPath);
         newPathFile.rename(image.path.toLocalFile());
     }
+}
+
+QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &image) {
+    QProcess proc;
+    auto process = qCoro(proc);
+
+    QStringList arguments = {image.path.toLocalFile()};
+
+    QString newPath = image.newPath.toLocalFile();
+    if (!config->safeMode()) {
+        newPath += u".temp"_s;
+    }
+
+    if (!config->keepMetadata()) {
+        arguments.append(u"-metadata"_s);
+        arguments.append(u"all"_s);
+    }
+
+    int quality = config->webpLossyLevel();
+    if (config->webpLossless()) {
+        arguments.append(u"-lossless"_s);
+        quality = 100;
+    }
+
+    // multithreaded
+    arguments.append(u"-mt"_s);
+
+    // (lossless) compression mode
+    arguments.append(u"-m"_s);
+    arguments.append(QString::number(config->webpLosslessLevel()));
+
+    // quality
+    arguments.append(u"-q"_s);
+    arguments.append(QString::number(quality));
+
+    // output
+    arguments.append(u"-o"_s);
+    arguments.append(newPath);
+
+    co_await process.start(u"cwebp"_s, arguments);
+    co_await process.waitForFinished();
+
+    if (!config->safeMode()) {
+        QFileInfo fileInfo(image.path.toLocalFile());
+        QFileInfo fileInfoNew(newPath);
+
+        if (fileInfo.size() < fileInfoNew.size()) {
+            co_return;
+        }
+
+        QFile newPathFile(newPath);
+        newPathFile.rename(image.path.toLocalFile());
+    }
+
 }
