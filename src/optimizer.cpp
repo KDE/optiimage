@@ -1,5 +1,7 @@
+// Original python code: https://github.com/Huluti/Curtail/blob/master/src/compressor.py
+// SPDX-FileCopyrightText: 2019 Hugo Posnic
 // SPDX-FileCopyrightText: 2023 Carl Schwan <carlschwan@kde.org>
-// SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
+// SPDX-License-Identifier: GPL-3.0-or-later
 
 #include "optimizer.h"
 #include "config.h"
