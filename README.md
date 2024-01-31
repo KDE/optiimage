@@ -1,4 +1,4 @@
-# OptiImage
+# <img src="org.kde.optiimage.svg" width="40"/>OptiImage
 
 Optimize your images with OptiImage, a useful image compressor that supports
 PNG, JPEG, WebP and SVG file types.
@@ -14,7 +14,17 @@ It uses the following tools:
 + scour
 + cwebp
 
+## Support
+
+If you have an issue with OptiImage, please [open a support thread on KDE Discuss](https://discuss.kde.org/tag/optiimage). Alternatively, you ask in the [Plasma Mobile Matrix room](https://go.kde.org/matrix/#/#plasma-mobile:kde.org). See [Matrix](https://community.kde.org/Matrix) for more details.
+
+## Building
+
+The easiest way to make changes and test Tokodon during development is to [build it with kdesrc-build](https://community.kde.org/Get_Involved/development/Build_software_with_kdesrc-build).
+
 ## License
+
+![GPLv3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
 This project is licensed under
 [GPL-3.0-or-later](https://spdx.org/licenses/preview/GPL-3.0-or-later.html).
