@@ -4,6 +4,7 @@
 import QtQuick
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
+import org.kde.kirigamiaddons.components as Components
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import Qt.labs.platform
@@ -14,6 +15,36 @@ Kirigami.ScrollablePage {
     id: root
 
     title: i18n("Optimize your images")
+
+    readonly property SetupCheck setupCheck: SetupCheck {
+        Component.onCompleted: check();
+    }
+
+    header: Components.Banner {
+        visible: !setupCheck.isValidSetup
+
+        type: Kirigami.MessageType.Error
+        width: parent.width
+
+        showCloseButton: true
+
+        actions: Kirigami.Action {
+            text: i18nc("@action:button", "Re-check")
+            icon.name: "view-refresh-symbolic"
+            onTriggered: setupCheck.check()
+        }
+        text: {
+            if (!visible) {
+                return '';
+            }
+            let result = i18nc("@info", "The following programs are missing for OptiImage to run correctly:");
+            result += "<ul>";
+            for (let program of setupCheck.missingPrograms) {
+                result += `<li>${program}</li>`
+            }
+            result += "</ul>";
+        }
+    }
 
     actions: [
         Kirigami.Action {

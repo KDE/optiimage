@@ -4,7 +4,11 @@
 add_executable(optiimage
     main.cpp
     imagemodel.cpp
+    imagemodel.h
     optimizer.cpp
+    optimizer.h
+    setupcheck.cpp
+    setupcheck.h
 )
 
 qt_add_qml_module(optiimage URI org.kde.optiimage NO_RESOURCE_TARGET_PATH
