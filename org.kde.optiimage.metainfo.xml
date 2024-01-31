@@ -12,7 +12,7 @@
   <summary>Image optimizer to reduce the size of images</summary>
   <metadata_license>FSFAP</metadata_license>
   <project_license>LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL</project_license>
-  <developer><name>Carl Schwan</name></developer_name>
+  <developer id="kde.org"><name>KDE</name></developer>
   <description>
     <p>Optimize your images with OptiImage, a useful image compressor that supports
     PNG, JPEG, WebP and SVG file types.</p>
