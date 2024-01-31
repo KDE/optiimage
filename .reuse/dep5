@@ -10,7 +10,7 @@ Files: org.kde.optiimage.svg
 Copyright: 2023 Mathis Brüchert <mbblp@protonmail.ch>
 License: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 
-Files: .gitignore
+Files: .gitignore oxipng-sources.json
 Copyright: None
 License: CC0-1.0
 
