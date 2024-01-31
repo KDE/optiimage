@@ -14,11 +14,19 @@
   <project_license>LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL</project_license>
   <developer_name>Carl Schwan</developer_name>
   <description>
-    <p>OptiImage is an image optimizer. It allows you to optimize the optimize the spaced used by an image by removing metadata and improve the compression.</p>
+    <p>Optimize your images with OptiImage, a useful image compressor that supports
+    PNG, JPEG, WebP and SVG file types.</p>
+
+    <p>It supports both lossless and lossy compression modes with an option to whether
+    keep or not metadata of images. It additionally has a safe mode, where a new
+    image is created instead of overwritting the old one.</p>
+
     <p>It uses the following tools:</p>
     <ul>
-      <li>optipng</li>
-      <li>jpegoptim</li>
+      <li>oxipng for PNG images</li>
+      <li>jpegoptim for JPEG images</li>
+      <li>scour for SVG images</li>
+      <li>cwebp for WebP images</li>
     </ul>
   </description>
   <url type="homepage">https://apps.kde.org/optiimage/</url>

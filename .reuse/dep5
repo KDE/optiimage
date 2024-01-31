@@ -1,8 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: NeoChat
+Upstream-Name: OptiImage
 Upstream-Contact: Carl Schwan <carlschwan@kde.org>
 
-Files: org.kde.optiimage.desktop src/resources.qrc src/config.kcfg
+Files: org.kde.optiimage.desktop src/resources.qrc src/config.kcfg README.md
 Copyright: 2023 Carl Schwan <carl@carlschwan.eu>
 License: CC0-1.0
 
