@@ -14,5 +14,5 @@ Dependencies:
     'require':
       'frameworks/qqc2-desktop-style': '@latest-kf6'
 
-#Options:
-#  require-passing-tests-on: [ '@all' ]
+Options:
+  require-passing-tests-on: [ '@all' ]
