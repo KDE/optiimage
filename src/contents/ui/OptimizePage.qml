@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
 
 import QtQuick
+import QtQuick.Controls as QQC2
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 import org.kde.kirigamiaddons.components as Components
-import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import Qt.labs.platform
 import org.kde.optiimage
@@ -50,7 +50,7 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             id: addImages
             icon.name: "list-add"
-            text: i18n("Add images")
+            text: i18nc("@action:button", "Select Images")
             onTriggered: fileDialog.open()
         },
         Kirigami.Action {
@@ -71,7 +71,7 @@ Kirigami.ScrollablePage {
         folder: StandardPaths.writableLocation(StandardPaths.PicturesLocation)
         fileMode: FileDialog.OpenFiles
         onAccepted: imageModel.addImages(files)
-        nameFilters: [i18n("Supported images files (*.jpg *.jpeg *.png, *.svg, *.webp)")]
+        nameFilters: [i18n("Image files (*.jpg *.jpeg *.png *.svg *.webp)"), i18n("All files (*)")]
     }
 
     ListView {
@@ -130,7 +130,7 @@ Kirigami.ScrollablePage {
 
         Kirigami.PlaceholderMessage {
             visible: imageView.count === 0
-            text: i18n("No Images to optimize")
+            text: i18n("No images to optimize")
             helpfulAction: addImages
             width: parent.width - Kirigami.Units.gridUnit * 4
             icon.name: "org.kde.optiimage"
