@@ -31,7 +31,7 @@ ecm_setup_version(${RELEASE_SERVICE_VERSION}
 )
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Widgets)
-find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Config)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Config KIO)
 find_package(QCoro6 0.4 COMPONENTS Core Qml REQUIRED)
 
 qcoro_enable_coroutines()

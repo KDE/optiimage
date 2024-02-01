@@ -53,6 +53,10 @@ public:
 
     bool running() const;
 
+    Q_INVOKABLE void open(const QString &url);
+    Q_INVOKABLE void openProperties(const QString &url);
+    Q_INVOKABLE void highlightInFileManager(const QString &url);
+
 Q_SIGNALS:
     void runningChanged();
 

@@ -34,6 +34,8 @@ target_link_libraries(optiimage PRIVATE
     KF6::I18n
     KF6::CoreAddons
     KF6::ConfigGui
+    KF6::KIOCore
+    KF6::KIOFileWidgets
     QCoro::Core
     QCoro::Qml
 )

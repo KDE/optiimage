@@ -6,6 +6,10 @@
 #include <QMimeDatabase>
 #include <QDebug>
 #include <QFileInfo>
+#include <KIO/OpenFileManagerWindowJob>
+#include <KIO/OpenUrlJob>
+#include <KIO/JobUiDelegateFactory>
+#include <KPropertiesDialog>
 #include "optimizer.h"
 #include "consolelog.h"
 #include "config.h"
@@ -156,4 +160,24 @@ QHash<int, QByteArray> ImageModel::roleNames() const
 bool ImageModel::running() const
 {
     return m_running;
+}
+
+void ImageModel::highlightInFileManager(const QString &url)
+{
+    KIO::highlightInFileManager({QUrl(url)});
+}
+
+void ImageModel::open(const QString &url)
+{
+    auto job = new KIO::OpenUrlJob(QUrl(url));
+    job->setUiDelegate(KIO::createDefaultJobUiDelegate(KJobUiDelegate::AutoHandlingEnabled, nullptr));
+    job->start();
+}
+
+void ImageModel::openProperties(const QString &url)
+{
+    auto dialog = new KPropertiesDialog({QUrl(url)});
+    dialog->setAttribute(Qt::WA_DeleteOnClose);
+    dialog->setModal(true);
+    dialog->show();
 }

@@ -123,9 +123,45 @@ Kirigami.ScrollablePage {
                     source: 'checkbox-symbolic'
                     visible: imageDelegate.processed
                 }
+
+                TapHandler {
+                    acceptedButtons: Qt.RightButton
+                    onTapped: {
+                        menu.fileName = imageDelegate.filename;
+                        menu.popup();
+                    }
+                }
+
+                TapHandler {
+                    id: leftClickHandler
+                    acceptedButtons: Qt.LeftButton
+                    onTapped: imageModel.open(imageDelegate.filename)
+                }
             }
 
             background: null
+
+            QQC2.Menu {
+                id: menu
+                property string fileName
+                QQC2.MenuItem {
+                    text: i18nc("@action:inmenu", "Open")
+                    icon.source: 'system-run-symbolic'
+                    onClicked: imageModel.open(menu.fileName)
+                }
+
+                QQC2.MenuItem {
+                    text: i18nc("@action:inmenu", "Open Containing Folder")
+                    icon.source: 'system-file-manager-symbolic'
+                    onClicked: imageModel.highlightInFileManager(menu.fileName)
+                }
+
+                QQC2.MenuItem {
+                    text: i18nc("@action:inmenu", "Properites")
+                    icon.source: 'document-properties-symbolic'
+                    onClicked: imageModel.openProperties(menu.fileName)
+                }
+            }
         }
 
         Kirigami.PlaceholderMessage {
