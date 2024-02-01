@@ -14,6 +14,8 @@ import org.kde.coreaddons
 Kirigami.ScrollablePage {
     title: i18nc("@title", "Console output")
     ListView {
+        id: logView
+
         currentIndex: -1
 
         model: ConsoleLog
@@ -48,6 +50,13 @@ Kirigami.ScrollablePage {
                     Layout.fillWidth: true
                 }
             }
+        }
+
+        Kirigami.PlaceholderMessage {
+            visible: logView.count === 0
+            text: i18n("No log output")
+            width: parent.width - Kirigami.Units.gridUnit * 4
+            anchors.centerIn: parent
         }
     }
 }
