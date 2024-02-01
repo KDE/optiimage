@@ -5,6 +5,8 @@
 
 #include "optimizer.h"
 #include "config.h"
+#include "consolelog.h"
+
 #include <QProcess>
 #include <QFile>
 #include <QFileInfo>
@@ -12,7 +14,7 @@
 
 using namespace Qt::Literals::StringLiterals;
 
-QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &image)
+QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &image, ConsoleLog *log)
 {
     QStringList params1;
     QStringList params2;
@@ -70,11 +72,19 @@ QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &image)
         co_await process.start(u"jpegoptim"_s, config->jpgLossless() ? params1 : params2);
         co_await process.waitForFinished();
     }
+
+    log->addConsoleEntry(QString::fromUtf8(proc.readAllStandardError()), image.path.toLocalFile());
 }
 
-QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &image) {
+QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &image, ConsoleLog *log) {
     QProcess proc;
     auto process = qCoro(proc);
+
+    QString file = image.path.toLocalFile();
+    if (config->safeMode()) {
+        QFile::copy(image.path.toLocalFile(), image.newPath.toLocalFile());
+        file = image.newPath.toLocalFile();
+    }
     QStringList oxipngArguments = {
         u"-o"_s,
         QString::number(config->pngLosslessLevel()),
@@ -85,16 +95,18 @@ QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &image) {
         oxipngArguments.append(u"safe"_s);
     }
 
-    oxipngArguments.append(image.path.toLocalFile());
+    oxipngArguments.append(file);
     co_await process.start(QStringLiteral("oxipng"), oxipngArguments);
 
     co_await process.waitForFinished();
     const QByteArray outputUtf8 = proc.readAllStandardError();
     const auto output = QString::fromUtf8(outputUtf8);
+
+    log->addConsoleEntry(output, image.path.toLocalFile());
 }
 
 
-QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image) {
+QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image, ConsoleLog *log) {
     QProcess proc;
     auto process = qCoro(proc);
 
@@ -132,9 +144,11 @@ QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image) {
         QFile newPathFile(newPath);
         newPathFile.rename(image.path.toLocalFile());
     }
+
+    log->addConsoleEntry(QString::fromUtf8(proc.readAllStandardOutput()), image.path.toLocalFile());
 }
 
-QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &image) {
+QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &image, ConsoleLog *log) {
     QProcess proc;
     auto process = qCoro(proc);
 
@@ -186,4 +200,5 @@ QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &image) {
         newPathFile.rename(image.path.toLocalFile());
     }
 
+    log->addConsoleEntry(QString::fromUtf8(proc.readAllStandardError()), image.path.toLocalFile());
 }

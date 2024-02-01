@@ -3,6 +3,8 @@
 
 add_executable(optiimage
     main.cpp
+    consolelog.cpp
+    consolelog.h
     imagemodel.cpp
     imagemodel.h
     optimizer.cpp
@@ -16,6 +18,7 @@ qt_add_qml_module(optiimage URI org.kde.optiimage NO_RESOURCE_TARGET_PATH
         contents/ui/main.qml
         contents/ui/OptimizePage.qml
         contents/ui/SettingsPage.qml
+        contents/ui/LogOutputPage.qml
 )
 
 target_include_directories(optiimage PRIVATE ${CMAKE_BINARY_DIR})

@@ -6,9 +6,11 @@
 #include <QCoroTask>
 #include <QUrl>
 #include "imagemodel.h"
-#include "config.h"
 
-QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &path);
-QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &path);
-QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &path);
-QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &path);
+class ConsoleLog;
+class Config;
+
+QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &path, ConsoleLog *log);
+QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &path, ConsoleLog *log);
+QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &path, ConsoleLog *log);
+QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &path, ConsoleLog *log);

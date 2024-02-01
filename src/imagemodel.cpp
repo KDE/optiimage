@@ -7,6 +7,8 @@
 #include <QDebug>
 #include <QFileInfo>
 #include "optimizer.h"
+#include "consolelog.h"
+#include "config.h"
 
 using namespace Qt::Literals::StringLiterals;
 
@@ -19,7 +21,7 @@ QVariant ImageModel::data(const QModelIndex& index, int role) const
 {
     Q_ASSERT(checkIndex(index, QAbstractItemModel::CheckIndexOption::IndexIsValid));
 
-    const auto imageInfo = m_images[index.row()];
+    const auto &imageInfo = m_images[index.row()];
     switch (role) {
     case Qt::DisplayRole:
         return imageInfo.path.fileName();
@@ -34,7 +36,7 @@ QVariant ImageModel::data(const QModelIndex& index, int role) const
     case ProcessedRole:
         return imageInfo.processed;
     default:
-        Q_UNREACHABLE();
+        return {};
     }
 }
 
@@ -95,6 +97,9 @@ QCoro::Task<> ImageModel::optimize()
     bool processedImages = false;
 
     const auto &config = Config::self();
+    auto engine = qmlEngine(this);
+    auto consoleLog = engine->singletonInstance<ConsoleLog *>(u"org.kde.optiimage"_s, u"ConsoleLog"_s);
+    Q_ASSERT(consoleLog);
 
     int i = 0;
     for (auto &image : m_images) {
@@ -111,13 +116,13 @@ QCoro::Task<> ImageModel::optimize()
         }
 
         if (image.imageType == ImageType::PNG) {
-            co_await optimizePng(config, image);
+            co_await optimizePng(config, image, consoleLog);
         } else if (image.imageType == ImageType::JPEG) {
-            co_await optimizeJpeg(config, image);
+            co_await optimizeJpeg(config, image, consoleLog);
         } else if (image.imageType == ImageType::SVG) {
-            co_await optimizeSvg(config, image);
+            co_await optimizeSvg(config, image, consoleLog);
         } else if (image.imageType == ImageType::WEBP) {
-            co_await optimizeWebp(config, image);
+            co_await optimizeWebp(config, image, consoleLog);
         }
 
         QFileInfo fileInfo(image.newPath.toLocalFile());

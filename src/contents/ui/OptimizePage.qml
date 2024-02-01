@@ -137,4 +137,24 @@ Kirigami.ScrollablePage {
             anchors.centerIn: parent
         }
     }
+
+    data: Components.FloatingButton {
+        anchors {
+            right: parent.right
+            rightMargin: Kirigami.Units.largeSpacing
+            bottom: parent.bottom
+            bottomMargin: Kirigami.Units.largeSpacing
+        }
+
+        action: Kirigami.Action {
+            visible: true
+            icon.name: 'dialog-messages'
+            onTriggered: applicationWindow().pageStack.layers.push(logOutputPage)
+        }
+
+        Component {
+            id: logOutputPage
+            LogOutputPage {}
+        }
+    }
 }
