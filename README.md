@@ -1,5 +1,7 @@
 # <img src="org.kde.optiimage.svg" width="40"/>OptiImage
 
+![OptiImage main view showing a list of images getting processed](https://cdn.kde.org/screenshots/optiimage/optiimage.png)
+
 Optimize your images with OptiImage, a useful image compressor that supports
 PNG, JPEG, WebP and SVG file types.
 
