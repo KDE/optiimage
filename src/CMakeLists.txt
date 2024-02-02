@@ -1,8 +1,19 @@
 # SPDX-FileCopyrightText: 2023 Carl Schwan <carl@carlschwan.eu>
 # SPDX-License-Identifier: BSD-2-Clause
 
-add_executable(optiimage
-    main.cpp
+
+qt_add_qml_module(optiimage_static
+    STATIC
+    URI org.kde.optiimage
+    VERSION 1.0
+    QML_FILES
+        contents/ui/Main.qml
+        contents/ui/OptimizePage.qml
+        contents/ui/SettingsPage.qml
+        contents/ui/LogOutputPage.qml
+)
+
+target_sources(optiimage_static PUBLIC
     consolelog.cpp
     consolelog.h
     imagemodel.cpp
@@ -13,16 +24,8 @@ add_executable(optiimage
     setupcheck.h
 )
 
-qt_add_qml_module(optiimage URI org.kde.optiimage NO_RESOURCE_TARGET_PATH
-    QML_FILES
-        contents/ui/main.qml
-        contents/ui/OptimizePage.qml
-        contents/ui/SettingsPage.qml
-        contents/ui/LogOutputPage.qml
-)
-
-target_include_directories(optiimage PRIVATE ${CMAKE_BINARY_DIR})
-target_link_libraries(optiimage PRIVATE
+target_include_directories(optiimage_static PUBLIC ${CMAKE_BINARY_DIR})
+target_link_libraries(optiimage_static PUBLIC
     Qt::Core
     Qt::Gui
     Qt::Widgets
@@ -40,5 +43,10 @@ target_link_libraries(optiimage PRIVATE
     QCoro::Qml
 )
 
-kconfig_add_kcfg_files(optiimage GENERATE_MOC config.kcfgc)
+kconfig_add_kcfg_files(optiimage_static GENERATE_MOC config.kcfgc)
+
+add_executable(optiimage
+    main.cpp
+)
+target_link_libraries(optiimage PUBLIC optiimage_static optiimage_staticplugin)
 install(TARGETS optiimage ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

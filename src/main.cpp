@@ -1,20 +1,22 @@
 // SPDX-FileCopyrightText: 2021 Carl Schwan <carlschwan@kde.org>
 // SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
 
-#include <QApplication>
-#include <QQmlApplicationEngine>
-#include <QtQml>
-#include <QUrl>
-#include <QIcon>
-#include <QQuickStyle>
-#include <QCoroQml>
+#include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
-#include <KAboutData>
+#include <QApplication>
+#include <QCoroQml>
+#include <QIcon>
+#include <QQmlApplicationEngine>
+#include <QQuickStyle>
+#include <QUrl>
+#include <QtQml>
 
 #include "config.h"
 
 #include "optiimage-version.h"
+
+using namespace Qt::Literals::StringLiterals;
 
 int main(int argc, char *argv[])
 {
@@ -27,11 +29,11 @@ int main(int argc, char *argv[])
     }
 
     KAboutData about(QStringLiteral("optiimage"),
-                    i18n("OptiImage"),
-                    QStringLiteral(OPTIIMAGE_VERSION_STRING),
-                    i18n("Images Optimiser"),
-                    KAboutLicense::GPL_V3,
-                    i18n("© 2021 - 2023 Carl Schwan"));
+                     i18n("OptiImage"),
+                     QStringLiteral(OPTIIMAGE_VERSION_STRING),
+                     i18n("Images Optimiser"),
+                     KAboutLicense::GPL_V3,
+                     i18n("© 2021 - 2023 Carl Schwan"));
 
     about.addAuthor(i18n("Carl Schwan"), i18n("Maintainer"), QStringLiteral("carl@carlschwan.eu"));
     about.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
@@ -48,7 +50,7 @@ int main(int argc, char *argv[])
     QCoro::Qml::registerTypes();
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:/contents/ui/main.qml")));
+    engine.loadFromModule(u"org.kde.optiimage"_s, u"Main"_s);
 
     if (engine.rootObjects().isEmpty()) {
         return -1;

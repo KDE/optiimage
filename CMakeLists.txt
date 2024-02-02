@@ -34,6 +34,7 @@ find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControl
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Config KIO)
 find_package(QCoro6 0.4 COMPONENTS Core Qml REQUIRED)
 
+qt_policy(SET QTP0001 NEW)
 qcoro_enable_coroutines()
 
 add_subdirectory(src)
