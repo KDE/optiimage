@@ -157,7 +157,7 @@ Kirigami.ScrollablePage {
                 }
 
                 QQC2.MenuItem {
-                    text: i18nc("@action:inmenu", "Properites")
+                    text: i18nc("@action:inmenu", "Properties")
                     icon.source: 'document-properties-symbolic'
                     onClicked: imageModel.openProperties(menu.fileName)
                 }
