@@ -7,10 +7,10 @@
 #include "config.h"
 #include "consolelog.h"
 
-#include <QProcess>
+#include <QCoroProcess>
 #include <QFile>
 #include <QFileInfo>
-#include <QCoroProcess>
+#include <QProcess>
 
 using namespace Qt::Literals::StringLiterals;
 
@@ -76,7 +76,8 @@ QCoro::Task<void> optimizeJpeg(const Config *config, const ImageInfo &image, Con
     log->addConsoleEntry(QString::fromUtf8(proc.readAllStandardError()), image.path.toLocalFile());
 }
 
-QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &image, ConsoleLog *log) {
+QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &image, ConsoleLog *log)
+{
     QProcess proc;
     auto process = qCoro(proc);
 
@@ -105,8 +106,8 @@ QCoro::Task<void> optimizePng(const Config *config, const ImageInfo &image, Cons
     log->addConsoleEntry(output, image.path.toLocalFile());
 }
 
-
-QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image, ConsoleLog *log) {
+QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image, ConsoleLog *log)
+{
     QProcess proc;
     auto process = qCoro(proc);
 
@@ -117,17 +118,15 @@ QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image, Cons
 
     QStringList arguments;
     if (config->svgMaximumLevel()) {
-        arguments = {
-            u"-i"_s,
-            image.path.toLocalFile(),
-            u"-o"_s,
-            newPath,
-            u"--enable-viewboxing"_s,
-            u"--enable-id-stripping"_s,
-            u"--enable-comment-stripping"_s,
-            u"--shorten-ids"_s,
-            u"--indent=none"_s
-        };
+        arguments = {u"-i"_s,
+                     image.path.toLocalFile(),
+                     u"-o"_s,
+                     newPath,
+                     u"--enable-viewboxing"_s,
+                     u"--enable-id-stripping"_s,
+                     u"--enable-comment-stripping"_s,
+                     u"--shorten-ids"_s,
+                     u"--indent=none"_s};
     } else {
         arguments = {
             u"-i"_s,
@@ -148,7 +147,8 @@ QCoro::Task<void> optimizeSvg(const Config *config, const ImageInfo &image, Cons
     log->addConsoleEntry(QString::fromUtf8(proc.readAllStandardOutput()), image.path.toLocalFile());
 }
 
-QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &image, ConsoleLog *log) {
+QCoro::Task<void> optimizeWebp(const Config *config, const ImageInfo &image, ConsoleLog *log)
+{
     QProcess proc;
     auto process = qCoro(proc);
 

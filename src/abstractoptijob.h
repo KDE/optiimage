@@ -15,4 +15,3 @@ public:
     ~AbstractOptiJob();
     virtual qint64 newSize() = 0;
 };
-

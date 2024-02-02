@@ -3,7 +3,7 @@
 
 #include "abstractoptijob.h"
 
-AbstractOptiJob::AbstractOptiJob(QObject* parent)
+AbstractOptiJob::AbstractOptiJob(QObject *parent)
     : KJob(parent)
 {
 }

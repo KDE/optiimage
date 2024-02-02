@@ -44,4 +44,3 @@ QStringList SetupCheck::missingPrograms() const
 {
     return m_missingPrograms;
 }
-

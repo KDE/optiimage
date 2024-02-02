@@ -4,10 +4,10 @@
 #pragma once
 
 #include <QAbstractListModel>
-#include <QUrl>
-#include <QList>
 #include <QCoroQmlTask>
+#include <QList>
 #include <QQmlEngine>
+#include <QUrl>
 
 enum ImageType {
     PNG,
@@ -34,14 +34,7 @@ class ImageModel : public QAbstractListModel
     Q_PROPERTY(bool running READ running NOTIFY runningChanged)
 
 public:
-    enum Roles {
-        FileNameRole = Qt::UserRole,
-        SizeRole,
-        NewSizeRole,
-        SavingRole,
-        AlreadyOptimizedRole,
-        ProcessedRole
-    };
+    enum Roles { FileNameRole = Qt::UserRole, SizeRole, NewSizeRole, SavingRole, AlreadyOptimizedRole, ProcessedRole };
 
 public:
     explicit ImageModel(QObject *parent = nullptr);

@@ -3,16 +3,16 @@
 
 #include "imagemodel.h"
 
-#include <QMimeDatabase>
-#include <QDebug>
-#include <QFileInfo>
+#include "config.h"
+#include "consolelog.h"
+#include "optimizer.h"
+#include <KIO/JobUiDelegateFactory>
 #include <KIO/OpenFileManagerWindowJob>
 #include <KIO/OpenUrlJob>
-#include <KIO/JobUiDelegateFactory>
 #include <KPropertiesDialog>
-#include "optimizer.h"
-#include "consolelog.h"
-#include "config.h"
+#include <QDebug>
+#include <QFileInfo>
+#include <QMimeDatabase>
 
 using namespace Qt::Literals::StringLiterals;
 
@@ -21,7 +21,7 @@ ImageModel::ImageModel(QObject *parent)
 {
 }
 
-QVariant ImageModel::data(const QModelIndex& index, int role) const
+QVariant ImageModel::data(const QModelIndex &index, int role) const
 {
     Q_ASSERT(checkIndex(index, QAbstractItemModel::CheckIndexOption::IndexIsValid));
 
@@ -44,8 +44,7 @@ QVariant ImageModel::data(const QModelIndex& index, int role) const
     }
 }
 
-
-int ImageModel::rowCount(const QModelIndex& parent) const
+int ImageModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent);
     return m_images.count();
@@ -132,7 +131,7 @@ QCoro::Task<> ImageModel::optimize()
         QFileInfo fileInfo(image.newPath.toLocalFile());
         image.size = fileInfo.size();
         image.processed = true;
-        Q_EMIT dataChanged(index(i, 0), index(i, 0), { NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
+        Q_EMIT dataChanged(index(i, 0), index(i, 0), {NewSizeRole, ProcessedRole, AlreadyOptimizedRole});
 
         i++;
     }
@@ -147,14 +146,12 @@ QCoro::Task<> ImageModel::optimize()
 
 QHash<int, QByteArray> ImageModel::roleNames() const
 {
-    return {
-        {Qt::DisplayRole, QByteArrayLiteral("displayName")},
-        {FileNameRole, QByteArrayLiteral("filename")},
-        {SizeRole, QByteArrayLiteral("size")},
-        {NewSizeRole, QByteArrayLiteral("newSize")},
-        {AlreadyOptimizedRole, QByteArrayLiteral("alreadyOptimized")},
-        {ProcessedRole, QByteArrayLiteral("processed")}
-    };
+    return {{Qt::DisplayRole, QByteArrayLiteral("displayName")},
+            {FileNameRole, QByteArrayLiteral("filename")},
+            {SizeRole, QByteArrayLiteral("size")},
+            {NewSizeRole, QByteArrayLiteral("newSize")},
+            {AlreadyOptimizedRole, QByteArrayLiteral("alreadyOptimized")},
+            {ProcessedRole, QByteArrayLiteral("processed")}};
 }
 
 bool ImageModel::running() const

@@ -28,8 +28,7 @@ public:
     void addConsoleEntry(const QString &output, const QString &imagePath);
 
 private:
-    struct LogEntry
-    {
+    struct LogEntry {
         QString output;
         QString imagePath;
     };

@@ -3,9 +3,9 @@
 
 #pragma once
 
+#include "imagemodel.h"
 #include <QCoroTask>
 #include <QUrl>
-#include "imagemodel.h"
 
 class ConsoleLog;
 class Config;
