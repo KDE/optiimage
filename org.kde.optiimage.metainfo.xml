@@ -41,14 +41,14 @@
     <p xml:lang="x-test">xxOptimize your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.xx</p>
     <p>It supports both lossless and lossy compression modes with an option to whether
     keep or not metadata of images. It additionally has a safe mode, where a new
-    image is created instead of overwritting the old one.</p>
+    image is created instead of overwriting the old one.</p>
     <p xml:lang="ca">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantenir o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="ca-valencia">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantindre o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="eu">Galerarik gabeko eta galeradun konpresio moduak, biak onartzen ditu, irudien meta-datuak mantendu edo ez erabakitzeko aukera batekin. Modu seguru bat ere badu, irudi zaharra gainidatzi ordez berri bat sortzeko.</p>
     <p xml:lang="nl">Zowel compressiemodi met als zonder verlies worden ondersteund met een optie voor het al dan niet behouden van metagegevens van afbeeldingen. Bovendien met een veilige modus, waar een nieuwe afbeelding wordt gemaakt in plaats van de oude te overschrijven.</p>
     <p xml:lang="tr">Görsellerin üst verisinin tutulup tutulmaması seçeneğiyle hem kayıpsız hem de kayıplı sıkıştırma kiplerini destekler. Ayrıca eskisinin üzerine yazmak yerine yeni bir görselin oluşturulduğu güvenli bir kipi da vardır.</p>
     <p xml:lang="uk">Передбачено підтримку режимів стискання без втрат та з втратами із можливістю зберігати або відкидати метадані зображень. Крім того, передбачено безпечний режим, у якому програма створює нове зображення замість перезапису старого.</p>
-    <p xml:lang="x-test">xxIt supports both lossless and lossy compression modes with an option to whether keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwritting the old one.xx</p>
+    <p xml:lang="x-test">xxIt supports both lossless and lossy compression modes with an option to whether keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwriting the old one.xx</p>
     <p>It uses the following tools:</p>
     <p xml:lang="ca">Utilitza les eines següents:</p>
     <p xml:lang="ca-valencia">Utilitza les eines següents:</p>
