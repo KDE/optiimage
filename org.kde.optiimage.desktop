@@ -1,6 +1,20 @@
 [Desktop Entry]
 Name=OptiImage
+Name[ca]=OptiImage
+Name[ca@valencia]=OptiImage
+Name[eu]=OptiImage
+Name[nl]=OptiImage
+Name[tr]=OptiImage
+Name[uk]=OptiImage
+Name[x-test]=xxOptiImagexx
 Comment=Image optimizer
+Comment[ca]=Optimitzador d'imatges
+Comment[ca@valencia]=Optimitzador d'imatges
+Comment[eu]=Irudi-optimizatzailea
+Comment[nl]=Optimalisatie van afbeeldingen
+Comment[tr]=Görsel Eniyileyicisi
+Comment[uk]=Засіб оптимізації зображень
+Comment[x-test]=xxImage optimizerxx
 Version=1.0
 Exec=optiimage
 Icon=org.kde.optiimage
