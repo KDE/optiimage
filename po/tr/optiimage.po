@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-02 16:35+0300\n"
+"PO-Revision-Date: 2024-02-03 16:02+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -92,9 +92,7 @@ msgid "Open Containing Folder"
 msgstr "İçeren Klasörü Aç"
 
 #: contents/ui/OptimizePage.qml:160
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Properites"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Özellikler"

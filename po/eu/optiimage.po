@@ -1,7 +1,7 @@
 # Translation for optiimage.po to Euskara/Basque (eu).
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the optiimage package.
-# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
 # SPDX-FileCopyrightText: 2024 Iñigo Salvador Azurmendi <xalba@ni.eus>
@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-02 21:34+0100\n"
+"PO-Revision-Date: 2024-02-03 14:59+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 23.08.4\n"
 
 #: contents/ui/LogOutputPage.qml:15
@@ -94,9 +94,7 @@ msgid "Open Containing Folder"
 msgstr "Ireki hau barnean duen karpeta"
 
 #: contents/ui/OptimizePage.qml:160
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Properites"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Propietateak"

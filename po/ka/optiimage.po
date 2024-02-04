@@ -1,136 +1,139 @@
-# Copyright (C) 2024 This file is copyright:
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the optiimage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# SPDX-FileCopyrightText: 2024 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-03 10:58+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
-"Language: nl\n"
+"PO-Revision-Date: 2024-02-03 06:54+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr "Uitvoer op console"
+msgstr "კონსოლში გამოტანა"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr "Geen log uitvoer"
+msgstr "ჟურნალში ჩაწერის გარეშე"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr "Uw afbeeldingen optimaliseren"
+msgstr "გააკეთეთ თქვენი გამოსახულებების ოპტიმიზაცია"
 
 #: contents/ui/OptimizePage.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr "Opnieuw controleren"
+msgstr "თავიდან შემოწმება"
 
 #: contents/ui/OptimizePage.qml:40
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr "De volgende programma's ontbreken om OptiImage juist te laten draaien:"
+msgstr ""
+"ვერ ვიპოვე შემდეგი პროგრამები, რომლებიც OptiImage-ის სწორად სამუშაოდაა "
+"აუცილებელი:"
 
 #: contents/ui/OptimizePage.qml:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr "Afbeeldingen selecteren"
+msgstr "აირჩიეთ სურათები"
 
 #: contents/ui/OptimizePage.qml:58
 #, kde-format
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "მორგება"
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr "Afbeeldingsbestanden (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "გამოსახულების ფაილები (*.jpg *.jpeg *.png *.svg *.webp)"
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "All files (*)"
-msgstr "Alle bestanden (*)"
+msgstr "ყველა ფაილი (*)"
 
 #: contents/ui/OptimizePage.qml:98
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr "%1 (geen wijziging)"
+msgstr "%1 (ცვლილებების გარეშე)"
 
 #: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr "%1 -> %2 (%3% verlaging)"
+msgstr "%1 -> %2 (%3% შემცირება)"
 
 #: contents/ui/OptimizePage.qml:148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr "Openen"
+msgstr "გახსნა"
 
 #: contents/ui/OptimizePage.qml:154
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr "Containermap openen"
+msgstr "შემცველი საქაღალდის გახსნა"
 
 #: contents/ui/OptimizePage.qml:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr "Eigenschappen"
+msgstr "თვისებები"
 
 #: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgid "No images to optimize"
-msgstr "Geen te optimaliseren afbeeldingen"
+msgstr "დასაოპტიმიზებელი გამოსახულებების გარეშე"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "მორგება"
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr "Algemeen"
+msgstr "მთავარი"
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr "Metagegevens behouden"
+msgstr "მეტამონაცემების შენარჩუნება"
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr "Veilige modus"
+msgstr "უსაფრთხო რეჟიმი"
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr "De gecomprimeerde afbeelding in een nieuw bestand opslaan"
+msgstr "შეკუმშული გამოსახულების შენახვა ახალ ფაილში"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr "Achtervoegsel om aan het eind van het nieuwe bestand achter te voegen"
+msgstr "ახალი ფაილის ბოლოში მისაწერი სუფიქსი"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
@@ -140,32 +143,31 @@ msgstr "JPG"
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr "Progressieve codering"
+msgstr "პროგრესული კოდირება"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr ""
-"Om incrementele rendering van afbeelding in te schakelen: wazig tot helder."
+msgstr "გამოსახულების ინკრემენტული რენდერის ჩასართავად: მღვრიიდან წმინდამდე."
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr "Compressie zonder verlies gebruiken"
+msgstr "შეკუმშვა კარგვის გარეშე"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
 msgstr ""
-"Alleen compressie algoritmen gebruiken die geen afbeeldingskwaliteit "
-"verminderen."
+"მხოლოდ, იმ შეკუმშვის ალგორითმების გამოყენება, რომლებიც გამოსახულების ხარისხს "
+"არ აგდებენ."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr "Standaard optimalisatieniveau van optimalisatie met verlies:"
+msgstr "ნაგულისხმევი ოპტიმიზაციის დონე კარგვის მქონე ოპტიმიზაციისთვის:"
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
@@ -175,7 +177,7 @@ msgstr "PNG"
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr "Standaard optimalisatieniveau van optimalisatie zonder verlies:"
+msgstr "ნაგულისხმევი ოპტიმიზაციის დონე კარგვის არმქონე ოპტიმიზაციისთვის:"
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
@@ -186,13 +188,13 @@ msgstr "SVG"
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr "Maximaal compressieniveau"
+msgstr "მაქსიმალური შეკუმშვის დონე"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr "Kan destructiever zijn voor de afbeelding."
+msgstr "შეიძლება გამოსახულებისთვის უფრო დამაზიანებელი იყოს."
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
@@ -202,12 +204,12 @@ msgstr "WebP"
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr "Info over OptiImage"
+msgstr "OptiImage-ის შესახებ"
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr "Over KDE"
+msgstr "KDE-ს შესახებ"
 
 #: main.cpp:32
 #, kde-format
@@ -217,12 +219,12 @@ msgstr "OptiImage"
 #: main.cpp:34
 #, kde-format
 msgid "Images Optimiser"
-msgstr "Optimalisatie van afbeeldingen"
+msgstr "გამოსახულებების ოპტიმიზაცია"
 
 #: main.cpp:36
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr "© 2021 - 2023 Carl Schwan"
+msgstr "© 2021 - 2023 კარლ შვანი"
 
 #: main.cpp:38
 #, kde-format
@@ -232,16 +234,16 @@ msgstr "Carl Schwan"
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr "Onderhouder"
+msgstr "წამყვანი პროგრამისტი"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Freek de Kruijf - 2024"
+msgstr "Temuri Doghonadze"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "freekdekruijf@kde.nl"
+msgstr "Temuri.doghonadze@gmail.com"

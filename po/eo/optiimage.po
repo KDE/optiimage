@@ -1,136 +1,137 @@
-# Copyright (C) 2024 This file is copyright:
+# translation of optiimage.pot to Esperanto
+# Copyright (C) 2024 Free Software Foundation, Inc.
 # This file is distributed under the same license as the optiimage package.
+# Oliver Kellogg <okellogg.sourceforge.net>, 2024.
 #
-# SPDX-FileCopyrightText: 2024 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-03 10:58+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
-"Language: nl\n"
+"PO-Revision-Date: 2024-02-03 19:30+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"Language-Team: Esperanto <kde-i18n-eo.org>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr "Uitvoer op console"
+msgstr "Konzola eligo"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr "Geen log uitvoer"
+msgstr "Neniu protokola eligo"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr "Uw afbeeldingen optimaliseren"
+msgstr "Optimumigu viajn bildojn"
 
 #: contents/ui/OptimizePage.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr "Opnieuw controleren"
+msgstr "Rekontroli"
 
 #: contents/ui/OptimizePage.qml:40
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr "De volgende programma's ontbreken om OptiImage juist te laten draaien:"
+msgstr "La sekvantaj programoj mankas por ke OptiImage rulu korekte:"
 
 #: contents/ui/OptimizePage.qml:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr "Afbeeldingen selecteren"
+msgstr "Elekti Bildojn"
 
 #: contents/ui/OptimizePage.qml:58
 #, kde-format
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "Agordoj"
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr "Afbeeldingsbestanden (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "Bilddosieroj ((*.jpg *.jpeg *.png *.svg *.webp)"
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "All files (*)"
-msgstr "Alle bestanden (*)"
+msgstr "Ĉiuj dosieroj (*)"
 
 #: contents/ui/OptimizePage.qml:98
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr "%1 (geen wijziging)"
+msgstr "%1 (Neniu ŝanĝoj)"
 
 #: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr "%1 -> %2 (%3% verlaging)"
+msgstr "%1 -> %2 (%3% malpliiĝo)"
 
 #: contents/ui/OptimizePage.qml:148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr "Openen"
+msgstr "Malfermi"
 
 #: contents/ui/OptimizePage.qml:154
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr "Containermap openen"
+msgstr "Malfermi Entenantan Dosierujon"
 
 #: contents/ui/OptimizePage.qml:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr "Eigenschappen"
+msgstr "Proprecoj"
 
 #: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgid "No images to optimize"
-msgstr "Geen te optimaliseren afbeeldingen"
+msgstr "Neniu bildoj por optimumigi"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "Agordoj"
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr "Algemeen"
+msgstr "Ĝenerala"
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr "Metagegevens behouden"
+msgstr "Konservi Metadatenojn"
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr "Veilige modus"
+msgstr "Sekura reĝimo"
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr "De gecomprimeerde afbeelding in een nieuw bestand opslaan"
+msgstr "Konservi la kunpremitan bildon en nova dosiero"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr "Achtervoegsel om aan het eind van het nieuwe bestand achter te voegen"
+msgstr "Sufikso almetenda fine de nova dosiero"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
@@ -140,32 +141,29 @@ msgstr "JPG"
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr "Progressieve codering"
+msgstr "Progresema Kodigo"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr ""
-"Om incrementele rendering van afbeelding in te schakelen: wazig tot helder."
+msgstr "Por ebligi pliigan bildigon: svaga al klara."
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr "Compressie zonder verlies gebruiken"
+msgstr "Uzi senperdan kunpremadon"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
-msgstr ""
-"Alleen compressie algoritmen gebruiken die geen afbeeldingskwaliteit "
-"verminderen."
+msgstr "Uzi nur kunpremajn algoritmojn, kiuj ne reduktas bildkvaliton."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr "Standaard optimalisatieniveau van optimalisatie met verlies:"
+msgstr "Defaŭlta optimumiga nivelo de perda optimumigo:"
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
@@ -175,7 +173,7 @@ msgstr "PNG"
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr "Standaard optimalisatieniveau van optimalisatie zonder verlies:"
+msgstr "Defaŭlta optimumiga nivelo de senperda optimumigo:"
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
@@ -186,13 +184,13 @@ msgstr "SVG"
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr "Maximaal compressieniveau"
+msgstr "Maksimuma Kunprema Nivelo"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr "Kan destructiever zijn voor de afbeelding."
+msgstr "Povas esti pli detrua por la bildo."
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
@@ -202,12 +200,12 @@ msgstr "WebP"
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr "Info over OptiImage"
+msgstr "Pri OptiImage"
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr "Over KDE"
+msgstr "Pri KDE"
 
 #: main.cpp:32
 #, kde-format
@@ -217,7 +215,7 @@ msgstr "OptiImage"
 #: main.cpp:34
 #, kde-format
 msgid "Images Optimiser"
-msgstr "Optimalisatie van afbeeldingen"
+msgstr "Optimumigilo por bildoj"
 
 #: main.cpp:36
 #, kde-format
@@ -232,16 +230,16 @@ msgstr "Carl Schwan"
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr "Onderhouder"
+msgstr "Prizorganto"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Freek de Kruijf - 2024"
+msgstr "Oliver Kellogg"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "freekdekruijf@kde.nl"
+msgstr "okellogg@users.sourceforge.net"
