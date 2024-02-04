@@ -8,8 +8,12 @@
   <name>OptiImage</name>
   <name xml:lang="ca">OptiImage</name>
   <name xml:lang="ca-valencia">OptiImage</name>
+  <name xml:lang="eo">OptiImage</name>
+  <name xml:lang="es">OptiImage</name>
   <name xml:lang="eu">OptiImage</name>
+  <name xml:lang="ka">OptiImage</name>
   <name xml:lang="nl">OptiImage</name>
+  <name xml:lang="sl">OptiImage</name>
   <name xml:lang="tr">OptiImage</name>
   <name xml:lang="uk">OptiImage</name>
   <name xml:lang="x-test">xxOptiImagexx</name>
@@ -19,8 +23,12 @@
   <summary>Image optimizer to reduce the size of images</summary>
   <summary xml:lang="ca">Optimitzador d'imatges per a reduir la mida de les imatges</summary>
   <summary xml:lang="ca-valencia">Optimitzador d'imatges per a reduir-ne la mida</summary>
+  <summary xml:lang="eo">Bild-optimumigilo por redukti la grandecon de bildoj</summary>
+  <summary xml:lang="es">Optimizador de imágenes para reducir su tamaño</summary>
   <summary xml:lang="eu">Irudien neurria murrizteko optimizatzaile bat</summary>
+  <summary xml:lang="ka">გამოსახულებების ოპტიმიზაცია მათი ზომის შემცირების მმიზნით</summary>
   <summary xml:lang="nl">Optimalisatie van afbeeldingen om de grootte van afbeeldingen te verminderen</summary>
+  <summary xml:lang="sl">Optimizator slik za zmanjšanje velikosti slik</summary>
   <summary xml:lang="tr">Görsellerin boyutunu azaltmak için bir görsel düzenleyicisi</summary>
   <summary xml:lang="uk">Засіб оптимізації зображень, метою якого є зменшення розмірів файлів</summary>
   <summary xml:lang="x-test">xxImage optimizer to reduce the size of imagesxx</summary>
@@ -34,26 +42,27 @@
     PNG, JPEG, WebP and SVG file types.</p>
     <p xml:lang="ca">Optimitzeu les imatges amb l'OptiImage, un compressor d'imatges útil que admet tipus de fitxers PNG, JPEG, WebP i SVG.</p>
     <p xml:lang="ca-valencia">Optimitzeu les imatges amb OptiImage, un compressor d'imatges útil que admet tipus de fitxers PNG, JPEG, WebP i SVG.</p>
+    <p xml:lang="eo">Optimumigu viajn bildojn per OptiImage, utila bildkunpremilo kiu subtenas PNG, JPEG, WebP kaj SVG-dosiertipojn.</p>
+    <p xml:lang="es">Optimice sus imágenes con OptiImage, un útil compresor de imágenes compatible con los tipos de archivo PNG, JPEG, WebP y SVG.</p>
     <p xml:lang="eu">Optimizatu zure irudiak OptiImage erabiliz, PNG, JPEG, WebP eta SVG fitxategi motak onartzen dituen irudi konprimatzaile baliagarri bat.</p>
+    <p xml:lang="ka">დააოპტიმიზეთ თქვენი გამოსახულებები OptiImage-სთან, საჭირო გამოსახულებების შემკუმშავთან, რომელსაც PNG, JPEG, WebP და SVG ფაილის ტიპების სრული მარდაჭერა გააჩნია.</p>
     <p xml:lang="nl">Optimaliseer uw afbeeldingen met OptiImage, een nuttige comprimeerder die PNG, JPEG, WebP en SVG typen bestanden ondersteunt.</p>
+    <p xml:lang="sl">Optimizirajte svoje slike z OptiImage, uporabnim kompresorjem slik, ki podpira vrste datotek PNG, JPEG, WebP in SVG.</p>
     <p xml:lang="tr">PNG, JPEG, WebP ve SVG türü görselleri destekleyen bir görsel sıkıştırıcısı olan OptiImage ile görsellerinizi eniyileyin.</p>
     <p xml:lang="uk">Оптимізуйте ваші зображення за допомогою OptiImage, корисної програми для стискання файлів зображень, у якій передбачено підтримку типів файлів PNG, JPEG, WebP і SVG.</p>
     <p xml:lang="x-test">xxOptimize your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.xx</p>
     <p>It supports both lossless and lossy compression modes with an option to whether
     keep or not metadata of images. It additionally has a safe mode, where a new
     image is created instead of overwriting the old one.</p>
-    <p xml:lang="ca">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantenir o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
-    <p xml:lang="ca-valencia">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantindre o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
-    <p xml:lang="eu">Galerarik gabeko eta galeradun konpresio moduak, biak onartzen ditu, irudien meta-datuak mantendu edo ez erabakitzeko aukera batekin. Modu seguru bat ere badu, irudi zaharra gainidatzi ordez berri bat sortzeko.</p>
-    <p xml:lang="nl">Zowel compressiemodi met als zonder verlies worden ondersteund met een optie voor het al dan niet behouden van metagegevens van afbeeldingen. Bovendien met een veilige modus, waar een nieuwe afbeelding wordt gemaakt in plaats van de oude te overschrijven.</p>
-    <p xml:lang="tr">Görsellerin üst verisinin tutulup tutulmaması seçeneğiyle hem kayıpsız hem de kayıplı sıkıştırma kiplerini destekler. Ayrıca eskisinin üzerine yazmak yerine yeni bir görselin oluşturulduğu güvenli bir kipi da vardır.</p>
-    <p xml:lang="uk">Передбачено підтримку режимів стискання без втрат та з втратами із можливістю зберігати або відкидати метадані зображень. Крім того, передбачено безпечний режим, у якому програма створює нове зображення замість перезапису старого.</p>
-    <p xml:lang="x-test">xxIt supports both lossless and lossy compression modes with an option to whether keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwriting the old one.xx</p>
     <p>It uses the following tools:</p>
     <p xml:lang="ca">Utilitza les eines següents:</p>
     <p xml:lang="ca-valencia">Utilitza les eines següents:</p>
+    <p xml:lang="eo">Ĝi uzas la sekvajn ilojn:</p>
+    <p xml:lang="es">Usa las siguientes herramientas:</p>
     <p xml:lang="eu">Ondoko tresnak erabiltzen ditu:</p>
+    <p xml:lang="ka">იყენებს შემდეგ პროგრამებს:</p>
     <p xml:lang="nl">De volgende hulpmiddelen worden gebruikt:</p>
+    <p xml:lang="sl">Uporablja naslednja orodja:</p>
     <p xml:lang="tr">Aşağıdaki araçları kullanır:</p>
     <p xml:lang="uk">Використано такі інструменти:</p>
     <p xml:lang="x-test">xxIt uses the following tools:xx</p>
@@ -61,32 +70,48 @@
       <li>oxipng for PNG images</li>
       <li xml:lang="ca">«oxipng» per a imatges PNG</li>
       <li xml:lang="ca-valencia">«oxipng» per a imatges PNG</li>
+      <li xml:lang="eo">oxipng por PNG-bildoj</li>
+      <li xml:lang="es">oxipng para las imágenes PNG</li>
       <li xml:lang="eu">oxipng PNG irudietarako</li>
+      <li xml:lang="ka">oxipng-ს PNG გამოსახულებებისთვის</li>
       <li xml:lang="nl">oxipng voor PNG-afbeeldingen</li>
+      <li xml:lang="sl">oxipng za slike PNG</li>
       <li xml:lang="tr">PNG görselleri için oxipng</li>
       <li xml:lang="uk">oxipng для зображень PNG</li>
       <li xml:lang="x-test">xxoxipng for PNG imagesxx</li>
       <li>jpegoptim for JPEG images</li>
       <li xml:lang="ca">«jpegoptim» per a imatges JPEG</li>
       <li xml:lang="ca-valencia">«jpegoptim» per a imatges JPEG</li>
+      <li xml:lang="eo">jpegoptim por JPEG-bildoj</li>
+      <li xml:lang="es">jpegoptim para las imágenes JPEG</li>
       <li xml:lang="eu">jpegoptim JPEG irudietarako</li>
+      <li xml:lang="ka">jpegoptim-ს JPEG გამოსახულებებისთვის</li>
       <li xml:lang="nl">jpegoptim voor JPEG-afbeeldingen</li>
+      <li xml:lang="sl">jpegoptim za slike JPEG</li>
       <li xml:lang="tr">JPEG görselleri için jpegoptim</li>
       <li xml:lang="uk">jpegoptim для зображень JPEG</li>
       <li xml:lang="x-test">xxjpegoptim for JPEG imagesxx</li>
       <li>scour for SVG images</li>
       <li xml:lang="ca">«scour» per a imatges SVG</li>
       <li xml:lang="ca-valencia">«scour» per a imatges SVG</li>
+      <li xml:lang="eo">scour por SVG-bildoj</li>
+      <li xml:lang="es">scour para las imágenes SVG</li>
       <li xml:lang="eu">scour SVG irudietarako</li>
+      <li xml:lang="ka">scour-ს SVG გამოსახულებებისთვის</li>
       <li xml:lang="nl">scour voor SVG-afbeeldingen</li>
+      <li xml:lang="sl">scour za slike SVG</li>
       <li xml:lang="tr">SVG görselleri için scour</li>
       <li xml:lang="uk">scour для зображень SVG</li>
       <li xml:lang="x-test">xxscour for SVG imagesxx</li>
       <li>cwebp for WebP images</li>
       <li xml:lang="ca">«cwebp» per a imatges WebP</li>
       <li xml:lang="ca-valencia">«cwebp» per a imatges WebP</li>
+      <li xml:lang="eo">cwebp por WebP-bildoj</li>
+      <li xml:lang="es">cwebp para las imágenes WebP</li>
       <li xml:lang="eu">cwebp WebP irudietarako</li>
+      <li xml:lang="ka">cwebp-ს WebP გამოსახულებებისთვის</li>
       <li xml:lang="nl">cwebp voor WebP-afbeeldingen</li>
+      <li xml:lang="sl">cwebp za slike WebP</li>
       <li xml:lang="tr">WebP görselleri için cwebp</li>
       <li xml:lang="uk">cwebp для зображень WebP</li>
       <li xml:lang="x-test">xxcwebp for WebP imagesxx</li>
