@@ -51,8 +51,8 @@
     <p xml:lang="tr">PNG, JPEG, WebP ve SVG türü görselleri destekleyen bir görsel sıkıştırıcısı olan OptiImage ile görsellerinizi eniyileyin.</p>
     <p xml:lang="uk">Оптимізуйте ваші зображення за допомогою OptiImage, корисної програми для стискання файлів зображень, у якій передбачено підтримку типів файлів PNG, JPEG, WebP і SVG.</p>
     <p xml:lang="x-test">xxOptimize your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.xx</p>
-    <p>It supports both lossless and lossy compression modes with an option to whether
-    keep or not metadata of images. It additionally has a safe mode, where a new
+    <p>It supports both lossless and lossy compression modes with an option whether
+    to keep or not metadata of images. It additionally has a safe mode, where a new
     image is created instead of overwriting the old one.</p>
     <p>It uses the following tools:</p>
     <p xml:lang="ca">Utilitza les eines següents:</p>
