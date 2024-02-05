@@ -4,20 +4,19 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-03 05:42+0100\n"
+"PO-Revision-Date: 2024-02-04 08:25+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.4\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: contents/ui/LogOutputPage.qml:15
-#, fuzzy, kde-format
-#| msgid "Console output"
+#, kde-format
 msgctxt "@title"
 msgid "Console output"
 msgstr "Konzolni izhod"
@@ -33,30 +32,25 @@ msgid "Optimize your images"
 msgstr "Optimiziraj svoje slike"
 
 #: contents/ui/OptimizePage.qml:32
-#, fuzzy, kde-format
-#| msgid "Re-check"
+#, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
 msgstr "Ponovno preveri"
 
 #: contents/ui/OptimizePage.qml:40
-#, fuzzy, kde-format
-#| msgid "The following programs are missing for OptiImage to run correctly:"
+#, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr "Za pravilno delovanje OptiImage manjkajo naslednji programi:"
 
 #: contents/ui/OptimizePage.qml:53
-#, fuzzy, kde-format
-#| msgid "Select Images"
+#, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
 msgstr "Izberi slike"
 
 #: contents/ui/OptimizePage.qml:58
-#, fuzzy, kde-format
-#| msgctxt "contents/ui/OptimizePage.qml:58"
-#| msgid "Settings"
+#, kde-format
 msgid "Settings"
 msgstr "Nastavitve"
 
@@ -71,36 +65,31 @@ msgid "All files (*)"
 msgstr "Vse datoteke (*)"
 
 #: contents/ui/OptimizePage.qml:98
-#, fuzzy, kde-format
-#| msgid "%1 (No change)"
+#, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1 (Brez sprememb)"
 
 #: contents/ui/OptimizePage.qml:100
-#, fuzzy, kde-format
-#| msgid "%1 -> %2 (%3% decrease)"
+#, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2 (%3% zmanjšanje)"
 
 #: contents/ui/OptimizePage.qml:148
-#, fuzzy, kde-format
-#| msgid "Open"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Odpri"
 
 #: contents/ui/OptimizePage.qml:154
-#, fuzzy, kde-format
-#| msgid "Open Containing Folder"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "Odpri vsebovano mapo"
 
 #: contents/ui/OptimizePage.qml:160
-#, fuzzy, kde-format
-#| msgid "Properties"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Lastnosti"
@@ -111,9 +100,7 @@ msgid "No images to optimize"
 msgstr "Ni slik za optimizacijo"
 
 #: contents/ui/SettingsPage.qml:15
-#, fuzzy, kde-format
-#| msgctxt "contents/ui/OptimizePage.qml:58"
-#| msgid "Settings"
+#, kde-format
 msgctxt "@title:window"
 msgid "Settings"
 msgstr "Nastavitve"
@@ -159,15 +146,13 @@ msgid "To enable incremental image rendering: blurry to clear."
 msgstr "Če želite omogočiti postopno upodabljanje slik: zamegli za očiščenje."
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
-#, fuzzy, kde-format
-#| msgid "Use lossless compression"
+#, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
 msgstr "Uporabi stiskanje brez izgube"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
-#, fuzzy, kde-format
-#| msgid "Only use compression algorithms which do not reduce image quality."
+#, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
 msgstr "Uporabljaj samo algoritme stiskanja, ki ne zmanjšajo kakovosti slike."
@@ -193,18 +178,16 @@ msgid "SVG"
 msgstr "SVG"
 
 #: contents/ui/SettingsPage.qml:135
-#, fuzzy, kde-format
-#| msgid "Maximum Compression Level"
+#, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr "Najvišja stopnja stiskanja"
+msgstr "Najvišja raven stiskanja"
 
 #: contents/ui/SettingsPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Can be more destructive for the image."
+#, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr "Je lahko bolj uničujoča za sliko."
+msgstr "Je lahko bolj uničujoče za sliko."
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
@@ -247,15 +230,13 @@ msgid "Maintainer"
 msgstr "Vzdrževalec"
 
 #: main.cpp:39
-#, fuzzy, kde-format
-#| msgid "Your names"
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Matjaž Jeran"
 
 #: main.cpp:39
-#, fuzzy, kde-format
-#| msgid "Your emails"
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
