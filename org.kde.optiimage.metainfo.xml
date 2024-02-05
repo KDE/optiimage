@@ -11,8 +11,10 @@
   <name xml:lang="eo">OptiImage</name>
   <name xml:lang="es">OptiImage</name>
   <name xml:lang="eu">OptiImage</name>
+  <name xml:lang="fr">OptiImage</name>
   <name xml:lang="ka">OptiImage</name>
   <name xml:lang="nl">OptiImage</name>
+  <name xml:lang="pl">OptiImage</name>
   <name xml:lang="sl">OptiImage</name>
   <name xml:lang="tr">OptiImage</name>
   <name xml:lang="uk">OptiImage</name>
@@ -26,8 +28,10 @@
   <summary xml:lang="eo">Bild-optimumigilo por redukti la grandecon de bildoj</summary>
   <summary xml:lang="es">Optimizador de imágenes para reducir su tamaño</summary>
   <summary xml:lang="eu">Irudien neurria murrizteko optimizatzaile bat</summary>
+  <summary xml:lang="fr">Outil d'optimisation d'images pour réduire leurs tailles</summary>
   <summary xml:lang="ka">გამოსახულებების ოპტიმიზაცია მათი ზომის შემცირების მმიზნით</summary>
   <summary xml:lang="nl">Optimalisatie van afbeeldingen om de grootte van afbeeldingen te verminderen</summary>
+  <summary xml:lang="pl">Optymalizator obrazów do zmniejszania rozmiaru obrazów</summary>
   <summary xml:lang="sl">Optimizator slik za zmanjšanje velikosti slik</summary>
   <summary xml:lang="tr">Görsellerin boyutunu azaltmak için bir görsel düzenleyicisi</summary>
   <summary xml:lang="uk">Засіб оптимізації зображень, метою якого є зменшення розмірів файлів</summary>
@@ -45,8 +49,10 @@
     <p xml:lang="eo">Optimumigu viajn bildojn per OptiImage, utila bildkunpremilo kiu subtenas PNG, JPEG, WebP kaj SVG-dosiertipojn.</p>
     <p xml:lang="es">Optimice sus imágenes con OptiImage, un útil compresor de imágenes compatible con los tipos de archivo PNG, JPEG, WebP y SVG.</p>
     <p xml:lang="eu">Optimizatu zure irudiak OptiImage erabiliz, PNG, JPEG, WebP eta SVG fitxategi motak onartzen dituen irudi konprimatzaile baliagarri bat.</p>
+    <p xml:lang="fr">Optimisez vos images avec OptiImage, un compresseur d'images utile prenant en charge les types de fichiers PNG, JPEG, WebP et SVG.</p>
     <p xml:lang="ka">დააოპტიმიზეთ თქვენი გამოსახულებები OptiImage-სთან, საჭირო გამოსახულებების შემკუმშავთან, რომელსაც PNG, JPEG, WebP და SVG ფაილის ტიპების სრული მარდაჭერა გააჩნია.</p>
     <p xml:lang="nl">Optimaliseer uw afbeeldingen met OptiImage, een nuttige comprimeerder die PNG, JPEG, WebP en SVG typen bestanden ondersteunt.</p>
+    <p xml:lang="pl">Optymalizuj swoje obrazy w OptiImage, użyteczny narzędziu do pakowania obrazów, który obsługuje pliki: PNG, JPEG, WebP oraz SVG.</p>
     <p xml:lang="sl">Optimizirajte svoje slike z OptiImage, uporabnim kompresorjem slik, ki podpira vrste datotek PNG, JPEG, WebP in SVG.</p>
     <p xml:lang="tr">PNG, JPEG, WebP ve SVG türü görselleri destekleyen bir görsel sıkıştırıcısı olan OptiImage ile görsellerinizi eniyileyin.</p>
     <p xml:lang="uk">Оптимізуйте ваші зображення за допомогою OptiImage, корисної програми для стискання файлів зображень, у якій передбачено підтримку типів файлів PNG, JPEG, WebP і SVG.</p>
@@ -60,8 +66,10 @@
     <p xml:lang="eo">Ĝi uzas la sekvajn ilojn:</p>
     <p xml:lang="es">Usa las siguientes herramientas:</p>
     <p xml:lang="eu">Ondoko tresnak erabiltzen ditu:</p>
+    <p xml:lang="fr">Il utilise les outils suivants :</p>
     <p xml:lang="ka">იყენებს შემდეგ პროგრამებს:</p>
     <p xml:lang="nl">De volgende hulpmiddelen worden gebruikt:</p>
+    <p xml:lang="pl">Używa następujących narzędzi:</p>
     <p xml:lang="sl">Uporablja naslednja orodja:</p>
     <p xml:lang="tr">Aşağıdaki araçları kullanır:</p>
     <p xml:lang="uk">Використано такі інструменти:</p>
@@ -73,8 +81,10 @@
       <li xml:lang="eo">oxipng por PNG-bildoj</li>
       <li xml:lang="es">oxipng para las imágenes PNG</li>
       <li xml:lang="eu">oxipng PNG irudietarako</li>
+      <li xml:lang="fr">oxipng pour les images « PNG »</li>
       <li xml:lang="ka">oxipng-ს PNG გამოსახულებებისთვის</li>
       <li xml:lang="nl">oxipng voor PNG-afbeeldingen</li>
+      <li xml:lang="pl">oxipng do obrazów PNG</li>
       <li xml:lang="sl">oxipng za slike PNG</li>
       <li xml:lang="tr">PNG görselleri için oxipng</li>
       <li xml:lang="uk">oxipng для зображень PNG</li>
@@ -85,8 +95,10 @@
       <li xml:lang="eo">jpegoptim por JPEG-bildoj</li>
       <li xml:lang="es">jpegoptim para las imágenes JPEG</li>
       <li xml:lang="eu">jpegoptim JPEG irudietarako</li>
+      <li xml:lang="fr">jpegoptim pour les images « jpeg »</li>
       <li xml:lang="ka">jpegoptim-ს JPEG გამოსახულებებისთვის</li>
       <li xml:lang="nl">jpegoptim voor JPEG-afbeeldingen</li>
+      <li xml:lang="pl">jpegoptim do obrazów JPEG</li>
       <li xml:lang="sl">jpegoptim za slike JPEG</li>
       <li xml:lang="tr">JPEG görselleri için jpegoptim</li>
       <li xml:lang="uk">jpegoptim для зображень JPEG</li>
@@ -97,8 +109,10 @@
       <li xml:lang="eo">scour por SVG-bildoj</li>
       <li xml:lang="es">scour para las imágenes SVG</li>
       <li xml:lang="eu">scour SVG irudietarako</li>
+      <li xml:lang="fr">scour pour les images « SVG »</li>
       <li xml:lang="ka">scour-ს SVG გამოსახულებებისთვის</li>
       <li xml:lang="nl">scour voor SVG-afbeeldingen</li>
+      <li xml:lang="pl">scour do obrazów SVG</li>
       <li xml:lang="sl">scour za slike SVG</li>
       <li xml:lang="tr">SVG görselleri için scour</li>
       <li xml:lang="uk">scour для зображень SVG</li>
@@ -109,8 +123,10 @@
       <li xml:lang="eo">cwebp por WebP-bildoj</li>
       <li xml:lang="es">cwebp para las imágenes WebP</li>
       <li xml:lang="eu">cwebp WebP irudietarako</li>
+      <li xml:lang="fr">cwebp pour les images « WebP »</li>
       <li xml:lang="ka">cwebp-ს WebP გამოსახულებებისთვის</li>
       <li xml:lang="nl">cwebp voor WebP-afbeeldingen</li>
+      <li xml:lang="pl">cwebp do obrazów WebP</li>
       <li xml:lang="sl">cwebp za slike WebP</li>
       <li xml:lang="tr">WebP görselleri için cwebp</li>
       <li xml:lang="uk">cwebp для зображень WebP</li>
