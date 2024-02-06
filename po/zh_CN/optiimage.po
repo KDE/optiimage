@@ -1,247 +1,244 @@
-# Copyright (C) 2024 This file is copyright:
-# This file is distributed under the same license as the optiimage package.
-#
-# SPDX-FileCopyrightText: 2024 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: optiimage\n"
+"Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-04 09:32+0100\n"
-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
-"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
-"Language: pl\n"
+"PO-Revision-Date: 2024-02-05 11:38\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf6-trunk/messages/optiimage/optiimage.pot\n"
+"X-Crowdin-File-ID: 49374\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr "Wyjście w konsoli"
+msgstr ""
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr "Bez wyjścia do dziennika"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr "Zoptymalizuj swoje obrazy"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr "Sprawdź ponownie"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:40
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr "Brakuje następujących programów, aby OptiImage mógł działać poprawnie:"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr "Zaznacz obrazy"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:58
 #, kde-format
 msgid "Settings"
-msgstr "Ustawienia"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr "Pliki obrazów (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "All files (*)"
-msgstr "Wszystkie pliki (*)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:98
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr "%1 (Bez zmian)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr "%1 -> %2 (%3% spadek)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr "Otwórz"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:154
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr "Otwórz jego katalog"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr "Właściwości"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgid "No images to optimize"
-msgstr "Nie ma żadnych obrazów do zoptymalizowania"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr "Ustawienia"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr "Ogólne"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr "Zachowaj metadane"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr "Tryb bezpieczny"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr "Zapisz spakowany obraz do nowego pliku"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr "Przyrostek do dodania na końcu nowego pliku"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
 msgid "JPG"
-msgstr "JPG"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr "Kodowanie postępujące"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr "Aby włączyć przyrostowe wyświetlanie obrazu: z rozmycia do ostrości."
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr "Spakuj bezstratnie"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
 msgstr ""
-"Używaj algorytmów pakujących tylko takich, które nie pogarszają jakości "
-"obrazu."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr "Domyślny poziom optymalizacji dla stratnej optymalizacji:"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
 msgid "PNG"
-msgstr "PNG"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr "Domyślny poziom optymalizacji dla bezstratnej optymalizacji:"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
 msgid "SVG"
-msgstr "SVG"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:135
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr "Graniczny poziom spakowania"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr "Może być bardziej niszczące dla obrazu."
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
 msgid "WebP"
-msgstr "WebP"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr "O OptiImage"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr "O KDE"
+msgstr ""
 
 #: main.cpp:32
 #, kde-format
 msgid "OptiImage"
-msgstr "OptiImage"
+msgstr ""
 
 #: main.cpp:34
 #, kde-format
 msgid "Images Optimiser"
-msgstr "Optymalizator obrazów"
+msgstr ""
 
 #: main.cpp:36
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr "© 2021 - 2023 Carl Schwan"
+msgstr ""
 
 #: main.cpp:38
 #, kde-format
 msgid "Carl Schwan"
-msgstr "Carl Schwan"
+msgstr ""
 
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr "Opiekun"
+msgstr ""
 
 #: main.cpp:39
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Łukasz Wojniłowicz"
+msgstr ""
 
 #: main.cpp:39
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "lukasz.wojnilowicz@gmail.com"
+msgstr ""
