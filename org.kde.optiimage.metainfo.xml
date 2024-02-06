@@ -19,6 +19,7 @@
   <name xml:lang="tr">OptiImage</name>
   <name xml:lang="uk">OptiImage</name>
   <name xml:lang="x-test">xxOptiImagexx</name>
+  <name xml:lang="zh-TW">OptiImage</name>
   <provides>
     <binary>optiimage</binary>
   </provides>
@@ -36,6 +37,7 @@
   <summary xml:lang="tr">Görsellerin boyutunu azaltmak için bir görsel düzenleyicisi</summary>
   <summary xml:lang="uk">Засіб оптимізації зображень, метою якого є зменшення розмірів файлів</summary>
   <summary xml:lang="x-test">xxImage optimizer to reduce the size of imagesxx</summary>
+  <summary xml:lang="zh-TW">降低影像大小用的影像最佳化工具</summary>
   <metadata_license>FSFAP</metadata_license>
   <project_license>LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL</project_license>
   <developer id="kde.org">
@@ -57,9 +59,22 @@
     <p xml:lang="tr">PNG, JPEG, WebP ve SVG türü görselleri destekleyen bir görsel sıkıştırıcısı olan OptiImage ile görsellerinizi eniyileyin.</p>
     <p xml:lang="uk">Оптимізуйте ваші зображення за допомогою OptiImage, корисної програми для стискання файлів зображень, у якій передбачено підтримку типів файлів PNG, JPEG, WebP і SVG.</p>
     <p xml:lang="x-test">xxOptimize your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.xx</p>
+    <p xml:lang="zh-TW">用 OptiImage 來最佳化您的影像，它支援 PNG、JPEG、WebP 和 SVG 檔案格式。</p>
     <p>It supports both lossless and lossy compression modes with an option whether
     to keep or not metadata of images. It additionally has a safe mode, where a new
     image is created instead of overwriting the old one.</p>
+    <p xml:lang="ca">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantenir o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
+    <p xml:lang="ca-valencia">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantindre o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
+    <p xml:lang="eo">Ĝi subtenas ambaŭ senperdan kaj perdan kunpremajn reĝimojn kun eblo ĉu konservi aŭ ne metadatumojn de bildoj. Ĝi krome havas sekuran reĝimon, kie nova bildo estas kreita anstataŭ superskribi la malnovan.</p>
+    <p xml:lang="es">Permite usar los modos de compresión con y sin pérdida, con la opción de conservar los metadatos de las imágenes. También dispone de un modo seguro que crea imágenes nuevas en lugar de sobrescribir las existentes.</p>
+    <p xml:lang="eu">Galerarik gabeko eta galeradun konpresio moduak, biak onartzen ditu, irudien meta-datuak mantendu edo ez erabakitzeko aukera batekin. Modu seguru bat ere badu, irudi zaharra gainidatzi ordez berri bat sortzeko.</p>
+    <p xml:lang="ka">აქვს ორივე, კარგვის გარეშეც და კარგვითაც შეკუმშვის რეჟიმები არჩევნის საშუალებით, შევინარჩუნოთ გამოსახულების მეტამონაცემები, თუ არა. დამატებით, მას აქვს უსაფრთხო რეჟიმი, სადაც ძველი გამოსახულების თავზე გადაწერის მაგიერ ახალი გამოსახულება იქმნება.</p>
+    <p xml:lang="nl">Zowel modi voor compressie met als zonder verlies worden ondersteund met een optie voor het al dan niet behouden van metagegevens van afbeeldingen. Bovendien met een veilige modus, waar een nieuwe afbeelding wordt gemaakt in plaats van de oude te overschrijven.</p>
+    <p xml:lang="sl">Podpira oba načina stiskanja tako brez izgub kot z izgubami z možnostjo da obdrži ali ne metapodatke slik. Poleg tega ima varen način, kjer se ustvari nova slika namesto, da se prepiše stara.</p>
+    <p xml:lang="tr">Görsellerin üst verisinin tutulup tutulmaması seçeneğiyle hem kayıpsız hem de kayıplı sıkıştırma kiplerini destekler. Ayrıca eskisinin üzerine yazmak yerine yeni bir görselin oluşturulduğu güvenli bir kipi de vardır.</p>
+    <p xml:lang="uk">Передбачено підтримку режимів стискання без втрат та з втратами із можливістю зберігати або відкидати метадані зображень. Крім того, передбачено безпечний режим, у якому програма створює нове зображення замість перезапису старого.</p>
+    <p xml:lang="x-test">xxIt supports both lossless and lossy compression modes with an option whether to keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwriting the old one.xx</p>
+    <p xml:lang="zh-TW">支援無損和有損壓縮模式，並且可選擇是否保留影像的中繼資料。它也提供安全模式選項，將壓縮後的影像寫入新檔案而不是覆寫舊檔案。</p>
     <p>It uses the following tools:</p>
     <p xml:lang="ca">Utilitza les eines següents:</p>
     <p xml:lang="ca-valencia">Utilitza les eines següents:</p>
@@ -74,6 +89,7 @@
     <p xml:lang="tr">Aşağıdaki araçları kullanır:</p>
     <p xml:lang="uk">Використано такі інструменти:</p>
     <p xml:lang="x-test">xxIt uses the following tools:xx</p>
+    <p xml:lang="zh-TW">它會利用以下工具：</p>
     <ul>
       <li>oxipng for PNG images</li>
       <li xml:lang="ca">«oxipng» per a imatges PNG</li>
@@ -89,6 +105,7 @@
       <li xml:lang="tr">PNG görselleri için oxipng</li>
       <li xml:lang="uk">oxipng для зображень PNG</li>
       <li xml:lang="x-test">xxoxipng for PNG imagesxx</li>
+      <li xml:lang="zh-TW">對 PNG 影像使用 oxipng</li>
       <li>jpegoptim for JPEG images</li>
       <li xml:lang="ca">«jpegoptim» per a imatges JPEG</li>
       <li xml:lang="ca-valencia">«jpegoptim» per a imatges JPEG</li>
@@ -103,6 +120,7 @@
       <li xml:lang="tr">JPEG görselleri için jpegoptim</li>
       <li xml:lang="uk">jpegoptim для зображень JPEG</li>
       <li xml:lang="x-test">xxjpegoptim for JPEG imagesxx</li>
+      <li xml:lang="zh-TW">對 JPEG 影像使用 jpegoptim</li>
       <li>scour for SVG images</li>
       <li xml:lang="ca">«scour» per a imatges SVG</li>
       <li xml:lang="ca-valencia">«scour» per a imatges SVG</li>
@@ -117,6 +135,7 @@
       <li xml:lang="tr">SVG görselleri için scour</li>
       <li xml:lang="uk">scour для зображень SVG</li>
       <li xml:lang="x-test">xxscour for SVG imagesxx</li>
+      <li xml:lang="zh-TW">對 SVG 影像使用 scour</li>
       <li>cwebp for WebP images</li>
       <li xml:lang="ca">«cwebp» per a imatges WebP</li>
       <li xml:lang="ca-valencia">«cwebp» per a imatges WebP</li>
@@ -131,6 +150,7 @@
       <li xml:lang="tr">WebP görselleri için cwebp</li>
       <li xml:lang="uk">cwebp для зображень WebP</li>
       <li xml:lang="x-test">xxcwebp for WebP imagesxx</li>
+      <li xml:lang="zh-TW">對 WebP 影像使用 cwebp</li>
     </ul>
   </description>
   <url type="homepage">https://invent.kde.org/carlschwan/optiimage</url>
