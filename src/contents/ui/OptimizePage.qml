@@ -172,6 +172,18 @@ Kirigami.ScrollablePage {
             icon.name: "org.kde.optiimage"
             anchors.centerIn: parent
         }
+
+        DropArea {
+            onEntered: function(drag) {
+                if (!drag.hasUrls) {
+                    drag.accepted = false;
+                }
+            }
+            onDropped: function(drop) {
+                imageModel.addImages(drop.urls);
+            }
+            anchors.fill: parent
+        }
     }
 
     data: Components.FloatingButton {
