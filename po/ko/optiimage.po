@@ -1,0 +1,244 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the optiimage package.
+# SPDX-FileCopyrightText: 2024 Shinjo Park <kde@peremen.name>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: optiimage\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-03 00:37+0000\n"
+"PO-Revision-Date: 2024-02-10 00:26+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 23.08.1\n"
+
+#: contents/ui/LogOutputPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Console output"
+msgstr "콘솔 출력"
+
+#: contents/ui/LogOutputPage.qml:57
+#, kde-format
+msgid "No log output"
+msgstr "로그 출력 없음"
+
+#: contents/ui/OptimizePage.qml:17
+#, kde-format
+msgid "Optimize your images"
+msgstr "이미지 최적화"
+
+#: contents/ui/OptimizePage.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Re-check"
+msgstr "다시 검사"
+
+#: contents/ui/OptimizePage.qml:40
+#, kde-format
+msgctxt "@info"
+msgid "The following programs are missing for OptiImage to run correctly:"
+msgstr "OptiImage가 올바르게 실행되려면 다음 프로그램이 필요합니다:"
+
+#: contents/ui/OptimizePage.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Images"
+msgstr "이미지 선택"
+
+#: contents/ui/OptimizePage.qml:58
+#, kde-format
+msgid "Settings"
+msgstr "설정"
+
+#: contents/ui/OptimizePage.qml:74
+#, kde-format
+msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "이미지 파일 (*.jpg *.jpeg *.png *.svg *.webp)"
+
+#: contents/ui/OptimizePage.qml:74
+#, kde-format
+msgid "All files (*)"
+msgstr "모든 파일 (*)"
+
+#: contents/ui/OptimizePage.qml:98
+#, kde-format
+msgctxt "Size information with no change"
+msgid "%1 (No change)"
+msgstr "%1(변경 없음)"
+
+#: contents/ui/OptimizePage.qml:100
+#, kde-format
+msgctxt "Size information"
+msgid "%1 -> %2 (%3% decrease)"
+msgstr "%1 -> %2(%3% 감소)"
+
+#: contents/ui/OptimizePage.qml:148
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "열기"
+
+#: contents/ui/OptimizePage.qml:154
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Containing Folder"
+msgstr "포함하는 폴더 열기"
+
+#: contents/ui/OptimizePage.qml:160
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "속성"
+
+#: contents/ui/OptimizePage.qml:169
+#, kde-format
+msgid "No images to optimize"
+msgstr "최적화할 이미지 없음"
+
+#: contents/ui/SettingsPage.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "설정"
+
+#: contents/ui/SettingsPage.qml:18
+#, kde-format
+msgid "General"
+msgstr "일반"
+
+#: contents/ui/SettingsPage.qml:24
+#, kde-format
+msgid "Keep Metadata"
+msgstr "메타데이터 유지"
+
+#: contents/ui/SettingsPage.qml:39
+#, kde-format
+msgid "Safe mode"
+msgstr "안전 모드"
+
+#: contents/ui/SettingsPage.qml:40
+#, kde-format
+msgid "Save the compressed image in a new file"
+msgstr "압축되 이미지를 새 파일에 저장"
+
+#: contents/ui/SettingsPage.qml:54
+#, kde-format
+msgid "Suffix to append at the end of new file"
+msgstr "새 파일 이름에 덧붙일 접미사"
+
+#: contents/ui/SettingsPage.qml:64
+#, kde-format
+msgid "JPG"
+msgstr "JPG"
+
+#: contents/ui/SettingsPage.qml:70
+#, kde-format
+msgid "Progressive Encode"
+msgstr "프로그레시브 인코드"
+
+#: contents/ui/SettingsPage.qml:71
+#, kde-format
+msgid "To enable incremental image rendering: blurry to clear."
+msgstr "흐린 이미지부터 완전한 이미지까지 단계적 이미지 렌더링을 활성화합니다."
+
+#: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
+#, kde-format
+msgctxt "@label"
+msgid "Use lossless compression"
+msgstr "무손실 압축 사용"
+
+#: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
+#, kde-format
+msgctxt "@info"
+msgid "Only use compression algorithms which do not reduce image quality."
+msgstr "그림 품질에 영향을 주지 않는 압축 알고리즘만 사용합니다."
+
+#: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
+#, kde-format
+msgid "Default optimization level of lossy optimization:"
+msgstr "손실 압축 기본 최적화 수준:"
+
+#: contents/ui/SettingsPage.qml:113
+#, kde-format
+msgid "PNG"
+msgstr "PNG"
+
+#: contents/ui/SettingsPage.qml:118
+#, kde-format
+msgid "Default optimization level of lossless optimization:"
+msgstr "무손실 압축 기본 최적화 수준:"
+
+#: contents/ui/SettingsPage.qml:130
+#, kde-format
+msgid "SVG"
+msgstr "SVG"
+
+#: contents/ui/SettingsPage.qml:135
+#, kde-format
+msgctxt "@label"
+msgid "Maximum Compression Level"
+msgstr "최대 압축 수준"
+
+#: contents/ui/SettingsPage.qml:136
+#, kde-format
+msgctxt "@info"
+msgid "Can be more destructive for the image."
+msgstr "이미지에 손상을 더 끼칠 수 있습니다."
+
+#: contents/ui/SettingsPage.qml:146
+#, kde-format
+msgid "WebP"
+msgstr "WebP"
+
+#: contents/ui/SettingsPage.qml:182
+#, kde-format
+msgid "About OptiImage"
+msgstr "OptiImage 정보"
+
+#: contents/ui/SettingsPage.qml:199
+#, kde-format
+msgid "About KDE"
+msgstr "KDE 정보"
+
+#: main.cpp:32
+#, kde-format
+msgid "OptiImage"
+msgstr "OptiImage"
+
+#: main.cpp:34
+#, kde-format
+msgid "Images Optimiser"
+msgstr "이미지 최적화 도구"
+
+#: main.cpp:36
+#, kde-format
+msgid "© 2021 - 2023 Carl Schwan"
+msgstr "© 2021 - 2023 Carl Schwan"
+
+#: main.cpp:38
+#, kde-format
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:38
+#, kde-format
+msgid "Maintainer"
+msgstr "관리자"
+
+#: main.cpp:39
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#: main.cpp:39
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
