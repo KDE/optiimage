@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-11 10:31+0100\n"
+"PO-Revision-Date: 2024-02-16 20:27+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -19,91 +19,93 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr ""
+msgstr "Sortie de console"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr ""
+msgstr "Aucune sortie de journal"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr ""
+msgstr "Optimiser vos images"
 
 #: contents/ui/OptimizePage.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr ""
+msgstr "Re-vérifier"
 
 #: contents/ui/OptimizePage.qml:40
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr ""
+"Les programmes suivants sont manquants pour que OptiImage fonctionne "
+"correctement :"
 
 #: contents/ui/OptimizePage.qml:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr ""
+msgstr "Sélectionner des images"
 
 #: contents/ui/OptimizePage.qml:58
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Configuration"
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr ""
+msgstr "Fichiers d'image (* .jpg * .jpeg * .png * .svg * .webp)"
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "All files (*)"
-msgstr ""
+msgstr "Tous les fichiers (*)"
 
 #: contents/ui/OptimizePage.qml:98
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr ""
+msgstr "%1 (Aucun changement)"
 
 #: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr ""
+msgstr "%1 / %2 (%3 % diminution)"
 
 #: contents/ui/OptimizePage.qml:148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr ""
+msgstr "Ouvrir"
 
 #: contents/ui/OptimizePage.qml:154
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr ""
+msgstr "Ouvrir le dossier contenant"
 
 #: contents/ui/OptimizePage.qml:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr ""
+msgstr "Propriétés"
 
 #: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgid "No images to optimize"
-msgstr ""
+msgstr "Aucune image à optimiser"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr ""
+msgstr "Configuration"
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
@@ -113,130 +115,132 @@ msgstr "Général"
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr ""
+msgstr "Conserver les métadonnées"
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr ""
+msgstr "Mode sûr"
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr ""
+msgstr "Enregistrer l'image compressée dans un nouveau fichier."
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr ""
+msgstr "Suffixe à ajouter à la fin du nouveau fichier"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
 msgid "JPG"
-msgstr ""
+msgstr "JPG"
 
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr ""
+msgstr "Encodage progressif"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr ""
+msgstr "Pour permettre un rendu incrémental d'image : flou à effacer."
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr ""
+msgstr "Utiliser une compression sans perte"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
 msgstr ""
+"Utiliser uniquement des algorithmes de compression ne réduisant pas la "
+"qualité de l'image."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr ""
+msgstr "Niveau d'optimisation par défaut de l'optimisation avec perte :"
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr ""
+msgstr "Niveau d'optimisation par défaut de l'optimisation sans perte :"
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: contents/ui/SettingsPage.qml:135
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr ""
+msgstr "Niveau de compression maximal"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr ""
+msgstr "Peut être plus destructeur pour l'image."
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
 msgid "WebP"
-msgstr ""
+msgstr "WebP"
 
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr ""
+msgstr "À propos de OptiImage"
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr ""
+msgstr "À propos de KDE"
 
 #: main.cpp:32
 #, kde-format
 msgid "OptiImage"
-msgstr ""
+msgstr "OptiImage"
 
 #: main.cpp:34
 #, kde-format
 msgid "Images Optimiser"
-msgstr ""
+msgstr "Optimiseur d'images"
 
 #: main.cpp:36
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr ""
+msgstr "© 2021 - 2023 Carl Schwan"
 
 #: main.cpp:38
 #, kde-format
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Mainteneur"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Xavier Besnard"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "xavier.besnard@kde.org"
