@@ -1,0 +1,244 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the optiimage package.
+# Tommi Nieminen <translator@legisign.org>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: optiimage\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-03 00:37+0000\n"
+"PO-Revision-Date: 2024-02-14 19:12+0200\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#: contents/ui/LogOutputPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Console output"
+msgstr "Konsolituloste"
+
+#: contents/ui/LogOutputPage.qml:57
+#, kde-format
+msgid "No log output"
+msgstr "Ei lokitulostetta"
+
+#: contents/ui/OptimizePage.qml:17
+#, kde-format
+msgid "Optimize your images"
+msgstr "Optimoi kuvia"
+
+#: contents/ui/OptimizePage.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Re-check"
+msgstr "Tarkista uudelleen"
+
+#: contents/ui/OptimizePage.qml:40
+#, kde-format
+msgctxt "@info"
+msgid "The following programs are missing for OptiImage to run correctly:"
+msgstr "OptiImagelta puuttuvat oikeaan toimintaan seuraavat ohjelmat:"
+
+#: contents/ui/OptimizePage.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Images"
+msgstr "Valitse kuvat"
+
+#: contents/ui/OptimizePage.qml:58
+#, kde-format
+msgid "Settings"
+msgstr "Asetukset"
+
+#: contents/ui/OptimizePage.qml:74
+#, kde-format
+msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "Kuvatiedostot (*.jpg *.jpeg *.png *.svg *.webp)"
+
+#: contents/ui/OptimizePage.qml:74
+#, kde-format
+msgid "All files (*)"
+msgstr "Kaikki tiedostot (*)"
+
+#: contents/ui/OptimizePage.qml:98
+#, kde-format
+msgctxt "Size information with no change"
+msgid "%1 (No change)"
+msgstr "%1 (ei muutosta)"
+
+#: contents/ui/OptimizePage.qml:100
+#, kde-format
+msgctxt "Size information"
+msgid "%1 -> %2 (%3% decrease)"
+msgstr "%1 → %2 (%3 % pienempi)"
+
+#: contents/ui/OptimizePage.qml:148
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Avaa"
+
+#: contents/ui/OptimizePage.qml:154
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Containing Folder"
+msgstr "Avaa yläkansio"
+
+#: contents/ui/OptimizePage.qml:160
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Ominaisuudet"
+
+#: contents/ui/OptimizePage.qml:169
+#, kde-format
+msgid "No images to optimize"
+msgstr "Ei optimoitavia kuvia"
+
+#: contents/ui/SettingsPage.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "Asetukset"
+
+#: contents/ui/SettingsPage.qml:18
+#, kde-format
+msgid "General"
+msgstr "Perusasetukset"
+
+#: contents/ui/SettingsPage.qml:24
+#, kde-format
+msgid "Keep Metadata"
+msgstr "Säilytä metatiedot"
+
+#: contents/ui/SettingsPage.qml:39
+#, kde-format
+msgid "Safe mode"
+msgstr "Turvatila"
+
+#: contents/ui/SettingsPage.qml:40
+#, kde-format
+msgid "Save the compressed image in a new file"
+msgstr "Tallenna pakattu kuva uuteen tiedostoon"
+
+#: contents/ui/SettingsPage.qml:54
+#, kde-format
+msgid "Suffix to append at the end of new file"
+msgstr "Uusien tiedostojen nimiin lisättävä pääte"
+
+#: contents/ui/SettingsPage.qml:64
+#, kde-format
+msgid "JPG"
+msgstr "JPG"
+
+#: contents/ui/SettingsPage.qml:70
+#, kde-format
+msgid "Progressive Encode"
+msgstr "Etenevä koodaus"
+
+#: contents/ui/SettingsPage.qml:71
+#, kde-format
+msgid "To enable incremental image rendering: blurry to clear."
+msgstr "Vaiheittaiseen kuvanpiirtoon sumeasta selväksi."
+
+#: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
+#, kde-format
+msgctxt "@label"
+msgid "Use lossless compression"
+msgstr "Käytä häviötöntä pakkausta"
+
+#: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
+#, kde-format
+msgctxt "@info"
+msgid "Only use compression algorithms which do not reduce image quality."
+msgstr "Käytä vain kuvalaatua heikentämättömiä pakkausalgoritmeja"
+
+#: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
+#, kde-format
+msgid "Default optimization level of lossy optimization:"
+msgstr "Häviöllisen optimoinnin oletustaso:"
+
+#: contents/ui/SettingsPage.qml:113
+#, kde-format
+msgid "PNG"
+msgstr "PNG"
+
+#: contents/ui/SettingsPage.qml:118
+#, kde-format
+msgid "Default optimization level of lossless optimization:"
+msgstr "Häviöttömän optimoinnin oletustaso:"
+
+#: contents/ui/SettingsPage.qml:130
+#, kde-format
+msgid "SVG"
+msgstr "SVG"
+
+#: contents/ui/SettingsPage.qml:135
+#, kde-format
+msgctxt "@label"
+msgid "Maximum Compression Level"
+msgstr "Enimmäispakkaustaso"
+
+#: contents/ui/SettingsPage.qml:136
+#, kde-format
+msgctxt "@info"
+msgid "Can be more destructive for the image."
+msgstr "Voi olla kuvalle tuhoisa."
+
+#: contents/ui/SettingsPage.qml:146
+#, kde-format
+msgid "WebP"
+msgstr "WebP"
+
+#: contents/ui/SettingsPage.qml:182
+#, kde-format
+msgid "About OptiImage"
+msgstr "Tietoa OptiImagesta"
+
+#: contents/ui/SettingsPage.qml:199
+#, kde-format
+msgid "About KDE"
+msgstr "Tietoa KDE:stä"
+
+#: main.cpp:32
+#, kde-format
+msgid "OptiImage"
+msgstr "OptiImage"
+
+#: main.cpp:34
+#, kde-format
+msgid "Images Optimiser"
+msgstr "Kuvaoptimoija"
+
+#: main.cpp:36
+#, kde-format
+msgid "© 2021 - 2023 Carl Schwan"
+msgstr "© 2021–2023 Carl Schwan"
+
+#: main.cpp:38
+#, kde-format
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:38
+#, kde-format
+msgid "Maintainer"
+msgstr "Ylläpitäjä"
+
+#: main.cpp:39
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tommi Nieminen"
+
+#: main.cpp:39
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "translator@legisign.org"
