@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-05 11:38\n"
+"PO-Revision-Date: 2024-02-29 12:53\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -21,224 +21,224 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr ""
+msgstr "命令行输出"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr ""
+msgstr "没有日志输出"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr ""
+msgstr "对图像进行压缩优化"
 
 #: contents/ui/OptimizePage.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr ""
+msgstr "重新检查"
 
 #: contents/ui/OptimizePage.qml:40
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr ""
+msgstr "OptiImage 正常运行所需的以下程序缺失："
 
 #: contents/ui/OptimizePage.qml:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr ""
+msgstr "选择图像"
 
 #: contents/ui/OptimizePage.qml:58
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr ""
+msgstr "图像文件 (*.jpg *.jpeg *.png *.svg *.webp)"
 
 #: contents/ui/OptimizePage.qml:74
 #, kde-format
 msgid "All files (*)"
-msgstr ""
+msgstr "所有文件(*)"
 
 #: contents/ui/OptimizePage.qml:98
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr ""
+msgstr "%1 (没有变化)"
 
 #: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr ""
+msgstr "%1 -> %2 (减少 %3%)"
 
 #: contents/ui/OptimizePage.qml:148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr ""
+msgstr "打开"
 
 #: contents/ui/OptimizePage.qml:154
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr ""
+msgstr "打开所在文件夹"
 
 #: contents/ui/OptimizePage.qml:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr ""
+msgstr "属性"
 
 #: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgid "No images to optimize"
-msgstr ""
+msgstr "没有要压缩的图像"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr ""
+msgstr "保留元数据"
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr ""
+msgstr "安全模式"
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr ""
+msgstr "压缩后的图像将另存为新文件"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr ""
+msgstr "新文件的文件名后缀"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
 msgid "JPG"
-msgstr ""
+msgstr "JPG"
 
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr ""
+msgstr "渐进式编码"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr ""
+msgstr "启用渐进式编码：图像在下载过程中会逐渐由模糊变得清晰。"
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr ""
+msgstr "使用无损压缩"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
-msgstr ""
+msgstr "仅使用不会降低图像画质的压缩算法。"
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr ""
+msgstr "有损压缩优化的默认级别："
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr ""
+msgstr "无损压缩优化的默认级别："
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: contents/ui/SettingsPage.qml:135
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr ""
+msgstr "最大压缩级别"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr ""
+msgstr "可能会对图像的画质造成更多损害。"
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
 msgid "WebP"
-msgstr ""
+msgstr "WebP"
 
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr ""
+msgstr "关于 OptiImage 图像压缩工具"
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr ""
+msgstr "关于 KDE"
 
 #: main.cpp:32
 #, kde-format
 msgid "OptiImage"
-msgstr ""
+msgstr "OptiImage 图像压缩工具"
 
 #: main.cpp:34
 #, kde-format
 msgid "Images Optimiser"
-msgstr ""
+msgstr "图像压缩优化工具"
 
 #: main.cpp:36
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr ""
+msgstr "© 2021 - 2023 Carl Schwan"
 
 #: main.cpp:38
 #, kde-format
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "维护者"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Tyson Tan"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "tds00@qq.com"
