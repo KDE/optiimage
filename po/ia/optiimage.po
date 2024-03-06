@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-13 17:10+0100\n"
+"PO-Revision-Date: 2024-03-05 10:54+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -26,12 +26,12 @@ msgstr "Exito de console"
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr ""
+msgstr "Nulle ecito de registro"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr ""
+msgstr "Optimisa tu images"
 
 #: contents/ui/OptimizePage.qml:32
 #, kde-format
@@ -44,6 +44,7 @@ msgstr "Re-Verifica"
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr ""
+"Le sequente programma es mancante per poter executar OptiImage correctemente:"
 
 #: contents/ui/OptimizePage.qml:53
 #, kde-format
@@ -125,12 +126,12 @@ msgstr "Modo secur"
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr ""
+msgstr "Salveguarda le imagine comprimite in un nove file"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr ""
+msgstr "Suffixo a adjunger al fin del nove file"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
@@ -140,29 +141,31 @@ msgstr "JPG"
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr ""
+msgstr "Codifica Progressive"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
 msgstr ""
+"Per habilitar le rendition de image in gradual augmento:  indistincte per "
+"nettar."
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr ""
+msgstr "Usa compression sin perdita"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
-msgstr ""
+msgstr "Usa solmente algorithmos que non reduce qualitate de imagine."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr ""
+msgstr "Nivello de optimisation predefinite per optimisation con perdita:"
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
@@ -172,7 +175,7 @@ msgstr "PNG"
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr ""
+msgstr "Nivello de optimisation predefinite per otimisation sin perdita:"
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
@@ -183,13 +186,13 @@ msgstr "SVG"
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr ""
+msgstr "Maxime Nivello de Compression"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr ""
+msgstr "Pote esser plus destructive per le imagine."
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
