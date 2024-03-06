@@ -37,6 +37,7 @@
   <summary xml:lang="eu">Irudien neurria murrizteko optimizatzaile bat</summary>
   <summary xml:lang="fi">Kuvakokoa pienentävä kuvaoptimoija</summary>
   <summary xml:lang="fr">Outil d'optimisation d'images pour réduire leurs tailles</summary>
+  <summary xml:lang="ia">Optimisator de imagine per reducer le grandor de imagines</summary>
   <summary xml:lang="it">Ottimiazzatore d'immagini che ne riduce la dimensione</summary>
   <summary xml:lang="ka">გამოსახულებების ოპტიმიზაცია მათი ზომის შემცირების მმიზნით</summary>
   <summary xml:lang="ko">그림 크기를 줄이는 이미지 최적화 도구</summary>
@@ -63,6 +64,7 @@
     <p xml:lang="eu">Optimizatu zure irudiak OptiImage erabiliz, PNG, JPEG, WebP eta SVG fitxategi motak onartzen dituen irudi konprimatzaile baliagarri bat.</p>
     <p xml:lang="fi">Optimoi kuvasi OptiImagella, näppärällä PNG-, JPEG-, WebP- ja SVG-tiedostomuotoja tukevalla kuvapakkaimella.</p>
     <p xml:lang="fr">Optimisez vos images avec OptiImage, un compresseur d'images utile prenant en charge les types de fichiers PNG, JPEG, WebP et SVG.</p>
+    <p xml:lang="ia">Optimisa tu images con OptiImage, un compressor utile de imagine que supporta typos de file PNG, JPEG, WebP e SVG.</p>
     <p xml:lang="it">Ottimizza le tue immagini con OptiImage, un utile compressore d'immagini che supporta i file PNG, JPEG, WebP e SVG.</p>
     <p xml:lang="ka">დააოპტიმიზეთ თქვენი გამოსახულებები OptiImage-სთან, საჭირო გამოსახულებების შემკუმშავთან, რომელსაც PNG, JPEG, WebP და SVG ფაილის ტიპების სრული მარდაჭერა გააჩნია.</p>
     <p xml:lang="ko">OptiImage를 사용하여 이미지를 최적화할 수 있습니다. PNG, JPEG, WebP, SVG 파일 형식을 지원합니다.</p>
@@ -84,6 +86,7 @@
     <p xml:lang="eu">Galerarik gabeko eta galeradun konpresio moduak, biak onartzen ditu, irudien meta-datuak mantendu edo ez erabakitzeko aukera batekin. Modu seguru bat ere badu, irudi zaharra gainidatzi ordez berri bat sortzeko.</p>
     <p xml:lang="fi">Se tukee sekä häviötöntä että häviöllistä pakkausta ja mahdollistaa kuvien metatiedon säilyttämisen. Lisäksi siinä on turvatila, jossa luodaan uusi kuva vanhaa korvaamatta.</p>
     <p xml:lang="fr">Il prend en charge les modes de compression sans perte et avec perte, ainsi qu'une option pour définir s'il faut conserver ou non les métadonnées des images. Il propose par ailleurs un mode plus sûr, où une nouvelle image est créée au lieu de remplacer l'ancienne.</p>
+    <p xml:lang="ia">Il supporta sia modos de compression sin perdita que con perdita con un option si mantener o non le metadatos de imagines. Additionalmente il ha un modo secur, ubi un nove image es create in loco de super scriber ille vetere.</p>
     <p xml:lang="it">Supporta sia modalità di compressione con perdita che senza, e ha un'opzione per mantenere oppure no i metadati delle immagini. In aggiunta ha una modalità sicura, che crea un'immagine nuova al posto di sovrascrivere quella vecchia.</p>
     <p xml:lang="ka">აქვს ორივე, კარგვის გარეშეც და კარგვითაც შეკუმშვის რეჟიმები არჩევნის საშუალებით, შევინარჩუნოთ გამოსახულების მეტამონაცემები, თუ არა. დამატებით, მას აქვს უსაფრთხო რეჟიმი, სადაც ძველი გამოსახულების თავზე გადაწერის მაგიერ ახალი გამოსახულება იქმნება.</p>
     <p xml:lang="ko">무손실과 손실 압축을 둘 다 지원하며 이미지 메타데이터 유지 여부를 선택할 수 있습니다. 기존 이미지를 덮어쓰지 않는 안전 모드를 제공합니다.</p>
@@ -103,6 +106,7 @@
     <p xml:lang="eu">Ondoko tresnak erabiltzen ditu:</p>
     <p xml:lang="fi">Se käyttää seuraavia työkaluja:</p>
     <p xml:lang="fr">Il utilise les outils suivants :</p>
+    <p xml:lang="ia">Il usa le sequente instrumentos:</p>
     <p xml:lang="it">Utilizza i seguenti strumenti:</p>
     <p xml:lang="ka">იყენებს შემდეგ პროგრამებს:</p>
     <p xml:lang="ko">다음 도구를 사용합니다:</p>
@@ -123,6 +127,7 @@
       <li xml:lang="eu">oxipng PNG irudietarako</li>
       <li xml:lang="fi">oxipng PNG-kuville</li>
       <li xml:lang="fr">oxipng pour les images « PNG »</li>
+      <li xml:lang="ia">oxipng per imagines  PNG</li>
       <li xml:lang="it">oxipng per le immagini  PNG</li>
       <li xml:lang="ka">oxipng-ს PNG გამოსახულებებისთვის</li>
       <li xml:lang="ko">PNG 이미지: oxipng</li>
@@ -142,6 +147,7 @@
       <li xml:lang="eu">jpegoptim JPEG irudietarako</li>
       <li xml:lang="fi">jpegoptim JPEG-kuville</li>
       <li xml:lang="fr">jpegoptim pour les images « jpeg »</li>
+      <li xml:lang="ia">jpegoptim per images JPEG</li>
       <li xml:lang="it">jpegoptim per le immagini JPEG</li>
       <li xml:lang="ka">jpegoptim-ს JPEG გამოსახულებებისთვის</li>
       <li xml:lang="ko">JPEG 이미지: jpegoptim</li>
@@ -161,6 +167,7 @@
       <li xml:lang="eu">scour SVG irudietarako</li>
       <li xml:lang="fi">scour SVG-kuville</li>
       <li xml:lang="fr">scour pour les images « SVG »</li>
+      <li xml:lang="ia">scour per images SVG</li>
       <li xml:lang="it">scour per le immagini SVG</li>
       <li xml:lang="ka">scour-ს SVG გამოსახულებებისთვის</li>
       <li xml:lang="ko">SVG 이미지: scour</li>
@@ -180,6 +187,7 @@
       <li xml:lang="eu">cwebp WebP irudietarako</li>
       <li xml:lang="fi">cwebp WebP-kuville</li>
       <li xml:lang="fr">cwebp pour les images « WebP »</li>
+      <li xml:lang="ia">cwebp per imagines  WebP</li>
       <li xml:lang="it">cwebp per le immagini WebP</li>
       <li xml:lang="ka">cwebp-ს WebP გამოსახულებებისთვის</li>
       <li xml:lang="ko">WebP 이미지: cwebp</li>
