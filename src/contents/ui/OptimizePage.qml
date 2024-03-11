@@ -118,6 +118,19 @@ Kirigami.ScrollablePage {
                     itemDelegate: imageDelegate
                 }
 
+                QQC2.Button {
+                    id: configButton
+                    visible: imageDelegate.hovered && !Kirigami.Settings.isMobile
+                    text: i18nc("@action:button", "More options")
+                    display: QQC2.Button.IconOnly
+
+                    icon.name: "configure"
+                    onClicked: {
+                        menu.fileName = imageDelegate.filename;
+                        menu.popup();
+                    }
+                }
+
                 Kirigami.Icon {
                     Layout.preferredWidth: Kirigami.Units.iconSizes.medium
                     Layout.preferredHeight: Kirigami.Units.iconSizes.medium
@@ -126,17 +139,17 @@ Kirigami.ScrollablePage {
                 }
 
                 TapHandler {
+                    id: leftClickHandler
+                    acceptedButtons: Qt.LeftButton
+                    onTapped: imageModel.open(imageDelegate.filename)
+                }
+
+                TapHandler {
                     acceptedButtons: Qt.RightButton
                     onTapped: {
                         menu.fileName = imageDelegate.filename;
                         menu.popup();
                     }
-                }
-
-                TapHandler {
-                    id: leftClickHandler
-                    acceptedButtons: Qt.LeftButton
-                    onTapped: imageModel.open(imageDelegate.filename)
                 }
             }
 
