@@ -68,6 +68,7 @@ Kirigami.ScrollablePage {
 
     FileDialog {
         id: fileDialog
+        title: i18nc("@title:window", "Select an image to compress")
         folder: StandardPaths.writableLocation(StandardPaths.PicturesLocation)
         fileMode: FileDialog.OpenFiles
         onAccepted: imageModel.addImages(files)
