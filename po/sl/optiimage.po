@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-03 00:37+0000\n"
+"POT-Creation-Date: 2024-03-12 00:37+0000\n"
 "PO-Revision-Date: 2024-02-04 08:25+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -54,47 +54,59 @@ msgstr "Izberi slike"
 msgid "Settings"
 msgstr "Nastavitve"
 
-#: contents/ui/OptimizePage.qml:74
+#: contents/ui/OptimizePage.qml:71
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image to compress"
+msgstr ""
+
+#: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "Slikovne datoteke (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:74
+#: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "All files (*)"
 msgstr "Vse datoteke (*)"
 
-#: contents/ui/OptimizePage.qml:98
+#: contents/ui/OptimizePage.qml:99
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1 (Brez sprememb)"
 
-#: contents/ui/OptimizePage.qml:100
+#: contents/ui/OptimizePage.qml:101
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2 (%3% zmanjšanje)"
 
-#: contents/ui/OptimizePage.qml:148
+#: contents/ui/OptimizePage.qml:124
+#, kde-format
+msgctxt "@action:button"
+msgid "More options"
+msgstr ""
+
+#: contents/ui/OptimizePage.qml:162
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Odpri"
 
-#: contents/ui/OptimizePage.qml:154
+#: contents/ui/OptimizePage.qml:168
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "Odpri vsebovano mapo"
 
-#: contents/ui/OptimizePage.qml:160
+#: contents/ui/OptimizePage.qml:174
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Lastnosti"
 
-#: contents/ui/OptimizePage.qml:169
+#: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgid "No images to optimize"
 msgstr "Ni slik za optimizacijo"

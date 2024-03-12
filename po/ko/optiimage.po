@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-03 00:37+0000\n"
+"POT-Creation-Date: 2024-03-12 00:37+0000\n"
 "PO-Revision-Date: 2024-02-10 00:26+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -56,47 +56,59 @@ msgstr "이미지 선택"
 msgid "Settings"
 msgstr "설정"
 
-#: contents/ui/OptimizePage.qml:74
+#: contents/ui/OptimizePage.qml:71
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image to compress"
+msgstr ""
+
+#: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "이미지 파일 (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:74
+#: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "All files (*)"
 msgstr "모든 파일 (*)"
 
-#: contents/ui/OptimizePage.qml:98
+#: contents/ui/OptimizePage.qml:99
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1(변경 없음)"
 
-#: contents/ui/OptimizePage.qml:100
+#: contents/ui/OptimizePage.qml:101
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2(%3% 감소)"
 
-#: contents/ui/OptimizePage.qml:148
+#: contents/ui/OptimizePage.qml:124
+#, kde-format
+msgctxt "@action:button"
+msgid "More options"
+msgstr ""
+
+#: contents/ui/OptimizePage.qml:162
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "열기"
 
-#: contents/ui/OptimizePage.qml:154
+#: contents/ui/OptimizePage.qml:168
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "포함하는 폴더 열기"
 
-#: contents/ui/OptimizePage.qml:160
+#: contents/ui/OptimizePage.qml:174
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "속성"
 
-#: contents/ui/OptimizePage.qml:169
+#: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgid "No images to optimize"
 msgstr "최적화할 이미지 없음"

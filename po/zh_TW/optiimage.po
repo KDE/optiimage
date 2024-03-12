@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-03 00:37+0000\n"
+"POT-Creation-Date: 2024-03-12 00:37+0000\n"
 "PO-Revision-Date: 2024-02-05 17:08+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -56,47 +56,59 @@ msgstr "選擇影像"
 msgid "Settings"
 msgstr "設定"
 
-#: contents/ui/OptimizePage.qml:74
+#: contents/ui/OptimizePage.qml:71
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image to compress"
+msgstr ""
+
+#: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "影像檔 (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:74
+#: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "All files (*)"
 msgstr "所有檔案 (*)"
 
-#: contents/ui/OptimizePage.qml:98
+#: contents/ui/OptimizePage.qml:99
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1（沒有變更）"
 
-#: contents/ui/OptimizePage.qml:100
+#: contents/ui/OptimizePage.qml:101
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2（減少 %3%）"
 
-#: contents/ui/OptimizePage.qml:148
+#: contents/ui/OptimizePage.qml:124
+#, kde-format
+msgctxt "@action:button"
+msgid "More options"
+msgstr ""
+
+#: contents/ui/OptimizePage.qml:162
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "開啟"
 
-#: contents/ui/OptimizePage.qml:154
+#: contents/ui/OptimizePage.qml:168
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "開啟包含資料夾"
 
-#: contents/ui/OptimizePage.qml:160
+#: contents/ui/OptimizePage.qml:174
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "屬性"
 
-#: contents/ui/OptimizePage.qml:169
+#: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgid "No images to optimize"
 msgstr "沒有能最佳化的影像"
