@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-12 00:37+0000\n"
-"PO-Revision-Date: 2024-02-03 09:30+0100\n"
+"PO-Revision-Date: 2024-03-12 11:49+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -62,7 +62,7 @@ msgstr "Configuració"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr ""
+msgstr "Seleccioneu la imatge que s'ha de comprimir"
 
 #: contents/ui/OptimizePage.qml:75
 #, kde-format
@@ -90,7 +90,7 @@ msgstr "%1 -> %2 (%3% de disminució)"
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr ""
+msgstr "Més opcions"
 
 #: contents/ui/OptimizePage.qml:162
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-12 00:37+0000\n"
-"PO-Revision-Date: 2024-02-03 09:22+0200\n"
+"PO-Revision-Date: 2024-03-12 20:22+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -61,7 +61,7 @@ msgstr "Параметри"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr ""
+msgstr "Виберіть зображення для стискання"
 
 #: contents/ui/OptimizePage.qml:75
 #, kde-format
@@ -89,7 +89,7 @@ msgstr "%1 -> %2 (зменшення на %3%)"
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr ""
+msgstr "Додаткові параметри"
 
 #: contents/ui/OptimizePage.qml:162
 #, kde-format

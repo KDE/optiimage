@@ -1,146 +1,149 @@
-# SPDX-FileCopyrightText: 2024 Matjaž Jeran <matjaz.jeran@amis.net>
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the optiimage package.
+#
+# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-12 00:37+0000\n"
-"PO-Revision-Date: 2024-03-12 07:30+0100\n"
-"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
-"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
-"Language: sl\n"
+"PO-Revision-Date: 2024-03-11 18:50+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.4.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr "Konzolni izhod"
+msgstr "Konsoles izvade"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr "Ni dnevnika"
+msgstr "Nav žurnāla izvades"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr "Optimiziraj svoje slike"
+msgstr "Optimizējiet attēlus"
 
 #: contents/ui/OptimizePage.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr "Ponovno preveri"
+msgstr "Atkārtoti pārbaudīt"
 
 #: contents/ui/OptimizePage.qml:40
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr "Za pravilno delovanje OptiImage manjkajo naslednji programi:"
+msgstr "Lai „OptiImage“ pareizi darbotos, tam trūkst šo programmu:"
 
 #: contents/ui/OptimizePage.qml:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr "Izberi slike"
+msgstr "Atlasīt attēlus"
 
 #: contents/ui/OptimizePage.qml:58
 #, kde-format
 msgid "Settings"
-msgstr "Nastavitve"
+msgstr "Iestatījumi"
 
 #: contents/ui/OptimizePage.qml:71
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr "Izberi sliko za stiskanje"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr "Slikovne datoteke (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "Attēlu datnes (*.jpg *.jpeg *.png *.svg *.webp)"
 
 #: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "All files (*)"
-msgstr "Vse datoteke (*)"
+msgstr "Visas datnes (*)"
 
 #: contents/ui/OptimizePage.qml:99
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr "%1 (Brez sprememb)"
+msgstr "%1 (bez izmaiņām)"
 
 #: contents/ui/OptimizePage.qml:101
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr "%1 -> %2 (%3% zmanjšanje)"
+msgstr "%1 —> %2 (%3% samazinājums)"
 
 #: contents/ui/OptimizePage.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr "Več možnosti"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:162
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr "Odpri"
+msgstr "Atvērt"
 
 #: contents/ui/OptimizePage.qml:168
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr "Odpri vsebovano mapo"
+msgstr "Atvērt saturošo mapi"
 
 #: contents/ui/OptimizePage.qml:174
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr "Lastnosti"
+msgstr "Īpašības"
 
 #: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgid "No images to optimize"
-msgstr "Ni slik za optimizacijo"
+msgstr "Nav optimizējamu attēlu"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr "Nastavitve"
+msgstr "Iestatījumi"
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr "Splošno"
+msgstr "Pamata"
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr "Ohrani metapodatke"
+msgstr "Paturēt metadatus"
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr "Varni način"
+msgstr "Drošais režīms"
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr "Shranite stisnjeno sliko v novo datoteko"
+msgstr "Saspiesto attēlu saglabāt jaunā datnē"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr "Pripona za dodajanje na koncu nove datoteke"
+msgstr "Datnes beigām pievienojamais piedēklis"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
@@ -150,29 +153,31 @@ msgstr "JPG"
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr "Progresivno kodiranje"
+msgstr "Progresīvā kodēšana"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr "Če želite omogočiti postopno upodabljanje slik: zamegli za očiščenje."
+msgstr ""
+"Lai ieslēgtu pakāpenisku attēla renderēšanu: no izplūduša līdz skaidram"
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr "Uporabi stiskanje brez izgube"
+msgstr "Izmantot saspiešanu be zudumiem"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
-msgstr "Uporabljaj samo algoritme stiskanja, ki ne zmanjšajo kakovosti slike."
+msgstr ""
+"Izmantot tikai tādus saspiešanas algoritmus, kas nesamazina attēla kvalitāti."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr "Privzeta raven optimizacije optimizacije z izgubo:"
+msgstr "Noklusējuma optimizācijas līmenis optimizācijai ar zaudējumiem:"
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
@@ -182,7 +187,7 @@ msgstr "PNG"
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr "Privzeta raven optimizacije optimizacije brez izgube:"
+msgstr "Noklusējuma optimizācijas līmenis optimizācijai bez zaudējumiem"
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
@@ -193,13 +198,13 @@ msgstr "SVG"
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr "Najvišja raven stiskanja"
+msgstr "Maksimālais saspiešanas līmenis"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr "Je lahko bolj uničujoče za sliko."
+msgstr "Var attēlu vairāk sabojāt."
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
@@ -209,12 +214,12 @@ msgstr "WebP"
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr "O OptiImage"
+msgstr "Par „OptiImage“"
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr "O KDE"
+msgstr "Par KDE"
 
 #: main.cpp:32
 #, kde-format
@@ -224,12 +229,12 @@ msgstr "OptiImage"
 #: main.cpp:34
 #, kde-format
 msgid "Images Optimiser"
-msgstr "Optimizator slik"
+msgstr "Attēlu optimizēšanas programma"
 
 #: main.cpp:36
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr "© 2021 - 2023 Carl Schwan"
+msgstr "© 2021—2023 Carl Schwan"
 
 #: main.cpp:38
 #, kde-format
@@ -239,20 +244,16 @@ msgstr "Carl Schwan"
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr "Vzdrževalec"
+msgstr "Uzturētājs"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Matjaž Jeran"
+msgstr "Toms Trasūns"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "matjaz.jeran@amis.net"
-
-#~ msgctxt "contents/ui/SettingsPage.qml:15"
-#~ msgid "Settings"
-#~ msgstr "Nastavitve"
+msgstr "toms.trasuns@posteo.net"
