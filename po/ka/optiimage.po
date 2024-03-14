@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-12 00:37+0000\n"
-"PO-Revision-Date: 2024-02-03 06:54+0100\n"
+"PO-Revision-Date: 2024-03-12 05:13+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -63,7 +63,7 @@ msgstr "მორგება"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr ""
+msgstr "აირჩიეთ გამოსახულება შესაკუმშად"
 
 #: contents/ui/OptimizePage.qml:75
 #, kde-format
@@ -91,7 +91,7 @@ msgstr "%1 -> %2 (%3% შემცირება)"
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr ""
+msgstr "მეტი პარამეტრი"
 
 #: contents/ui/OptimizePage.qml:162
 #, kde-format
