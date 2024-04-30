@@ -220,8 +220,9 @@
       <li xml:lang="zh-TW">對 WebP 影像使用 cwebp</li>
     </ul>
   </description>
-  <url type="homepage">https://invent.kde.org/carlschwan/optiimage</url>
+  <url type="homepage">https://apps.kde.org/optiimage/</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=OptitImage</url>
+  <url type="vcs-browser">https://invent.kde.org/graphics/optiimage</url>
   <categories>
     <category>Graphics</category>
   </categories>
