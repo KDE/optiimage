@@ -10,6 +10,7 @@
   <name xml:lang="ca">OptiImage</name>
   <name xml:lang="ca-valencia">OptiImage</name>
   <name xml:lang="cs">OptiImage</name>
+  <name xml:lang="en-GB">OptiImage</name>
   <name xml:lang="eo">OptiImage</name>
   <name xml:lang="es">OptiImage</name>
   <name xml:lang="eu">OptiImage</name>
@@ -35,6 +36,7 @@
   <summary>Image optimizer to reduce the size of images</summary>
   <summary xml:lang="ca">Optimitzador d'imatges per a reduir la mida de les imatges</summary>
   <summary xml:lang="ca-valencia">Optimitzador d'imatges per a reduir-ne la mida</summary>
+  <summary xml:lang="en-GB">Image optimiser to reduce the size of images</summary>
   <summary xml:lang="eo">Bild-optimumigilo por redukti la grandecon de bildoj</summary>
   <summary xml:lang="es">Optimizador de imágenes para reducir su tamaño</summary>
   <summary xml:lang="eu">Irudien neurria murrizteko optimizatzaile bat</summary>
@@ -64,6 +66,7 @@
     PNG, JPEG, WebP and SVG file types.</p>
     <p xml:lang="ca">Optimitzeu les imatges amb l'OptiImage, un compressor d'imatges útil que admet tipus de fitxers PNG, JPEG, WebP i SVG.</p>
     <p xml:lang="ca-valencia">Optimitzeu les imatges amb OptiImage, un compressor d'imatges útil que admet tipus de fitxers PNG, JPEG, WebP i SVG.</p>
+    <p xml:lang="en-GB">Optimise your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.</p>
     <p xml:lang="eo">Optimumigu viajn bildojn per OptiImage, utila bildkunpremilo kiu subtenas PNG, JPEG, WebP kaj SVG-dosiertipojn.</p>
     <p xml:lang="es">Optimice sus imágenes con OptiImage, un útil compresor de imágenes compatible con los tipos de archivo PNG, JPEG, WebP y SVG.</p>
     <p xml:lang="eu">Optimizatu zure irudiak OptiImage erabiliz, PNG, JPEG, WebP eta SVG fitxategi motak onartzen dituen irudi konprimatzaile baliagarri bat.</p>
@@ -88,6 +91,7 @@
     image is created instead of overwriting the old one.</p>
     <p xml:lang="ca">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantenir o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="ca-valencia">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantindre o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
+    <p xml:lang="en-GB">It supports both lossless and lossy compression modes with an option whether to keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwriting the old one.</p>
     <p xml:lang="eo">Ĝi subtenas ambaŭ senperdan kaj perdan kunpremajn reĝimojn kun eblo ĉu konservi aŭ ne metadatumojn de bildoj. Ĝi krome havas sekuran reĝimon, kie nova bildo estas kreita anstataŭ superskribi la malnovan.</p>
     <p xml:lang="es">Permite usar los modos de compresión con y sin pérdida, con la opción de conservar los metadatos de las imágenes. También dispone de un modo seguro que crea imágenes nuevas en lugar de sobrescribir las existentes.</p>
     <p xml:lang="eu">Galerarik gabeko eta galeradun konpresio moduak, biak onartzen ditu, irudien meta-datuak mantendu edo ez erabakitzeko aukera batekin. Modu seguru bat ere badu, irudi zaharra gainidatzi ordez berri bat sortzeko.</p>
@@ -110,6 +114,7 @@
     <p>It uses the following tools:</p>
     <p xml:lang="ca">Utilitza les eines següents:</p>
     <p xml:lang="ca-valencia">Utilitza les eines següents:</p>
+    <p xml:lang="en-GB">It uses the following tools:</p>
     <p xml:lang="eo">Ĝi uzas la sekvajn ilojn:</p>
     <p xml:lang="es">Usa las siguientes herramientas:</p>
     <p xml:lang="eu">Ondoko tresnak erabiltzen ditu:</p>
@@ -133,6 +138,7 @@
       <li>oxipng for PNG images</li>
       <li xml:lang="ca">«oxipng» per a imatges PNG</li>
       <li xml:lang="ca-valencia">«oxipng» per a imatges PNG</li>
+      <li xml:lang="en-GB">oxipng for PNG images</li>
       <li xml:lang="eo">oxipng por PNG-bildoj</li>
       <li xml:lang="es">oxipng para las imágenes PNG</li>
       <li xml:lang="eu">oxipng PNG irudietarako</li>
@@ -155,6 +161,7 @@
       <li>jpegoptim for JPEG images</li>
       <li xml:lang="ca">«jpegoptim» per a imatges JPEG</li>
       <li xml:lang="ca-valencia">«jpegoptim» per a imatges JPEG</li>
+      <li xml:lang="en-GB">jpegoptim for JPEG images</li>
       <li xml:lang="eo">jpegoptim por JPEG-bildoj</li>
       <li xml:lang="es">jpegoptim para las imágenes JPEG</li>
       <li xml:lang="eu">jpegoptim JPEG irudietarako</li>
@@ -177,6 +184,7 @@
       <li>scour for SVG images</li>
       <li xml:lang="ca">«scour» per a imatges SVG</li>
       <li xml:lang="ca-valencia">«scour» per a imatges SVG</li>
+      <li xml:lang="en-GB">scour for SVG images</li>
       <li xml:lang="eo">scour por SVG-bildoj</li>
       <li xml:lang="es">scour para las imágenes SVG</li>
       <li xml:lang="eu">scour SVG irudietarako</li>
@@ -199,6 +207,7 @@
       <li>cwebp for WebP images</li>
       <li xml:lang="ca">«cwebp» per a imatges WebP</li>
       <li xml:lang="ca-valencia">«cwebp» per a imatges WebP</li>
+      <li xml:lang="en-GB">cwebp for WebP images</li>
       <li xml:lang="eo">cwebp por WebP-bildoj</li>
       <li xml:lang="es">cwebp para las imágenes WebP</li>
       <li xml:lang="eu">cwebp WebP irudietarako</li>
