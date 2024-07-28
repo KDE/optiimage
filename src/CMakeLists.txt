@@ -13,7 +13,7 @@ qt_add_qml_module(optiimage_static
         contents/ui/LogOutputPage.qml
 )
 
-target_sources(optiimage_static PUBLIC
+target_sources(optiimage_static PRIVATE
     consolelog.cpp
     consolelog.h
     imagemodel.cpp
