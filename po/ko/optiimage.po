@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-12 00:37+0000\n"
-"PO-Revision-Date: 2024-02-10 00:26+0100\n"
+"PO-Revision-Date: 2024-08-19 23:36+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
@@ -60,7 +60,7 @@ msgstr "설정"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr ""
+msgstr "압축할 이미지 선택"
 
 #: contents/ui/OptimizePage.qml:75
 #, kde-format
@@ -88,7 +88,7 @@ msgstr "%1 -> %2(%3% 감소)"
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr ""
+msgstr "옵션 더 보기"
 
 #: contents/ui/OptimizePage.qml:162
 #, kde-format
