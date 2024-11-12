@@ -1,18 +1,18 @@
 # translation of optiimage.po to Slovak
-# Roman Paholik <wizzardsk@gmail.com>, 2024.
+# SPDX-FileCopyrightText: 2024 Roman Paholik <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-12 00:37+0000\n"
-"PO-Revision-Date: 2017-11-01 11:06+0100\n"
-"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
+"PO-Revision-Date: 2024-11-11 17:56+0100\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 24.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: contents/ui/LogOutputPage.qml:15
@@ -47,12 +47,12 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr ""
+msgstr "Vybrať obrázky"
 
 #: contents/ui/OptimizePage.qml:58
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Nastavenia"
 
 #: contents/ui/OptimizePage.qml:71
 #, kde-format
@@ -68,43 +68,43 @@ msgstr ""
 #: contents/ui/OptimizePage.qml:75
 #, kde-format
 msgid "All files (*)"
-msgstr ""
+msgstr "Všetky súbory (*)"
 
 #: contents/ui/OptimizePage.qml:99
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr ""
+msgstr "Bez zmeny"
 
 #: contents/ui/OptimizePage.qml:101
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr ""
+msgstr "Znížiť:"
 
 #: contents/ui/OptimizePage.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr ""
+msgstr "Viac možností"
 
 #: contents/ui/OptimizePage.qml:162
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr ""
+msgstr "Otvoriť"
 
 #: contents/ui/OptimizePage.qml:168
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr ""
+msgstr "Otvoriť priečinok s obsahom"
 
 #: contents/ui/OptimizePage.qml:174
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr ""
+msgstr "Vlastnosti"
 
 #: contents/ui/OptimizePage.qml:183
 #, kde-format
@@ -115,12 +115,12 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr ""
+msgstr "Nastavenia"
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "Všeobecné"
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
@@ -145,7 +145,7 @@ msgstr ""
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
 msgid "JPG"
-msgstr ""
+msgstr "JPG"
 
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
@@ -177,7 +177,7 @@ msgstr ""
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
@@ -187,7 +187,7 @@ msgstr ""
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: contents/ui/SettingsPage.qml:135
 #, kde-format
@@ -204,7 +204,7 @@ msgstr ""
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
 msgid "WebP"
-msgstr ""
+msgstr "WebP"
 
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
@@ -214,12 +214,12 @@ msgstr ""
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr ""
+msgstr "Informácie o KDE"
 
 #: main.cpp:32
 #, kde-format
 msgid "OptiImage"
-msgstr ""
+msgstr "OptiImage"
 
 #: main.cpp:34
 #, kde-format
@@ -229,26 +229,26 @@ msgstr ""
 #: main.cpp:36
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr ""
+msgstr "© 2021 - 2023 Carl Schwan"
 
 #: main.cpp:38
 #, kde-format
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Správca"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roman Paholík"
 
 #: main.cpp:39
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "wizzardsk@gmail.com"
