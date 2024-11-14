@@ -20,11 +20,12 @@ Kirigami.ScrollablePage {
         Component.onCompleted: check();
     }
 
-    header: Components.Banner {
+    header: Kirigami.InlineMessage {
         visible: !setupCheck.isValidSetup
 
         type: Kirigami.MessageType.Error
         width: parent.width
+        position: Kirigami.InlineMessage.Position.Header
 
         showCloseButton: true
 
