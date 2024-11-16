@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-12 00:37+0000\n"
+"POT-Creation-Date: 2024-11-16 00:39+0000\n"
 "PO-Revision-Date: 2024-03-12 22:20+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -35,83 +35,83 @@ msgstr "No hay salida de registro"
 msgid "Optimize your images"
 msgstr "Optimice sus imágenes"
 
-#: contents/ui/OptimizePage.qml:32
+#: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
 msgstr "Volver a comprobar"
 
-#: contents/ui/OptimizePage.qml:40
+#: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr ""
 "Faltan los siguientes programas para que OptiImage funcione correctamente:"
 
-#: contents/ui/OptimizePage.qml:53
+#: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
 msgstr "Selección de imágenes"
 
-#: contents/ui/OptimizePage.qml:58
+#: contents/ui/OptimizePage.qml:59
 #, kde-format
 msgid "Settings"
 msgstr "Preferencias"
 
-#: contents/ui/OptimizePage.qml:71
+#: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
 msgstr "Seleccione la imagen que se va a comprimir"
 
-#: contents/ui/OptimizePage.qml:75
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "Archivos de imagen (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:75
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
 msgstr "Todos los archivos (*)"
 
-#: contents/ui/OptimizePage.qml:99
+#: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1 (sin cambios)"
 
-#: contents/ui/OptimizePage.qml:101
+#: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2 (%3 % menor)"
 
-#: contents/ui/OptimizePage.qml:124
+#: contents/ui/OptimizePage.qml:125
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
 msgstr "Más opciones"
 
-#: contents/ui/OptimizePage.qml:162
+#: contents/ui/OptimizePage.qml:163
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Abrir"
 
-#: contents/ui/OptimizePage.qml:168
+#: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "Abrir la carpeta contenedora"
 
-#: contents/ui/OptimizePage.qml:174
+#: contents/ui/OptimizePage.qml:175
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Propiedades"
 
-#: contents/ui/OptimizePage.qml:183
+#: contents/ui/OptimizePage.qml:184
 #, kde-format
 msgid "No images to optimize"
 msgstr "No hay imágenes que optimizar"

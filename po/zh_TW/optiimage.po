@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-12 00:37+0000\n"
+"POT-Creation-Date: 2024-11-16 00:39+0000\n"
 "PO-Revision-Date: 2024-03-20 18:04+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -33,82 +33,82 @@ msgstr "沒有紀錄輸出"
 msgid "Optimize your images"
 msgstr "最佳化您的影像"
 
-#: contents/ui/OptimizePage.qml:32
+#: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
 msgstr "重新檢查"
 
-#: contents/ui/OptimizePage.qml:40
+#: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr "OptiImage 要正常運作還需要以下的程式："
 
-#: contents/ui/OptimizePage.qml:53
+#: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
 msgstr "選擇影像"
 
-#: contents/ui/OptimizePage.qml:58
+#: contents/ui/OptimizePage.qml:59
 #, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: contents/ui/OptimizePage.qml:71
+#: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
 msgstr "選擇要壓縮的影像"
 
-#: contents/ui/OptimizePage.qml:75
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "影像檔 (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:75
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
 msgstr "所有檔案 (*)"
 
-#: contents/ui/OptimizePage.qml:99
+#: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1（沒有變更）"
 
-#: contents/ui/OptimizePage.qml:101
+#: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2（減少 %3%）"
 
-#: contents/ui/OptimizePage.qml:124
+#: contents/ui/OptimizePage.qml:125
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
 msgstr "更多選項"
 
-#: contents/ui/OptimizePage.qml:162
+#: contents/ui/OptimizePage.qml:163
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "開啟"
 
-#: contents/ui/OptimizePage.qml:168
+#: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "開啟包含資料夾"
 
-#: contents/ui/OptimizePage.qml:174
+#: contents/ui/OptimizePage.qml:175
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "屬性"
 
-#: contents/ui/OptimizePage.qml:183
+#: contents/ui/OptimizePage.qml:184
 #, kde-format
 msgid "No images to optimize"
 msgstr "沒有能最佳化的影像"

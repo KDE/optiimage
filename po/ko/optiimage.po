@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-12 00:37+0000\n"
+"POT-Creation-Date: 2024-11-16 00:39+0000\n"
 "PO-Revision-Date: 2024-08-19 23:36+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -33,82 +33,82 @@ msgstr "로그 출력 없음"
 msgid "Optimize your images"
 msgstr "이미지 최적화"
 
-#: contents/ui/OptimizePage.qml:32
+#: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
 msgstr "다시 검사"
 
-#: contents/ui/OptimizePage.qml:40
+#: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr "OptiImage가 올바르게 실행되려면 다음 프로그램이 필요합니다:"
 
-#: contents/ui/OptimizePage.qml:53
+#: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
 msgstr "이미지 선택"
 
-#: contents/ui/OptimizePage.qml:58
+#: contents/ui/OptimizePage.qml:59
 #, kde-format
 msgid "Settings"
 msgstr "설정"
 
-#: contents/ui/OptimizePage.qml:71
+#: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
 msgstr "압축할 이미지 선택"
 
-#: contents/ui/OptimizePage.qml:75
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "이미지 파일 (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:75
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
 msgstr "모든 파일 (*)"
 
-#: contents/ui/OptimizePage.qml:99
+#: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1(변경 없음)"
 
-#: contents/ui/OptimizePage.qml:101
+#: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2(%3% 감소)"
 
-#: contents/ui/OptimizePage.qml:124
+#: contents/ui/OptimizePage.qml:125
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
 msgstr "옵션 더 보기"
 
-#: contents/ui/OptimizePage.qml:162
+#: contents/ui/OptimizePage.qml:163
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "열기"
 
-#: contents/ui/OptimizePage.qml:168
+#: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "포함하는 폴더 열기"
 
-#: contents/ui/OptimizePage.qml:174
+#: contents/ui/OptimizePage.qml:175
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "속성"
 
-#: contents/ui/OptimizePage.qml:183
+#: contents/ui/OptimizePage.qml:184
 #, kde-format
 msgid "No images to optimize"
 msgstr "최적화할 이미지 없음"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-12 00:37+0000\n"
+"POT-Creation-Date: 2024-11-16 00:39+0000\n"
 "PO-Revision-Date: 2024-03-17 05:34+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
@@ -34,82 +34,82 @@ msgstr "Neniu protokola eligo"
 msgid "Optimize your images"
 msgstr "Optimumigu viajn bildojn"
 
-#: contents/ui/OptimizePage.qml:32
+#: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
 msgstr "Rekontroli"
 
-#: contents/ui/OptimizePage.qml:40
+#: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr "La sekvantaj programoj mankas por ke OptiImage rulu korekte:"
 
-#: contents/ui/OptimizePage.qml:53
+#: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
 msgstr "Elekti Bildojn"
 
-#: contents/ui/OptimizePage.qml:58
+#: contents/ui/OptimizePage.qml:59
 #, kde-format
 msgid "Settings"
 msgstr "Agordoj"
 
-#: contents/ui/OptimizePage.qml:71
+#: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
 msgstr "Elekti bildon por kunpremi"
 
-#: contents/ui/OptimizePage.qml:75
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "Bilddosieroj ((*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:75
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
 msgstr "Ĉiuj dosieroj (*)"
 
-#: contents/ui/OptimizePage.qml:99
+#: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1 (Neniu ŝanĝoj)"
 
-#: contents/ui/OptimizePage.qml:101
+#: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2 (%3% malpliiĝo)"
 
-#: contents/ui/OptimizePage.qml:124
+#: contents/ui/OptimizePage.qml:125
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
 msgstr "Pliaj elektebloj"
 
-#: contents/ui/OptimizePage.qml:162
+#: contents/ui/OptimizePage.qml:163
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Malfermi"
 
-#: contents/ui/OptimizePage.qml:168
+#: contents/ui/OptimizePage.qml:169
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "Malfermi Entenantan Dosierujon"
 
-#: contents/ui/OptimizePage.qml:174
+#: contents/ui/OptimizePage.qml:175
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Proprecoj"
 
-#: contents/ui/OptimizePage.qml:183
+#: contents/ui/OptimizePage.qml:184
 #, kde-format
 msgid "No images to optimize"
 msgstr "Neniu bildoj por optimumigi"
