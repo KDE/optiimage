@@ -52,6 +52,7 @@ Kirigami.ScrollablePage {
             id: addImages
             icon.name: "list-add"
             text: i18nc("@action:button", "Select Images")
+            visible: imageView.count !== 0
             onTriggered: fileDialog.open()
         },
         Kirigami.Action {
