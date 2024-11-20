@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-16 00:39+0000\n"
+"POT-Creation-Date: 2024-11-20 00:39+0000\n"
 "PO-Revision-Date: 2024-05-23 20:14+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -51,64 +51,64 @@ msgctxt "@action:button"
 msgid "Select Images"
 msgstr "Select Images"
 
-#: contents/ui/OptimizePage.qml:59
+#: contents/ui/OptimizePage.qml:60
 #, kde-format
 msgid "Settings"
 msgstr "Settings"
 
-#: contents/ui/OptimizePage.qml:72
+#: contents/ui/OptimizePage.qml:73
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
 msgstr "Select an image to compress"
 
-#: contents/ui/OptimizePage.qml:76
+#: contents/ui/OptimizePage.qml:77
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:76
+#: contents/ui/OptimizePage.qml:77
 #, kde-format
 msgid "All files (*)"
 msgstr "All files (*)"
 
-#: contents/ui/OptimizePage.qml:100
+#: contents/ui/OptimizePage.qml:101
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1 (No change)"
 
-#: contents/ui/OptimizePage.qml:102
+#: contents/ui/OptimizePage.qml:103
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2 (%3% decrease)"
 
-#: contents/ui/OptimizePage.qml:125
+#: contents/ui/OptimizePage.qml:126
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
 msgstr "More options"
 
-#: contents/ui/OptimizePage.qml:163
+#: contents/ui/OptimizePage.qml:164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Open"
 
-#: contents/ui/OptimizePage.qml:169
+#: contents/ui/OptimizePage.qml:170
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "Open Containing Folder"
 
-#: contents/ui/OptimizePage.qml:175
+#: contents/ui/OptimizePage.qml:176
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Properties"
 
-#: contents/ui/OptimizePage.qml:184
+#: contents/ui/OptimizePage.qml:185
 #, kde-format
 msgid "No images to optimize"
 msgstr "No images to optimise"
