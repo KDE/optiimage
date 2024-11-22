@@ -54,6 +54,18 @@ void ImageModel::addImages(const QList<QUrl> &paths)
 {
     const auto config = Config::self();
     for (const auto &path : paths) {
+        bool imageExists = false;
+        if (!m_images.isEmpty()) {
+            for (const auto &image : m_images) {
+                if (image.path == path) {
+                    imageExists = true;
+                    break;
+                }
+            }
+        }
+        if (imageExists) {
+            continue;
+        }
         beginInsertRows({}, m_images.count(), m_images.count());
         QFileInfo fileInfo(path.toLocalFile());
         QMimeDatabase db;
