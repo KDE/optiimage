@@ -89,6 +89,13 @@ void ImageModel::addImages(const QList<QUrl> &paths)
     optimize();
 }
 
+void ImageModel::removeImage(const int index)
+{
+    beginRemoveRows(QModelIndex(), index, index);
+    m_images.removeAt(index);
+    endRemoveRows();
+}
+
 QCoro::Task<> ImageModel::optimize()
 {
     if (m_running) {

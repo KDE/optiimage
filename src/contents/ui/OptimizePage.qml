@@ -17,7 +17,7 @@ Kirigami.ScrollablePage {
     title: i18n("Optimize your images")
 
     readonly property SetupCheck setupCheck: SetupCheck {
-        Component.onCompleted: check();
+        Component.onCompleted: check()
     }
 
     header: Kirigami.InlineMessage {
@@ -41,7 +41,7 @@ Kirigami.ScrollablePage {
             let result = i18nc("@info", "The following programs are missing for OptiImage to run correctly:");
             result += "<ul>";
             for (let program of setupCheck.missingPrograms) {
-                result += `<li>${program}</li>`
+                result += `<li>${program}</li>`;
             }
             result += "</ul>";
         }
@@ -58,8 +58,7 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             icon.name: "settings-configure"
             text: i18n("Settings")
-            onTriggered: pageStack.layers.push(settings);
-
+            onTriggered: pageStack.layers.push(settings)
         }
     ]
 
@@ -120,17 +119,10 @@ Kirigami.ScrollablePage {
                     itemDelegate: imageDelegate
                 }
 
-                QQC2.Button {
-                    id: configButton
-                    visible: imageDelegate.hovered && !Kirigami.Settings.isMobile
-                    text: i18nc("@action:button", "More options")
-                    display: QQC2.Button.IconOnly
-
-                    icon.name: "configure"
-                    onClicked: {
-                        menu.fileName = imageDelegate.filename;
-                        menu.popup();
-                    }
+                QQC2.BusyIndicator {
+                    id: busyIndicator
+                    running: !imageDelegate.processed
+                    visible: !imageDelegate.processed
                 }
 
                 Kirigami.Icon {
@@ -138,6 +130,27 @@ Kirigami.ScrollablePage {
                     Layout.preferredHeight: Kirigami.Units.iconSizes.medium
                     source: 'checkbox-symbolic'
                     visible: imageDelegate.processed
+                }
+
+                QQC2.Button {
+                    id: configButton
+                    visible: !Kirigami.Settings.isMobile
+                    text: i18nc("@action:button", "More options")
+                    display: QQC2.Button.IconOnly
+
+                    icon.name: "configure-symbolic"
+                    onClicked: {
+                        menu.fileName = imageDelegate.filename;
+                        menu.popup();
+                    }
+                }
+
+                QQC2.Button {
+                    id: removeButton
+                    text: i18nc("@action:button", "Remove")
+                    display: QQC2.Button.IconOnly
+                    icon.name: "list-remove-symbolic"
+                    onClicked: imageModel.removeImage(index)
                 }
 
                 TapHandler {
@@ -190,12 +203,12 @@ Kirigami.ScrollablePage {
         }
 
         DropArea {
-            onEntered: function(drag) {
+            onEntered: function (drag) {
                 if (!drag.hasUrls) {
                     drag.accepted = false;
                 }
             }
-            onDropped: function(drop) {
+            onDropped: function (drop) {
                 imageModel.addImages(drop.urls);
             }
             anchors.fill: parent

@@ -43,6 +43,7 @@ public:
     int rowCount(const QModelIndex &parent = {}) const override;
     QHash<int, QByteArray> roleNames() const override;
     Q_INVOKABLE void addImages(const QList<QUrl> &paths);
+    Q_INVOKABLE void removeImage(const int index);
 
     bool running() const;
 
