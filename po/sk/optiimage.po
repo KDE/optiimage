@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-20 00:39+0000\n"
+"POT-Creation-Date: 2024-11-23 00:39+0000\n"
 "PO-Revision-Date: 2024-11-11 17:56+0100\n"
 "Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -54,59 +54,65 @@ msgstr "Vybrať obrázky"
 msgid "Settings"
 msgstr "Nastavenia"
 
-#: contents/ui/OptimizePage.qml:73
+#: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
 msgstr ""
 
-#: contents/ui/OptimizePage.qml:77
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr ""
 
-#: contents/ui/OptimizePage.qml:77
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
 msgstr "Všetky súbory (*)"
 
-#: contents/ui/OptimizePage.qml:101
+#: contents/ui/OptimizePage.qml:100
 #, fuzzy, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "Bez zmeny"
 
-#: contents/ui/OptimizePage.qml:103
+#: contents/ui/OptimizePage.qml:102
 #, fuzzy, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "Znížiť:"
 
-#: contents/ui/OptimizePage.qml:126
+#: contents/ui/OptimizePage.qml:138
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
 msgstr "Viac možností"
 
-#: contents/ui/OptimizePage.qml:164
+#: contents/ui/OptimizePage.qml:150
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr ""
+
+#: contents/ui/OptimizePage.qml:177
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Otvoriť"
 
-#: contents/ui/OptimizePage.qml:170
+#: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "Otvoriť priečinok s obsahom"
 
-#: contents/ui/OptimizePage.qml:176
+#: contents/ui/OptimizePage.qml:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Vlastnosti"
 
-#: contents/ui/OptimizePage.qml:185
+#: contents/ui/OptimizePage.qml:198
 #, kde-format
 msgid "No images to optimize"
 msgstr ""

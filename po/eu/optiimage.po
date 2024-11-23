@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-20 00:39+0000\n"
+"POT-Creation-Date: 2024-11-23 00:39+0000\n"
 "PO-Revision-Date: 2024-03-24 10:59+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -59,59 +59,65 @@ msgstr "Hautatu irudiak"
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: contents/ui/OptimizePage.qml:73
+#: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
 msgstr "Hautatu konprimatzeko irudi bat"
 
-#: contents/ui/OptimizePage.qml:77
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "Irudi-fitxategiak (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:77
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
 msgstr "Fitxategi guztiak (*)"
 
-#: contents/ui/OptimizePage.qml:101
+#: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1 (Aldaketarik ez)"
 
-#: contents/ui/OptimizePage.qml:103
+#: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 -> %2 (%%3 gutxitzea)"
 
-#: contents/ui/OptimizePage.qml:126
+#: contents/ui/OptimizePage.qml:138
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
 msgstr "Aukera gehiago"
 
-#: contents/ui/OptimizePage.qml:164
+#: contents/ui/OptimizePage.qml:150
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr ""
+
+#: contents/ui/OptimizePage.qml:177
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Ireki"
 
-#: contents/ui/OptimizePage.qml:170
+#: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "Ireki hau barnean duen karpeta"
 
-#: contents/ui/OptimizePage.qml:176
+#: contents/ui/OptimizePage.qml:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Propietateak"
 
-#: contents/ui/OptimizePage.qml:185
+#: contents/ui/OptimizePage.qml:198
 #, kde-format
 msgid "No images to optimize"
 msgstr "Ez dago optimizatu beharreko irudirik"
