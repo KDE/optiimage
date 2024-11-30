@@ -20,6 +20,10 @@ It uses the following tools:
 
 If you have an issue with OptiImage, please [open a support thread on KDE Discuss](https://discuss.kde.org/tag/optiimage). Alternatively, you ask in the [Plasma Mobile Matrix room](https://go.kde.org/matrix/#/#plasma-mobile:kde.org). See [Matrix](https://community.kde.org/Matrix) for more details.
 
+## Get It
+
+[![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/optiimage)
+
 ## Building
 
 The easiest way to make changes and test Tokodon during development is to [build it with kdesrc-build](https://community.kde.org/Get_Involved/development/Build_software_with_kdesrc-build).
