@@ -26,10 +26,10 @@ The easiest way to make changes and test Tokodon during development is to [build
 
 ## License
 
-![GPLv3](https://www.gnu.org/graphics/gplv3-127x51.png)
+![LGPLv3](https://www.gnu.org/graphics/lgplv3-with-text-154x68.png)
 
 This project is licensed under
-[GPL-3.0-or-later](https://spdx.org/licenses/preview/GPL-3.0-or-later.html).
+[LGPL-2.1-only](https://spdx.org/licenses/preview/LGPL-2.1-only.html) or [LGPL-3.0-only](https://spdx.org/licenses/preview/LGPL-3.0-only.html).
 
 ## Credit
 
