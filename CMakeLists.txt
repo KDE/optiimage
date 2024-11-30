@@ -10,11 +10,48 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(OptiImage VERSION ${RELEASE_SERVICE_VERSION})
 
-find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
+include(FeatureSummary)
+
+find_package(ECM ${KF_MIN_VERSION} NO_MODULE)
+set_package_properties(ECM PROPERTIES
+    TYPE REQUIRED
+    URL "https://api.kde.org/ecm/"
+    DESCRIPTION "extra cmake modules")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 
-include(FeatureSummary)
+find_package(Qt6 ${QT_MIN_VERSION} NO_MODULE  COMPONENTS Core Gui Qml QuickControls2 Svg Widgets)
+set_package_properties(Qt6 PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Required application components"
+)
+
+find_package(KF6 ${KF_MIN_VERSION} COMPONENTS Kirigami2 I18n CoreAddons Config KIO)
+set_package_properties(KF6 PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Required application components"
+)
+
+find_package(QCoro6 0.4 COMPONENTS Core Qml)
+set_package_properties(QCoro6 PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Required application components"
+)
+
+find_package(KF6Crash ${KF_MIN_VERSION})
+set_package_properties(KF6Crash PROPERTIES
+        TYPE OPTIONAL
+        PURPOSE "For crash handling"
+)
+
+find_package(KF6KirigamiAddons 1.5.0)
+set_package_properties(KF6KirigamiAddons PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Required application components and runtime dependency"
+)
+
+feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
@@ -30,9 +67,6 @@ ecm_setup_version(${RELEASE_SERVICE_VERSION}
     VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/optiimage-version.h
 )
 
-find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Widgets)
-find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Config KIO)
-find_package(QCoro6 0.4 COMPONENTS Core Qml REQUIRED)
 
 qt_policy(SET QTP0001 NEW)
 qcoro_enable_coroutines()

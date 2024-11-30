@@ -16,6 +16,10 @@
 
 #include "optiimage-version.h"
 
+#if __has_include("KCrash")
+#include <KCrash>
+#endif
+
 using namespace Qt::Literals::StringLiterals;
 
 int main(int argc, char *argv[])
@@ -42,6 +46,10 @@ int main(int argc, char *argv[])
 
     KAboutData::setApplicationData(about);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.optiimage")));
+
+#if __has_include("KCrash")
+    KCrash::initialize();
+#endif
 
     auto config = Config::self();
     qmlRegisterSingletonInstance("org.kde.optiimage.private", 1, 0, "Config", config);

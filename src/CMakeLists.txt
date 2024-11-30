@@ -49,4 +49,8 @@ add_executable(optiimage
     main.cpp
 )
 target_link_libraries(optiimage PUBLIC optiimage_static optiimage_staticplugin)
+
+if (TARGET KF6::Crash)
+    target_link_libraries(optiimage PUBLIC KF6::Crash)
+endif()
 install(TARGETS optiimage ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
