@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
 
 #include <KAboutData>
+#include <KIconTheme>
 #include <KLocalizedContext>
 #include <KLocalizedString>
 #include <QApplication>
@@ -24,6 +25,9 @@ using namespace Qt::Literals::StringLiterals;
 
 int main(int argc, char *argv[])
 {
+    KIconTheme::initTheme();
+    QIcon::setFallbackThemeName(u"breeze"_s);
+
     QApplication app(argc, argv);
     KLocalizedString::setApplicationDomain("optiimage");
 
