@@ -261,7 +261,15 @@
   <content_rating type="oars-1.1"/>
   <screenshots>
     <screenshot type="default">
-      <image>https://cdn.kde.org/screenshots/optiimage/optiimage.png</image>
+      <image>https://cdn.kde.org/screenshots/optiimage/optiimage2.png</image>
     </screenshot>
   </screenshots>
+  <releases>
+    <release version="1.0.0" date="2024-11-30">
+      <url>https://carlschwan.eu/2024/11/24/optiimage-1.0.0-is-out/</url>
+      <description>
+        <p>Initial release of OptiImage</p>
+      </description>
+    </release>
+  </releases>
 </component>
