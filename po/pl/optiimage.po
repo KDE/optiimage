@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-23 00:39+0000\n"
-"PO-Revision-Date: 2024-03-17 11:35+0100\n"
+"POT-Creation-Date: 2024-12-01 00:39+0000\n"
+"PO-Revision-Date: 2024-11-30 09:47+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
@@ -94,7 +95,7 @@ msgstr "Więcej ustawień"
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "Usuń"
 
 #: contents/ui/OptimizePage.qml:177
 #, kde-format
@@ -226,38 +227,38 @@ msgstr "O OptiImage"
 msgid "About KDE"
 msgstr "O KDE"
 
-#: main.cpp:32
+#: main.cpp:40
 #, kde-format
 msgid "OptiImage"
 msgstr "OptiImage"
 
-#: main.cpp:34
+#: main.cpp:42
 #, kde-format
 msgid "Images Optimiser"
 msgstr "Optymalizator obrazów"
 
-#: main.cpp:36
+#: main.cpp:44
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
 msgstr "© 2021 - 2023 Carl Schwan"
 
-#: main.cpp:38
+#: main.cpp:46
 #, kde-format
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:38
+#: main.cpp:46
 #, kde-format
 msgid "Maintainer"
 msgstr "Opiekun"
 
-#: main.cpp:39
+#: main.cpp:47
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Łukasz Wojniłowicz"
 
-#: main.cpp:39
+#: main.cpp:47
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
