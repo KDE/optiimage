@@ -26,7 +26,7 @@ set_package_properties(Qt6 PROPERTIES
     PURPOSE "Required application components"
 )
 
-find_package(KF6 ${KF_MIN_VERSION} COMPONENTS Kirigami2 I18n CoreAddons Config KIO IconThemes )
+find_package(KF6 ${KF_MIN_VERSION} COMPONENTS Kirigami2 I18n CoreAddons Config KIO IconThemes Crash)
 set_package_properties(KF6 PROPERTIES
     TYPE REQUIRED
     PURPOSE "Required application components"
@@ -36,12 +36,6 @@ find_package(QCoro6 0.4 COMPONENTS Core Qml)
 set_package_properties(QCoro6 PROPERTIES
     TYPE REQUIRED
     PURPOSE "Required application components"
-)
-
-find_package(KF6Crash ${KF_MIN_VERSION})
-set_package_properties(KF6Crash PROPERTIES
-        TYPE OPTIONAL
-        PURPOSE "For crash handling"
 )
 
 find_package(KF6KirigamiAddons 1.5.0)
