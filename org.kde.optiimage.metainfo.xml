@@ -6,6 +6,7 @@
 -->
   <id>org.kde.optiimage</id>
   <name>OptiImage</name>
+  <name xml:lang="ar">المحسّن</name>
   <name xml:lang="ast">OptiImage</name>
   <name xml:lang="ca">OptiImage</name>
   <name xml:lang="ca-valencia">OptiImage</name>
@@ -37,6 +38,7 @@
     <binary>optiimage</binary>
   </provides>
   <summary>Image optimizer to reduce the size of images</summary>
+  <summary xml:lang="ar">مُحسِّن الصور لتقليل حجم الصور</summary>
   <summary xml:lang="ca">Optimitzador d'imatges per a reduir la mida de les imatges</summary>
   <summary xml:lang="ca-valencia">Optimitzador d'imatges per a reduir-ne la mida</summary>
   <summary xml:lang="en-GB">Image optimiser to reduce the size of images</summary>
@@ -69,6 +71,7 @@
   <description>
     <p>Optimize your images with OptiImage, a useful image compressor that supports
     PNG, JPEG, WebP and SVG file types.</p>
+    <p xml:lang="ar">حسّن صورك باستخدام المحسّن، وهو ضاغط صور مفيد يدعم أنواع ملفات PNG وJPEG وWebP وSVG</p>
     <p xml:lang="ca">Optimitzeu les imatges amb l'OptiImage, un compressor d'imatges útil que admet tipus de fitxers PNG, JPEG, WebP i SVG.</p>
     <p xml:lang="ca-valencia">Optimitzeu les imatges amb OptiImage, un compressor d'imatges útil que admet tipus de fitxers PNG, JPEG, WebP i SVG.</p>
     <p xml:lang="en-GB">Optimise your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.</p>
@@ -96,6 +99,7 @@
     <p>It supports both lossless and lossy compression modes with an option whether
     to keep or not metadata of images. It additionally has a safe mode, where a new
     image is created instead of overwriting the old one.</p>
+    <p xml:lang="ar">يدعم كلاً من وضعي الضغط بدون فقدان أو مع فقدان البيانات مع خيار الاحتفاظ ببيانات الصور الوصفية أو عدم الاحتفاظ بها. كما يحتوي على وضع آمن، حيث ينشئ صورة جديدة بدلاً من الكتابة فوق الصورة القديمة.</p>
     <p xml:lang="ca">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantenir o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="ca-valencia">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantindre o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="en-GB">It supports both lossless and lossy compression modes with an option whether to keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwriting the old one.</p>
@@ -121,6 +125,7 @@
     <p xml:lang="zh-CN">它同时支持有损和无损压缩模式，并可以选择是否要保留图像的元数据。它还有一个安全模式，将压缩后的图像另存为新文件而不是覆盖原文件。</p>
     <p xml:lang="zh-TW">支援無損和有損壓縮模式，並且可選擇是否保留影像的中繼資料。它也提供安全模式選項，將壓縮後的影像寫入新檔案而不是覆寫舊檔案。</p>
     <p>It uses the following tools:</p>
+    <p xml:lang="ar">يستخدم الأدوات التالية:</p>
     <p xml:lang="ca">Utilitza les eines següents:</p>
     <p xml:lang="ca-valencia">Utilitza les eines següents:</p>
     <p xml:lang="en-GB">It uses the following tools:</p>
@@ -147,6 +152,7 @@
     <p xml:lang="zh-TW">它會利用以下工具：</p>
     <ul>
       <li>oxipng for PNG images</li>
+      <li xml:lang="ar">oxipng لصور PNG</li>
       <li xml:lang="ca">«oxipng» per a imatges PNG</li>
       <li xml:lang="ca-valencia">«oxipng» per a imatges PNG</li>
       <li xml:lang="en-GB">oxipng for PNG images</li>
@@ -172,6 +178,7 @@
       <li xml:lang="zh-CN">oxipng (PNG 图像压缩)</li>
       <li xml:lang="zh-TW">對 PNG 影像使用 oxipng</li>
       <li>jpegoptim for JPEG images</li>
+      <li xml:lang="ar">jpegoptim لصور JPEG</li>
       <li xml:lang="ca">«jpegoptim» per a imatges JPEG</li>
       <li xml:lang="ca-valencia">«jpegoptim» per a imatges JPEG</li>
       <li xml:lang="en-GB">jpegoptim for JPEG images</li>
@@ -197,6 +204,7 @@
       <li xml:lang="zh-CN">jpegoptim (JPEG 图像压缩)</li>
       <li xml:lang="zh-TW">對 JPEG 影像使用 jpegoptim</li>
       <li>scour for SVG images</li>
+      <li xml:lang="ar">scour لصور SVG</li>
       <li xml:lang="ca">«scour» per a imatges SVG</li>
       <li xml:lang="ca-valencia">«scour» per a imatges SVG</li>
       <li xml:lang="en-GB">scour for SVG images</li>
@@ -222,6 +230,7 @@
       <li xml:lang="zh-CN">scour (SVG 图像压缩)</li>
       <li xml:lang="zh-TW">對 SVG 影像使用 scour</li>
       <li>cwebp for WebP images</li>
+      <li xml:lang="ar">cwebp لصور WebP</li>
       <li xml:lang="ca">«cwebp» per a imatges WebP</li>
       <li xml:lang="ca-valencia">«cwebp» per a imatges WebP</li>
       <li xml:lang="en-GB">cwebp for WebP images</li>
