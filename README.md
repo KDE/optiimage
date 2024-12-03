@@ -26,7 +26,7 @@ If you have an issue with OptiImage, please [open a support thread on KDE Discus
 
 ## Building
 
-The easiest way to make changes and test Tokodon during development is to [build it with kdesrc-build](https://community.kde.org/Get_Involved/development/Build_software_with_kdesrc-build).
+The easiest way to make changes and test OptiImage during development is to [build it with kdesrc-build](https://community.kde.org/Get_Involved/development/Build_software_with_kdesrc-build).
 
 ## License
 
