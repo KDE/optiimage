@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=OptiImage
+Name[ar]=المحسّن
 Name[ast]=OptiImage
 Name[ca]=OptiImage
 Name[ca@valencia]=OptiImage
@@ -28,6 +29,7 @@ Name[x-test]=xxOptiImagexx
 Name[zh_CN]=OptiImage 图像压缩工具
 Name[zh_TW]=OptiImage
 Comment=Image optimizer
+Comment[ar]=صورة
 Comment[ca]=Optimitzador d'imatges
 Comment[ca@valencia]=Optimitzador d'imatges
 Comment[cs]=Optimalizátor obrázku
