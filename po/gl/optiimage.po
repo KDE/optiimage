@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-06-10 21:52+0200\n"
+"PO-Revision-Date: 2024-12-04 09:36+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.05.0\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
@@ -96,7 +96,7 @@ msgstr "Máis opcións"
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "Retirar"
 
 #: contents/ui/OptimizePage.qml:177
 #, kde-format
