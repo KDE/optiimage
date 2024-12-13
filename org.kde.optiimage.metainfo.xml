@@ -271,6 +271,7 @@
   <screenshots>
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/optiimage/optiimage2.png</image>
+      <caption>OptiImage main view showing a list of images getting processed</caption>
     </screenshot>
   </screenshots>
   <releases>
