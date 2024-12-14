@@ -204,7 +204,7 @@ FormCard.FormCardPage {
 
             Component {
                 id: aboutKDE
-                FormCard.AboutKDE {}
+                FormCard.AboutKDEPage {}
             }
         }
     }
