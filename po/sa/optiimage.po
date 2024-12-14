@@ -1,189 +1,185 @@
+# Sanskrit translations for optiimage package.
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the optiimage package.
-# SPDX-FileCopyrightText: 2024 Paolo Zamponi <feus73@gmail.com>
+# Kali <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-12-08 16:55+0100\n"
-"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
-"Language-Team: Italian <kde-i18n-it@kde.org>\n"
-"Language: it\n"
+"PO-Revision-Date: 2024-12-13 19:09+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit\n"
+"Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.3\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr "Output da console"
+msgstr ""
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr "Nessun output di registro"
+msgstr "न लॉग आउटपुट्"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr "Ottimizza le tue immagini"
+msgstr "स्वस्य चित्राणि अनुकूलितं कुर्वन्तु"
 
 #: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr "Ricontrolla"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr ""
-"Affinché OptiImage funzioni correttamente, mancano i seguenti programmi:"
 
 #: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr "Seleziona immagini"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:60
 #, kde-format
 msgid "Settings"
-msgstr "Impostazioni"
+msgstr "सेटिंग्स्"
 
 #: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr "Seleziona un'immagine da comprimere"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr "File immagine (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "चित्रसञ्चिकाः (*.jpg *.jpeg *.png *.svg *.webp)"
 
 #: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
-msgstr "Tutti i file (*)"
+msgstr "सर्वाणि सञ्चिकाः (*) ."
 
 #: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr "%1 (nessuna modifica)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr "%1 -> %2 (riduzione del %3%)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:138
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr "Altre opzioni"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr "Rimuovi"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:177
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr "Apri"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr "Apri cartella contenitore"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr "Proprietà"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:198
 #, kde-format
 msgid "No images to optimize"
-msgstr "Nessuna immagine da ottimizzare"
+msgstr "अनुकूलनार्थं चित्राणि नास्ति"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr "Impostazioni"
+msgstr "सेटिंग्स्"
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr "Generale"
+msgstr "सामान्य"
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr "Mantieni i metadati"
+msgstr "मेटाडाटा रक्षन्तु"
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr "Modalità sicura"
+msgstr "सुरक्षित मोड"
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr "Salva l'immagine compressa in un nuovo file"
+msgstr "संपीडितं चित्रं नूतने सञ्चिकायां रक्षन्तु"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr "Suffisso da aggiungere alla fine del nuovo file"
+msgstr "नूतनसञ्चिकायाः अन्ते योजयितुं प्रत्ययः"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
 msgid "JPG"
-msgstr "JPG"
+msgstr "जे पी जी"
 
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr "Codifica progressiva"
+msgstr "प्रगतिशील एन्कोड"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr ""
+msgstr "वृद्धिशीलं चित्रप्रतिपादनं सक्षमं कर्तुं: स्पष्टं कर्तुं धुन्धलम् ।"
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr "Usa compressione senza perdita"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
 msgstr ""
-"Usa solo algoritmi di compressione che non riducono la qualità delle "
-"immagini."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr "Livello di ottimizzazione predefinito dell'ottimizzazione con perdita:"
+msgstr "हानियुक्तस्य अनुकूलनस्य पूर्वनिर्धारित अनुकूलनस्तरः : १."
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
@@ -193,25 +189,24 @@ msgstr "PNG"
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr ""
-"Livello di ottimizzazione predefinito dell'ottimizzazione senza perdita:"
+msgstr "हानिरहित अनुकूलनस्य पूर्वनिर्धारित अनुकूलनस्तरः : १."
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
 msgid "SVG"
-msgstr "SVG"
+msgstr "एसवीजी"
 
 #: contents/ui/SettingsPage.qml:135
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr "Livello di compressione massima"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr "Può essere più distruttivo per l'immagine-"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
@@ -221,46 +216,46 @@ msgstr "WebP"
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr "Informazioni su OptiImage"
+msgstr "OptiImage इत्यस्य विषये"
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr "Informazioni su KDE"
+msgstr "KDE विषये"
 
 #: main.cpp:40
 #, kde-format
 msgid "OptiImage"
-msgstr "OptiImage"
+msgstr "ऑप्टिइमेज"
 
 #: main.cpp:42
 #, kde-format
 msgid "Images Optimiser"
-msgstr "Ottimizzatore d'immagini"
+msgstr "चित्राणि अनुकूलयन्तु"
 
 #: main.cpp:44
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr "© 2021 - 2023 Carl Schwan"
+msgstr "© 2021 - 2023 कार्ल श्वान"
 
 #: main.cpp:46
 #, kde-format
 msgid "Carl Schwan"
-msgstr "Carl Schwan"
+msgstr "कार्ल स्वान्"
 
 #: main.cpp:46
 #, kde-format
 msgid "Maintainer"
-msgstr "Responsabile"
+msgstr "परिपालकः"
 
 #: main.cpp:47
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Paolo Zamponi"
+msgstr ""
 
 #: main.cpp:47
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "feus73@gmail.com"
+msgstr ""
