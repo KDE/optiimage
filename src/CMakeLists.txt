@@ -35,6 +35,7 @@ target_link_libraries(optiimage_static PUBLIC
     Qt::Svg
     Qt::Widgets
     KF6::I18n
+    KF6::I18nQml
     KF6::CoreAddons
     KF6::ConfigGui
     KF6::KIOCore

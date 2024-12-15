@@ -3,7 +3,7 @@
 
 #include <KAboutData>
 #include <KIconTheme>
-#include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 #include <QApplication>
 #include <QCoroQml>
@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
     QCoro::Qml::registerTypes();
 
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
     engine.loadFromModule(u"org.kde.optiimage"_s, u"Main"_s);
 
     if (engine.rootObjects().isEmpty()) {
