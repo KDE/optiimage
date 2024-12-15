@@ -8,12 +8,8 @@
 #include <QApplication>
 #include <QCoroQml>
 #include <QIcon>
-#include <QQmlApplicationEngine>
 #include <QQuickStyle>
-#include <QUrl>
 #include <QtQml>
-
-#include "config.h"
 
 #include "optiimage-version.h"
 
@@ -53,9 +49,6 @@ int main(int argc, char *argv[])
 #if __has_include("KCrash")
     KCrash::initialize();
 #endif
-
-    auto config = Config::self();
-    qmlRegisterSingletonInstance("org.kde.optiimage.private", 1, 0, "Config", config);
 
     QQmlApplicationEngine engine;
     QCoro::Qml::registerTypes();

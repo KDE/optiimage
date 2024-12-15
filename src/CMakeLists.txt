@@ -44,7 +44,7 @@ target_link_libraries(optiimage_static PUBLIC
     QCoro::Qml
 )
 
-kconfig_add_kcfg_files(optiimage_static GENERATE_MOC config.kcfgc)
+kconfig_target_kcfg_file(optiimage_static FILE config.kcfg CLASS_NAME Config MUTATORS GENERATE_PROPERTIES GENERATE_MOC DEFAULT_VALUE_GETTERS PARENT_IN_CONSTRUCTOR QML_REGISTRATION SINGLETON)
 
 add_executable(optiimage
     main.cpp

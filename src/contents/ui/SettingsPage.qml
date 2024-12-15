@@ -6,7 +6,7 @@ import QtQuick.Controls as QQC2
 import org.kde.kirigami as Kirigami
 import QtQuick.Layouts
 import org.kde.kirigamiaddons.formcard as FormCard
-import org.kde.optiimage.private
+import org.kde.optiimage
 import org.kde.coreaddons
 
 FormCard.FormCardPage {
