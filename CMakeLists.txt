@@ -26,7 +26,7 @@ set_package_properties(Qt6 PROPERTIES
     PURPOSE "Required application components"
 )
 
-find_package(KF6 ${KF_MIN_VERSION} COMPONENTS Kirigami2 I18n CoreAddons Config KIO IconThemes )
+find_package(KF6 ${KF_MIN_VERSION} COMPONENTS Kirigami I18n CoreAddons Config KIO IconThemes )
 set_package_properties(KF6 PROPERTIES
     TYPE REQUIRED
     PURPOSE "Required application components"
