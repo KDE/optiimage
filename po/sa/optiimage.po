@@ -20,7 +20,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr ""
+msgstr "कन्सोल आउटपुट"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
@@ -36,19 +36,19 @@ msgstr "स्वस्य चित्राणि अनुकूलितं 
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr ""
+msgstr "पुनः परीक्षण करें"
 
 #: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr ""
+msgstr "OptiImage इत्यस्य सम्यक् चालनार्थं निम्नलिखितकार्यक्रमाः अनुपलब्धाः सन्ति:"
 
 #: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr ""
+msgstr "चित्राणि चिनोतु"
 
 #: contents/ui/OptimizePage.qml:60
 #, kde-format
@@ -59,7 +59,7 @@ msgstr "सेटिंग्स्"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr ""
+msgstr "संपीडयितुं चित्रं चिनोतु"
 
 #: contents/ui/OptimizePage.qml:76
 #, kde-format
@@ -75,43 +75,43 @@ msgstr "सर्वाणि सञ्चिकाः (*) ."
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr ""
+msgstr "%1 (परिवर्तनं नास्ति)"
 
 #: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr ""
+msgstr "%1 -> %2 (%3% न्यूनता)"
 
 #: contents/ui/OptimizePage.qml:138
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr ""
+msgstr "अधिकविकल्पाः"
 
 #: contents/ui/OptimizePage.qml:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "अपाकरोति"
 
 #: contents/ui/OptimizePage.qml:177
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr ""
+msgstr "उद्घाटित"
 
 #: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr ""
+msgstr "Containing Folder उद्घाटयन्तु"
 
 #: contents/ui/OptimizePage.qml:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr ""
+msgstr "गुणाः"
 
 #: contents/ui/OptimizePage.qml:198
 #, kde-format
@@ -168,13 +168,13 @@ msgstr "वृद्धिशीलं चित्रप्रतिपाद�
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr ""
+msgstr "हानिरहितसंपीडनस्य उपयोगं कुर्वन्तु"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
-msgstr ""
+msgstr "केवलं संपीडन-अल्गोरिदम् इत्यस्य उपयोगं कुर्वन्तु ये चित्रस्य गुणवत्तां न न्यूनीकरोति ।"
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
@@ -200,13 +200,13 @@ msgstr "एसवीजी"
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr ""
+msgstr "अधिकतम संपीड़न स्तर"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr ""
+msgstr "बिम्बस्य कृते अधिकं विनाशकारी भवितुम् अर्हति।"
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
@@ -252,10 +252,10 @@ msgstr "परिपालकः"
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "भवतः नामानि"
 
 #: main.cpp:47
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "भवतः ईमेलपत्राणि"
