@@ -281,11 +281,16 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/optiimage/optiimage2.png</image>
       <caption>OptiImage main view showing a list of images getting processed</caption>
+      <caption xml:lang="ca">Vista principal de l'OptiImage que mostra una llista d'imatges que s'estan processant</caption>
       <caption xml:lang="es">Vista principal de OptiImage con la lista de imágenes que se están procesando</caption>
+      <caption xml:lang="eu">OptiImage-ren ikuspegi nagusia, prozesatzen ari diren irudien zerrenda bat erakusten duena</caption>
       <caption xml:lang="gl">A vista principal de OptiImage cunha lista de imaxes en procesamento.</caption>
+      <caption xml:lang="ka">Optiimage-ის მთავარი ხედი, რომელიც აჩვენებს გამოსახულებების სია, რომლებიც მუშავდება</caption>
       <caption xml:lang="nl">OptiImage hoofdweergave die een lijst toont van afbeeldingen om te worden verwerkt</caption>
+      <caption xml:lang="tr">OptiImage ana görünümü, işlenen bir görsel listesini gösteriyor</caption>
       <caption xml:lang="uk">Основна панель OptiImage зі списком зображень, які буде оброблено</caption>
       <caption xml:lang="x-test">xxOptiImage main view showing a list of images getting processedxx</caption>
+      <caption xml:lang="zh-CN">OptiImage 主视图显示正在处理的图像列表</caption>
     </screenshot>
   </screenshots>
   <releases>
