@@ -61,14 +61,13 @@ include(ECMPoQmTools)
 include(KDEGitCommitHooks)
 include(ECMCheckOutboundLicense)
 include(KDEClangFormat)
+include(ECMQmlModule)
 
 ecm_setup_version(${RELEASE_SERVICE_VERSION}
     VARIABLE_PREFIX OPTIIMAGE
     VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/optiimage-version.h
 )
 
-
-qt_policy(SET QTP0001 NEW)
 qcoro_enable_coroutines()
 
 add_subdirectory(src)

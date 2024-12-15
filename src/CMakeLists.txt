@@ -1,11 +1,11 @@
 # SPDX-FileCopyrightText: 2023 Carl Schwan <carl@carlschwan.eu>
 # SPDX-License-Identifier: BSD-2-Clause
 
-
-qt_add_qml_module(optiimage_static
-    STATIC
+add_library(optiimage_static STATIC)
+ecm_add_qml_module(optiimage_static
     URI org.kde.optiimage
     VERSION 1.0
+    GENERATE_PLUGIN_SOURCE
     QML_FILES
         contents/ui/Main.qml
         contents/ui/OptimizePage.qml
