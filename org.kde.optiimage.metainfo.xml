@@ -19,6 +19,7 @@
   <name xml:lang="fr">OptiImage</name>
   <name xml:lang="gl">OptiImage</name>
   <name xml:lang="he">OptiImage</name>
+  <name xml:lang="hi">ऑप्टीइमेज</name>
   <name xml:lang="ia">OptiImage</name>
   <name xml:lang="it">OptiImage</name>
   <name xml:lang="ka">OptiImage</name>
@@ -50,6 +51,7 @@
   <summary xml:lang="fr">Outil d'optimisation d'images pour réduire leurs tailles</summary>
   <summary xml:lang="gl">Optimizador de imaxes para reducir o tamaño das imaxes.</summary>
   <summary xml:lang="he">ממטב תמונות שנועד להקטין גודל של תמונות</summary>
+  <summary xml:lang="hi">छवियों का आकार कम करने के लिए छवि अनुकूलक</summary>
   <summary xml:lang="ia">Optimisator de imagine per reducer le grandor de imagines</summary>
   <summary xml:lang="it">Ottimiazzatore d'immagini che ne riduce la dimensione</summary>
   <summary xml:lang="ka">გამოსახულებების ოპტიმიზაცია მათი ზომის შემცირების მმიზნით</summary>
@@ -84,6 +86,7 @@
     <p xml:lang="fr">Optimisez vos images avec OptiImage, un compresseur d'images utile prenant en charge les types de fichiers PNG, JPEG, WebP et SVG.</p>
     <p xml:lang="gl">Optimice imaxes con OptiImage, un útil compresor de imaxes compatíbel cos tipos de ficheiro PNG, JPEG, WebP e SVG.</p>
     <p xml:lang="he">מיטוב התמונות שלך בעזרת OptiImage, דוחס תמונות שתומך בסוגי הקבצים PNG,‏ JPEG,‏ WebP ו־SVG.</p>
+    <p xml:lang="hi">OptiImage के साथ अपनी छवियों को अनुकूलित करें, यह एक उपयोगी छवि संपीड़क है जो PNG, JPEG, WebP और SVG फ़ाइल प्रकारों का समर्थन करता है।</p>
     <p xml:lang="ia">Optimisa tu images con OptiImage, un compressor utile de imagine que supporta typos de file PNG, JPEG, WebP e SVG.</p>
     <p xml:lang="it">Ottimizza le tue immagini con OptiImage, un utile compressore d'immagini che supporta i file PNG, JPEG, WebP e SVG.</p>
     <p xml:lang="ka">დააოპტიმიზეთ თქვენი გამოსახულებები OptiImage-სთან, საჭირო გამოსახულებების შემკუმშავთან, რომელსაც PNG, JPEG, WebP და SVG ფაილის ტიპების სრული მარდაჭერა გააჩნია.</p>
@@ -113,6 +116,7 @@
     <p xml:lang="fr">Il prend en charge les modes de compression sans perte et avec perte, ainsi qu'une option pour définir s'il faut conserver ou non les métadonnées des images. Il propose par ailleurs un mode plus sûr, où une nouvelle image est créée au lieu de remplacer l'ancienne.</p>
     <p xml:lang="gl">Permite compresións con e sen perda, cunha opción para manter ou non os metadatos das imaxes. Tamén ten un modo seguro, no que se crea unha nova imaxe en vez de modificar a vella.</p>
     <p xml:lang="he">הוא תומך גם במצבים שמאבדים מידע וגם בכאלה שלא עם אפשרות לשמור את נתוני העל של התמונה. בנוסף יש לו גם מצב בטוח, בו נוצרת תמונה חדשה במקום לדרוס את הישנה.</p>
+    <p xml:lang="hi">यह दोषरहित और दोषरहित संपीड़न दोनों मोड का समर्थन करता है, साथ ही इसमें यह विकल्प भी है कि छवियों का मेटाडेटा रखना है या नहीं। इसके अतिरिक्त इसमें एक सुरक्षित मोड भी है, जहाँ पुरानी छवि को अधिलेखित करने के बजाय एक नई छवि बनाई जाती है।</p>
     <p xml:lang="ia">Il supporta sia modos de compression sin perdita que con perdita con un option si mantener o non le metadatos de imagines. Additionalmente il ha un modo secur, ubi un nove image es create in loco de super scriber ille vetere.</p>
     <p xml:lang="it">Supporta sia modalità di compressione con perdita che senza, e ha un'opzione per mantenere oppure no i metadati delle immagini. In aggiunta ha una modalità sicura, che crea un'immagine nuova al posto di sovrascrivere quella vecchia.</p>
     <p xml:lang="ka">აქვს ორივე, კარგვის გარეშეც და კარგვითაც შეკუმშვის რეჟიმები არჩევნის საშუალებით, შევინარჩუნოთ გამოსახულების მეტამონაცემები, თუ არა. დამატებით, მას აქვს უსაფრთხო რეჟიმი, სადაც ძველი გამოსახულების თავზე გადაწერის მაგიერ ახალი გამოსახულება იქმნება.</p>
@@ -140,6 +144,7 @@
     <p xml:lang="fr">Il utilise les outils suivants :</p>
     <p xml:lang="gl">Usa as seguintes ferramentas:</p>
     <p xml:lang="he">משתמש בכלים הבאים:</p>
+    <p xml:lang="hi">इसमें निम्नलिखित उपकरणों का उपयोग किया जाता है:</p>
     <p xml:lang="ia">Il usa le sequente instrumentos:</p>
     <p xml:lang="it">Utilizza i seguenti strumenti:</p>
     <p xml:lang="ka">იყენებს შემდეგ პროგრამებს:</p>
@@ -168,6 +173,7 @@
       <li xml:lang="fr">oxipng pour les images « PNG »</li>
       <li xml:lang="gl">oxipng para imaxes PNG.</li>
       <li xml:lang="he">oxipng לתמונות PNG</li>
+      <li xml:lang="hi">PNG छवियों के लिए ऑक्सीपीएनजी</li>
       <li xml:lang="ia">oxipng per imagines  PNG</li>
       <li xml:lang="it">oxipng per le immagini  PNG</li>
       <li xml:lang="ka">oxipng-ს PNG გამოსახულებებისთვის</li>
@@ -195,6 +201,7 @@
       <li xml:lang="fr">jpegoptim pour les images « JPEG »</li>
       <li xml:lang="gl">jpegoptim para imaxes JPEG.</li>
       <li xml:lang="he">jpegoptim לתמונות JPEG</li>
+      <li xml:lang="hi">JPEG छवियों के लिए jpegoptim</li>
       <li xml:lang="ia">jpegoptim per images JPEG</li>
       <li xml:lang="it">jpegoptim per le immagini JPEG</li>
       <li xml:lang="ka">jpegoptim-ს JPEG გამოსახულებებისთვის</li>
@@ -222,6 +229,7 @@
       <li xml:lang="fr">scour pour les images « SVG »</li>
       <li xml:lang="gl">scour para imaxes SVG.</li>
       <li xml:lang="he">scour לתמונות SVG</li>
+      <li xml:lang="hi">एसवीजी छवियों के लिए खोज करें</li>
       <li xml:lang="ia">scour per images SVG</li>
       <li xml:lang="it">scour per le immagini SVG</li>
       <li xml:lang="ka">scour-ს SVG გამოსახულებებისთვის</li>
@@ -249,6 +257,7 @@
       <li xml:lang="fr">cwebp pour les images « WebP »</li>
       <li xml:lang="gl">cwebp para imaxes WebP.</li>
       <li xml:lang="he">cwebp לתמונות WebP</li>
+      <li xml:lang="hi">WebP छवियों के लिए cwebp</li>
       <li xml:lang="ia">cwebp per imagines  WebP</li>
       <li xml:lang="it">cwebp per le immagini WebP</li>
       <li xml:lang="ka">cwebp-ს WebP გამოსახულებებისთვის</li>
@@ -282,11 +291,18 @@
       <image>https://cdn.kde.org/screenshots/optiimage/optiimage2.png</image>
       <caption>OptiImage main view showing a list of images getting processed</caption>
       <caption xml:lang="ca">Vista principal de l'OptiImage que mostra una llista d'imatges que s'estan processant</caption>
+      <caption xml:lang="ca-valencia">Vista principal d'OptiImage que mostra una llista d'imatges que s'estan processant</caption>
       <caption xml:lang="es">Vista principal de OptiImage con la lista de imágenes que se están procesando</caption>
       <caption xml:lang="eu">OptiImage-ren ikuspegi nagusia, prozesatzen ari diren irudien zerrenda bat erakusten duena</caption>
+      <caption xml:lang="fr">Vue principale de Optiimage présentant une liste d'images en cour de traitement</caption>
       <caption xml:lang="gl">A vista principal de OptiImage cunha lista de imaxes en procesamento.</caption>
+      <caption xml:lang="he">התצוגה הראשית של OptiImage שמציגה רשימה של תמונות שעוברות עיבוד</caption>
+      <caption xml:lang="hi">ऑप्टीइमेज मुख्य दृश्य संसाधित हो रही छवियों की सूची दिखा रहा है</caption>
+      <caption xml:lang="it">La vista principale di OptiImage che mostra un elenco di immagini che vengono elaborate</caption>
       <caption xml:lang="ka">Optiimage-ის მთავარი ხედი, რომელიც აჩვენებს გამოსახულებების სია, რომლებიც მუშავდება</caption>
       <caption xml:lang="nl">OptiImage hoofdweergave die een lijst toont van afbeeldingen om te worden verwerkt</caption>
+      <caption xml:lang="sa">OptiImage मुख्यदृश्यं यत् संसाधितानां चित्राणां सूचीं दर्शयति</caption>
+      <caption xml:lang="sl">Glavni pogled OptiImage, ki prikazuje seznam slik, ki se obdelujejo</caption>
       <caption xml:lang="tr">OptiImage ana görünümü, işlenen bir görsel listesini gösteriyor</caption>
       <caption xml:lang="uk">Основна панель OptiImage зі списком зображень, які буде оброблено</caption>
       <caption xml:lang="x-test">xxOptiImage main view showing a list of images getting processedxx</caption>
