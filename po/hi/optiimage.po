@@ -1,267 +1,261 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Hindi translations for optiimage package.
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the optiimage package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Kali <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-16 00:40+0000\n"
-"PO-Revision-Date: 2024-11-23 04:45+0100\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
-"Language: ka\n"
+"PO-Revision-Date: 2024-12-15 17:35+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr "კონსოლში გამოტანა"
+msgstr "कंसोल आउटपुट"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr "ჟურნალში ჩაწერის გარეშე"
+msgstr "कोई लॉग आउटपुट नहीं"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr "გააკეთეთ თქვენი გამოსახულებების ოპტიმიზაცია"
+msgstr "अपनी छवियों को अनुकूलित करें"
 
 #: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr "თავიდან შემოწმება"
+msgstr "री-चेक"
 
 #: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr ""
-"ვერ ვიპოვე შემდეგი პროგრამები, რომლებიც OptiImage-ის სწორად სამუშაოდაა "
-"აუცილებელი:"
+msgstr "OptiImage को सही ढंग से चलाने के लिए निम्नलिखित प्रोग्राम अनुपलब्ध हैं:"
 
 #: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr "აირჩიეთ სურათები"
+msgstr "छवियाँ चुनें"
 
 #: contents/ui/OptimizePage.qml:60
 #, kde-format
 msgid "Settings"
-msgstr "მორგება"
+msgstr "सेटिंग्स"
 
 #: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr "აირჩიეთ გამოსახულება შესაკუმშად"
+msgstr "संपीड़ित करने के लिए एक छवि चुनें"
 
 #: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr "გამოსახულების ფაილები (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "छवि फ़ाइलें (*.jpg *.jpeg *.png *.svg *.webp)"
 
 #: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
-msgstr "ყველა ფაილი (*)"
+msgstr "सभी फाइलें (*)"
 
 #: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr "%1 (ცვლილებების გარეშე)"
+msgstr "%1 (कोई परिवर्तन नहीं)"
 
 #: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr "%1 -> %2 (%3% შემცირება)"
+msgstr "%1 -> %2 (%3% कमी)"
 
 #: contents/ui/OptimizePage.qml:138
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr "მეტი პარამეტრი"
+msgstr "अधिक विकल्प"
 
 #: contents/ui/OptimizePage.qml:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr "წაშლა"
+msgstr "निकालना"
 
 #: contents/ui/OptimizePage.qml:177
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr "გახსნა"
+msgstr "खुला"
 
 #: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr "შემცველი საქაღალდის გახსნა"
+msgstr "धारक फोल्डर खोलें"
 
 #: contents/ui/OptimizePage.qml:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr "თვისებები"
+msgstr "गुण"
 
 #: contents/ui/OptimizePage.qml:198
 #, kde-format
 msgid "No images to optimize"
-msgstr "დასაოპტიმიზებელი გამოსახულებების გარეშე"
+msgstr "अनुकूलन हेतु कोई छवि नहीं"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr "მორგება"
+msgstr "सेटिंग्स"
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr "მთავარი"
+msgstr "सामान्य"
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr "მეტამონაცემების შენარჩუნება"
+msgstr "मेटाडेटा रखें"
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr "უსაფრთხო რეჟიმი"
+msgstr "सुरक्षित मोड"
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr "შეკუმშული გამოსახულების შენახვა ახალ ფაილში"
+msgstr "संपीड़ित छवि को एक नई फ़ाइल में सहेजें"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr "ახალი ფაილის ბოლოში მისაწერი სუფიქსი"
+msgstr "नई फ़ाइल के अंत में जोड़ने के लिए प्रत्यय"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
 msgid "JPG"
-msgstr "JPG"
+msgstr "जेपीजी"
 
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr "პროგრესული კოდირება"
+msgstr "प्रगतिशील एनकोड"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr "გამოსახულების ინკრემენტული რენდერის ჩასართავად: მღვრიიდან წმინდამდე."
+msgstr "वृद्धिशील छवि रेंडरिंग सक्षम करने के लिए: धुंधली से साफ़।"
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr "შეკუმშვა კარგვის გარეშე"
+msgstr "दोषरहित संपीड़न का उपयोग करें"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
-msgstr ""
-"მხოლოდ, იმ შეკუმშვის ალგორითმების გამოყენება, რომლებიც გამოსახულების ხარისხს "
-"არ აგდებენ."
+msgstr "केवल ऐसे संपीड़न एल्गोरिदम का उपयोग करें जो छवि की गुणवत्ता को कम न करें।"
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr "ნაგულისხმევი ოპტიმიზაციის დონე კარგვის მქონე ოპტიმიზაციისთვის:"
+msgstr "हानिपूर्ण अनुकूलन का डिफ़ॉल्ट अनुकूलन स्तर:"
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
 msgid "PNG"
-msgstr "PNG"
+msgstr "पीएनजी"
 
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr "ნაგულისხმევი ოპტიმიზაციის დონე კარგვის არმქონე ოპტიმიზაციისთვის:"
+msgstr "दोषरहित अनुकूलन का डिफ़ॉल्ट अनुकूलन स्तर:"
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
 msgid "SVG"
-msgstr "SVG"
+msgstr "एसवीजी"
 
 #: contents/ui/SettingsPage.qml:135
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr "მაქსიმალური შეკუმშვის დონე"
+msgstr "अधिकतम संपीड़न स्तर"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr "შეიძლება გამოსახულებისთვის უფრო დამაზიანებელი იყოს."
+msgstr "छवि के लिए अधिक विनाशकारी हो सकता है।"
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
 msgid "WebP"
-msgstr "WebP"
+msgstr "वेबपी"
 
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr "OptiImage-ის შესახებ"
+msgstr "ऑप्टीइमेज के बारे में"
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr "KDE-ს შესახებ"
+msgstr "केडीई के बारे में"
 
 #: main.cpp:36
 #, kde-format
 msgid "OptiImage"
-msgstr "OptiImage"
+msgstr "ऑप्टीइमेज"
 
 #: main.cpp:38
 #, kde-format
 msgid "Images Optimiser"
-msgstr "გამოსახულებების ოპტიმიზაცია"
+msgstr "छवियाँ अनुकूलित करें"
 
 #: main.cpp:40
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr "© 2021 - 2023 კარლ შვანი"
+msgstr "© 2021 - 2023 कार्ल श्वान"
 
 #: main.cpp:42
 #, kde-format
 msgid "Carl Schwan"
-msgstr "Carl Schwan"
+msgstr "कार्ल स्वान"
 
 #: main.cpp:42
 #, kde-format
 msgid "Maintainer"
-msgstr "წამყვანი პროგრამისტი"
+msgstr "मेंटेनर"
 
 #: main.cpp:43
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Temuri Doghonadze"
+msgstr "तुम्हारे नाम"
 
 #: main.cpp:43
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "Temuri.doghonadze@gmail.com"
+msgstr "आपके ईमेल"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-01 00:39+0000\n"
+"POT-Creation-Date: 2024-12-16 00:40+0000\n"
 "PO-Revision-Date: 2024-03-27 22:51+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -224,38 +224,38 @@ msgstr ""
 msgid "About KDE"
 msgstr ""
 
-#: main.cpp:40
+#: main.cpp:36
 #, kde-format
 msgid "OptiImage"
 msgstr ""
 
-#: main.cpp:42
+#: main.cpp:38
 #, kde-format
 msgid "Images Optimiser"
 msgstr ""
 
-#: main.cpp:44
+#: main.cpp:40
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
 msgstr ""
 
-#: main.cpp:46
+#: main.cpp:42
 #, kde-format
 msgid "Carl Schwan"
 msgstr ""
 
-#: main.cpp:46
+#: main.cpp:42
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
-#: main.cpp:47
+#: main.cpp:43
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: main.cpp:47
+#: main.cpp:43
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
