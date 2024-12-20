@@ -308,6 +308,7 @@
       <caption xml:lang="uk">Основна панель OptiImage зі списком зображень, які буде оброблено</caption>
       <caption xml:lang="x-test">xxOptiImage main view showing a list of images getting processedxx</caption>
       <caption xml:lang="zh-CN">OptiImage 主视图显示正在处理的图像列表</caption>
+      <caption xml:lang="zh-TW">OptiImage 的主檢視，顯示正在被處理的影像</caption>
     </screenshot>
   </screenshots>
   <releases>
