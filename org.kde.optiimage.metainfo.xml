@@ -290,6 +290,7 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/optiimage/optiimage2.png</image>
       <caption>OptiImage main view showing a list of images getting processed</caption>
+      <caption xml:lang="ar">العرض الرئيسي لبرنامج المحسن يعرض قائمة بالصور التي تتم معالجتها</caption>
       <caption xml:lang="ca">Vista principal de l'OptiImage que mostra una llista d'imatges que s'estan processant</caption>
       <caption xml:lang="ca-valencia">Vista principal d'OptiImage que mostra una llista d'imatges que s'estan processant</caption>
       <caption xml:lang="es">Vista principal de OptiImage con la lista de imágenes que se están procesando</caption>
@@ -302,6 +303,7 @@
       <caption xml:lang="it">La vista principale di OptiImage che mostra un elenco di immagini che vengono elaborate</caption>
       <caption xml:lang="ka">Optiimage-ის მთავარი ხედი, რომელიც აჩვენებს გამოსახულებების სია, რომლებიც მუშავდება</caption>
       <caption xml:lang="nl">OptiImage hoofdweergave die een lijst toont van afbeeldingen om te worden verwerkt</caption>
+      <caption xml:lang="pl">Główny widok OptiImage, pokazujący listę przetwarzanych obrazów</caption>
       <caption xml:lang="sa">OptiImage मुख्यदृश्यं यत् संसाधितानां चित्राणां सूचीं दर्शयति</caption>
       <caption xml:lang="sl">Glavni pogled OptiImage, ki prikazuje seznam slik, ki se obdelujejo</caption>
       <caption xml:lang="tr">OptiImage ana görünümü, işlenen bir görsel listesini gösteriyor</caption>
