@@ -94,7 +94,7 @@ msgstr "Více možností"
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 #: contents/ui/OptimizePage.qml:177
 #, kde-format
