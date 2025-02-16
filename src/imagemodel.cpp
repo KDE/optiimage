@@ -11,6 +11,7 @@
 #include <KIO/OpenUrlJob>
 #include <KPropertiesDialog>
 #include <QDebug>
+#include <QDir>
 #include <QFileInfo>
 #include <QMimeDatabase>
 
@@ -74,7 +75,13 @@ void ImageModel::addImages(const QList<QUrl> &paths)
         ImageInfo info;
         info.path = path;
         if (config->safeMode()) {
-            info.newPath = QUrl(info.path.toString() + config->suffix());
+            const QString extension = fileInfo.suffix();
+            if (!extension.isEmpty()) {
+                const QString newFileName = fileInfo.completeBaseName() + config->suffix() + u"." + extension;
+                info.newPath = QUrl::fromLocalFile(fileInfo.dir().absoluteFilePath(newFileName));
+            } else {
+                info.newPath = QUrl(info.path.toString() + config->suffix());
+            }
         } else {
             info.newPath = path;
         }
