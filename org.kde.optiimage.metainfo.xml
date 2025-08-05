@@ -105,7 +105,7 @@
     <p>It supports both lossless and lossy compression modes with an option whether
     to keep or not metadata of images. It additionally has a safe mode, where a new
     image is created instead of overwriting the old one.</p>
-    <p xml:lang="ar">يدعم كلاً من وضعي الضغط بدون فقدان أو مع فقدان البيانات مع خيار الاحتفاظ ببيانات الصور الوصفية أو عدم الاحتفاظ بها. كما يحتوي على وضع آمن، حيث ينشئ صورة جديدة بدلاً من الكتابة فوق الصورة القديمة.</p>
+    <p xml:lang="ar">يدعم كلاً من وضعي الضغط دون فقدان أو مع فقدان البيانات مع خيار الاحتفاظ ببيانات الصور الوصفية أو عدم الاحتفاظ بها. كما يحتوي على وضع آمن، حيث ينشئ صورة جديدة بدلاً من الكتابة فوق الصورة القديمة.</p>
     <p xml:lang="ca">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantenir o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="ca-valencia">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantindre o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="en-GB">It supports both lossless and lossy compression modes with an option whether to keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwriting the old one.</p>
