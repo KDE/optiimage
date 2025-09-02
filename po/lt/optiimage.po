@@ -1,268 +1,263 @@
-# Translation of optiimage.po to Catalan (Valencian)
-# Copyright (C) 2024 This_file_is_part_of_KDE
-# This file is distributed under the license LGPL version 2.1 or
-# version 3 or later versions approved by the membership of KDE e.V.
+# Lithuanian translations for optiimage package.
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the optiimage package.
+# Automatically generated, 2025.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-16 00:40+0000\n"
-"PO-Revision-Date: 2024-11-23 11:50+0100\n"
-"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
-"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
-"Language: ca@valencia\n"
+"PO-Revision-Date: 2024-12-16 00:40+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr "Eixida de la consola"
+msgstr ""
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr "Sense eixida de registre"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr "Optimitza les vostres imatges"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr "Torna a comprovar"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr "Falten els programes següents perquè OptiImage s'execute correctament:"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
-msgstr "Trieu les imatges"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:60
 #, kde-format
 msgid "Settings"
-msgstr "Configuració"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr "Trieu una imatge que s'ha de comprimir"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr "Fitxers d'imatge (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
-msgstr "Tots els fitxers (*)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr "%1 (sense canvis)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr "%1 -> %2 (%3% de disminució)"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:138
 #, kde-format
 msgctxt "@action:button"
 msgid "More options"
-msgstr "Més opcions"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr "Elimina"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:177
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr "Obri"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
-msgstr "Obri la carpeta contenidora"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
-msgstr "Propietats"
+msgstr ""
 
 #: contents/ui/OptimizePage.qml:198
 #, kde-format
 msgid "No images to optimize"
-msgstr "No hi ha cap imatge que s'haja d'optimitzar"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
-msgstr "Configuració"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:18
 #, kde-format
 msgid "General"
-msgstr "General"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr "Conserva les metadades"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr "Mode segur"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr "Guarda la imatge comprimida en un fitxer nou"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr "Sufix que s'ha d'afegir al final del fitxer nou"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
 msgid "JPG"
-msgstr "JPG"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr "Codificació progressiva"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
 msgstr ""
-"Per a habilitar la representació incremental de la imatge: difumina per a "
-"netejar."
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr "Utilitza compressió sense pèrdua"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
 msgstr ""
-"Només utilitza algorismes de compressió que no reduïxen la qualitat de la "
-"imatge."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr "Nivell d'optimització predeterminat amb pèrdua:"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
 msgid "PNG"
-msgstr "PNG"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr "Nivell d'optimització predeterminat sense pèrdua:"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
 msgid "SVG"
-msgstr "SVG"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:135
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr "Nivell màxim de compressió"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr "Pot ser més destructiu per a la imatge."
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
 msgid "WebP"
-msgstr "WebP"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr "Quant a OptiImage"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
 msgid "About KDE"
-msgstr "Quant a KDE"
+msgstr ""
 
 #: main.cpp:36
 #, kde-format
 msgid "OptiImage"
-msgstr "OptiImage"
+msgstr ""
 
 #: main.cpp:38
 #, kde-format
 msgid "Images Optimiser"
-msgstr "Optimitzador d'imatges"
+msgstr ""
 
 #: main.cpp:40
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr "© 2021 - 2023 Carl Schwan"
+msgstr ""
 
 #: main.cpp:42
 #, kde-format
 msgid "Carl Schwan"
-msgstr "Carl Schwan"
+msgstr ""
 
 #: main.cpp:42
 #, kde-format
 msgid "Maintainer"
-msgstr "Mantenidor"
+msgstr ""
 
 #: main.cpp:43
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Josep M. Ferrer"
+msgstr ""
 
 #: main.cpp:43
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "txemaq@gmail.com"
+msgstr ""
