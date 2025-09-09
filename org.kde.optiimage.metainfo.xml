@@ -34,7 +34,6 @@
   <name xml:lang="sv">Optibild</name>
   <name xml:lang="tr">OptiImage</name>
   <name xml:lang="uk">OptiImage</name>
-  <name xml:lang="x-test">xxOptiImagexx</name>
   <name xml:lang="zh-CN">OptiImage 图像压缩工具</name>
   <name xml:lang="zh-TW">OptiImage</name>
   <provides>
@@ -66,7 +65,6 @@
   <summary xml:lang="sv">Bildoptimering för att reducera bildstorlek</summary>
   <summary xml:lang="tr">Görsel Boyutu Eniyileyicisi</summary>
   <summary xml:lang="uk">Засіб оптимізації зображень, метою якого є зменшення розмірів файлів</summary>
-  <summary xml:lang="x-test">xxImage optimizer to reduce the size of imagesxx</summary>
   <summary xml:lang="zh-CN">用于压缩图像体积的优化工具</summary>
   <summary xml:lang="zh-TW">降低影像大小用的影像最佳化工具</summary>
   <metadata_license>FSFAP</metadata_license>
@@ -102,7 +100,6 @@
     <p xml:lang="sv">Optimera dina bilder med Optibild, ett användbart bildkomprimeringsverktyg som stöder filtyperna PNG, JPEG, WebP och SVG.</p>
     <p xml:lang="tr">PNG, JPEG, WebP ve SVG türü görselleri destekleyen bir görsel sıkıştırıcısı olan OptiImage ile görsellerinizi eniyileyin.</p>
     <p xml:lang="uk">Оптимізуйте ваші зображення за допомогою OptiImage, корисної програми для стискання файлів зображень, у якій передбачено підтримку типів файлів PNG, JPEG, WebP і SVG.</p>
-    <p xml:lang="x-test">xxOptimize your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.xx</p>
     <p xml:lang="zh-CN">OptiImage 是一款图像压缩优化工具，可以帮助您压缩图像的体积。支持 PNG、JPEG、WebP 和 SVG 等文件格式。</p>
     <p xml:lang="zh-TW">用 OptiImage 來最佳化您的影像，它支援 PNG、JPEG、WebP 和 SVG 檔案格式。</p>
     <p>It supports both lossless and lossy compression modes with an option whether
@@ -133,7 +130,6 @@
     <p xml:lang="sv">Det stöder både förlustfri och förstörande komprimeringsmetoder med ett alternativ om du vill behålla metadata för bilder eller inte. Det har dessutom ett säkert läge, där en ny bild skapas istället för att skriva över den gamla.</p>
     <p xml:lang="tr">Görsellerin üst verisinin tutulup tutulmaması seçeneğiyle hem kayıpsız hem de kayıplı sıkıştırma kiplerini destekler. Ayrıca eskisinin üzerine yazmak yerine yeni bir görselin oluşturulduğu güvenli bir kipi de vardır.</p>
     <p xml:lang="uk">Передбачено підтримку режимів стискання без втрат та з втратами із можливістю зберігати або відкидати метадані зображень. Крім того, передбачено безпечний режим, у якому програма створює нове зображення замість перезапису старого.</p>
-    <p xml:lang="x-test">xxIt supports both lossless and lossy compression modes with an option whether to keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwriting the old one.xx</p>
     <p xml:lang="zh-CN">它同时支持有损和无损压缩模式，并可以选择是否要保留图像的元数据。它还有一个安全模式，将压缩后的图像另存为新文件而不是覆盖原文件。</p>
     <p xml:lang="zh-TW">支援無損和有損壓縮模式，並且可選擇是否保留影像的中繼資料。它也提供安全模式選項，將壓縮後的影像寫入新檔案而不是覆寫舊檔案。</p>
     <p>It uses the following tools:</p>
@@ -162,7 +158,6 @@
     <p xml:lang="sv">Det använder följande verktyg:</p>
     <p xml:lang="tr">Aşağıdaki araçları kullanır:</p>
     <p xml:lang="uk">Використано такі інструменти:</p>
-    <p xml:lang="x-test">xxIt uses the following tools:xx</p>
     <p xml:lang="zh-CN">它使用以下工具程序：</p>
     <p xml:lang="zh-TW">它會利用以下工具：</p>
     <ul>
@@ -192,7 +187,6 @@
       <li xml:lang="sv">oxipng för PNG-bilder</li>
       <li xml:lang="tr">PNG görselleri için oxipng</li>
       <li xml:lang="uk">oxipng для зображень PNG</li>
-      <li xml:lang="x-test">xxoxipng for PNG imagesxx</li>
       <li xml:lang="zh-CN">oxipng (PNG 图像压缩)</li>
       <li xml:lang="zh-TW">對 PNG 影像使用 oxipng</li>
       <li>jpegoptim for JPEG images</li>
@@ -221,7 +215,6 @@
       <li xml:lang="sv">jpegoptim för JPEG-bilder</li>
       <li xml:lang="tr">JPEG görselleri için jpegoptim</li>
       <li xml:lang="uk">jpegoptim для зображень JPEG</li>
-      <li xml:lang="x-test">xxjpegoptim for JPEG imagesxx</li>
       <li xml:lang="zh-CN">jpegoptim (JPEG 图像压缩)</li>
       <li xml:lang="zh-TW">對 JPEG 影像使用 jpegoptim</li>
       <li>scour for SVG images</li>
@@ -250,7 +243,6 @@
       <li xml:lang="sv">scour for SVG-bilder</li>
       <li xml:lang="tr">SVG görselleri için scour</li>
       <li xml:lang="uk">scour для зображень SVG</li>
-      <li xml:lang="x-test">xxscour for SVG imagesxx</li>
       <li xml:lang="zh-CN">scour (SVG 图像压缩)</li>
       <li xml:lang="zh-TW">對 SVG 影像使用 scour</li>
       <li>cwebp for WebP images</li>
@@ -279,7 +271,6 @@
       <li xml:lang="sv">cwebp för WebP-bilder</li>
       <li xml:lang="tr">WebP görselleri için cwebp</li>
       <li xml:lang="uk">cwebp для зображень WebP</li>
-      <li xml:lang="x-test">xxcwebp for WebP imagesxx</li>
       <li xml:lang="zh-CN">cwebp  (PNG 图像压缩)</li>
       <li xml:lang="zh-TW">對 WebP 影像使用 cwebp</li>
     </ul>
@@ -323,7 +314,6 @@
       <caption xml:lang="sv">Huvudvy för Optibild som visar en lista över bilder som håller på att behandlas</caption>
       <caption xml:lang="tr">OptiImage ana görünümü, işlenen bir görsel listesini gösteriyor</caption>
       <caption xml:lang="uk">Основна панель OptiImage зі списком зображень, які буде оброблено</caption>
-      <caption xml:lang="x-test">xxOptiImage main view showing a list of images getting processedxx</caption>
       <caption xml:lang="zh-CN">OptiImage 主视图显示正在处理的图像列表</caption>
       <caption xml:lang="zh-TW">OptiImage 的主檢視，顯示正在被處理的影像</caption>
     </screenshot>
