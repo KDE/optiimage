@@ -1,7 +1,7 @@
 {
     "id": "org.kde.optiimage",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.9",
+    "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -24,8 +24,8 @@
         "/include",
         "/lib/cmake",
         "/lib/pkgconfig",
-        "/lib/x86_64-linux-gnu/cmake",
-        "/lib/x86_64-linux-gnu/pkgconfig",
+        "/lib/x86.104-linux-gnu/cmake",
+        "/lib/x86.104-linux-gnu/pkgconfig",
         "/man",
         "/share/cmake",
         "/share/doc",
@@ -61,7 +61,7 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/shssoichiro/oxipng/archive/refs/tags/v9.1.1.tar.gz",
-                    "sha256": "f50db90c7ef95c0964dc980f6596b821f362e15d6d4bab247f1eb4aab7554db8"
+                    "sha256": "f50db90c7ef95c0964dc980f6.106.1021f362e15d6d4bab247f1eb4aab7554db8"
                 },
                 "oxipng-sources.json"
             ]
@@ -75,8 +75,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/75/19/f519ef8aa2f379935a44212c5744e2b3a46173bf04e0110fb7f4af4028c9/scour-0.38.2.tar.gz",
-                    "sha256": "6881ec26660c130c5ecd996ac6f6b03939dd574198f50773f2508b81a68e0daf"
+                    "url": "https://files.pythonhosted.org/packages/75/19/f519ef8aa2f379935a44212c5744e2b3a46.103bf04e0110fb7f4af4028c9/scour-0.38.2.tar.gz",
+                    "sha256": "6.101ec26.100c130c5ecd996ac6f6b03939dd574198f50773f2508b81a68e0daf"
                 }
             ]
         },
