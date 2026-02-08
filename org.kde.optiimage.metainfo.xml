@@ -24,6 +24,7 @@
   <name xml:lang="it">OptiImage</name>
   <name xml:lang="ka">OptiImage</name>
   <name xml:lang="ko">OptiImage</name>
+  <name xml:lang="lt">OptiImage</name>
   <name xml:lang="lv">OptiImage</name>
   <name xml:lang="nl">OptiImage</name>
   <name xml:lang="pl">OptiImage</name>
@@ -56,6 +57,7 @@
   <summary xml:lang="it">Ottimiazzatore d'immagini che ne riduce la dimensione</summary>
   <summary xml:lang="ka">გამოსახულებების ოპტიმიზაცია მათი ზომის შემცირების მმიზნით</summary>
   <summary xml:lang="ko">그림 크기를 줄이는 이미지 최적화 도구</summary>
+  <summary xml:lang="lt">Paveikslų optimizatorius, skirtas sumažinti paveikslų dydį</summary>
   <summary xml:lang="lv">Attēlu optimizēšanas programma, kas palīdz samazināt attēlu izmēru</summary>
   <summary xml:lang="nl">Optimalisatie van afbeeldingen om de grootte van afbeeldingen te verminderen</summary>
   <summary xml:lang="pl">Optymalizator obrazów do zmniejszania rozmiaru obrazów</summary>
@@ -91,6 +93,7 @@
     <p xml:lang="it">Ottimizza le tue immagini con OptiImage, un utile compressore d'immagini che supporta i file PNG, JPEG, WebP e SVG.</p>
     <p xml:lang="ka">დააოპტიმიზეთ თქვენი გამოსახულებები OptiImage-სთან, საჭირო გამოსახულებების შემკუმშავთან, რომელსაც PNG, JPEG, WebP და SVG ფაილის ტიპების სრული მარდაჭერა გააჩნია.</p>
     <p xml:lang="ko">OptiImage를 사용하여 이미지를 최적화할 수 있습니다. PNG, JPEG, WebP, SVG 파일 형식을 지원합니다.</p>
+    <p xml:lang="lt">Optimizuokite paveikslus naudodami OptiImage – naudingą paveikslų kompresorių, kuris palaiko PNG, JPEG, WebP ir SVG failo tipus.</p>
     <p xml:lang="lv">Optimizējiet attēlus ar „OptiImage“ — noderīgu attēlu saspiešanas programmu, kas atbalsta PNG, JPEG, „WebP“ un SVG attēlu datnes.</p>
     <p xml:lang="nl">Optimaliseer uw afbeeldingen met OptiImage, een nuttige comprimeerder die PNG, JPEG, WebP en SVG typen bestanden ondersteunt.</p>
     <p xml:lang="pl">Optymalizuj swoje obrazy w OptiImage, użyteczny narzędziu do pakowania obrazów, który obsługuje pliki: PNG, JPEG, WebP oraz SVG.</p>
@@ -121,6 +124,7 @@
     <p xml:lang="it">Supporta sia modalità di compressione con perdita che senza, e ha un'opzione per mantenere oppure no i metadati delle immagini. In aggiunta ha una modalità sicura, che crea un'immagine nuova al posto di sovrascrivere quella vecchia.</p>
     <p xml:lang="ka">აქვს ორივე, კარგვის გარეშეც და კარგვითაც შეკუმშვის რეჟიმები არჩევნის საშუალებით, შევინარჩუნოთ გამოსახულების მეტამონაცემები, თუ არა. დამატებით, მას აქვს უსაფრთხო რეჟიმი, სადაც ძველი გამოსახულების თავზე გადაწერის მაგიერ ახალი გამოსახულება იქმნება.</p>
     <p xml:lang="ko">무손실과 손실 압축을 둘 다 지원하며 이미지 메타데이터 유지 여부를 선택할 수 있습니다. 기존 이미지를 덮어쓰지 않는 안전 모드를 제공합니다.</p>
+    <p xml:lang="lt">OptiImage palaiko tiek nuostolingąją, tiek nenuostolingąją glaudinimo veikseną, su parinktimi išlaikyti paveikslų metaduomenis arba neišlaikyti. Be to, programoje yra saugi veiksena, kurią įjungus, yra sukuriami nauji paveikslai, o ne perrašomi seni.</p>
     <p xml:lang="lv">Tā atbalsta gan saspiešanu ar zudumiem, gan bez zudumiem ar opciju paturēt vai dzēst attēlu metadatus. Tāpat programmā ir iebūvēts drošais režīms, kas izveido jaunus attēlus un nepārraksta jau esošos.</p>
     <p xml:lang="nl">Zowel modi voor compressie met als zonder verlies worden ondersteund met een optie voor het al dan niet behouden van metagegevens van afbeeldingen. Bovendien met een veilige modus, waar een nieuwe afbeelding wordt gemaakt in plaats van de oude te overschrijven.</p>
     <p xml:lang="pl">Obsługuje tryby pakowania zarówno bezstratne jak i stratne z możliwością zachowania lub porzucenia metadanych obrazów. Dodatkowo ma tryb bezpieczny, w którym tworzone są nowe obrazy zamiast zastępować stare.</p>
@@ -149,6 +153,7 @@
     <p xml:lang="it">Utilizza i seguenti strumenti:</p>
     <p xml:lang="ka">იყენებს შემდეგ პროგრამებს:</p>
     <p xml:lang="ko">다음 도구를 사용합니다:</p>
+    <p xml:lang="lt">Programa naudoja šiuos įrankius:</p>
     <p xml:lang="lv">Programmas izmanto šādus rīkus:</p>
     <p xml:lang="nl">De volgende hulpmiddelen worden gebruikt:</p>
     <p xml:lang="pl">Używa następujących narzędzi:</p>
@@ -178,6 +183,7 @@
       <li xml:lang="it">oxipng per le immagini  PNG</li>
       <li xml:lang="ka">oxipng-ს PNG გამოსახულებებისთვის</li>
       <li xml:lang="ko">PNG 이미지: oxipng</li>
+      <li xml:lang="lt">PNG paveikslams – oxipng</li>
       <li xml:lang="lv">„oxipng“ PNG attēlu apstrādei</li>
       <li xml:lang="nl">oxipng voor PNG-afbeeldingen</li>
       <li xml:lang="pl">oxipng do obrazów PNG</li>
@@ -206,6 +212,7 @@
       <li xml:lang="it">jpegoptim per le immagini JPEG</li>
       <li xml:lang="ka">jpegoptim-ს JPEG გამოსახულებებისთვის</li>
       <li xml:lang="ko">JPEG 이미지: jpegoptim</li>
+      <li xml:lang="lt">JPEG paveikslams – jpegoptim</li>
       <li xml:lang="lv">„jpegoptim“ JPEG attēlu apstrādei</li>
       <li xml:lang="nl">jpegoptim voor JPEG-afbeeldingen</li>
       <li xml:lang="pl">jpegoptim do obrazów JPEG</li>
@@ -234,6 +241,7 @@
       <li xml:lang="it">scour per le immagini SVG</li>
       <li xml:lang="ka">scour-ს SVG გამოსახულებებისთვის</li>
       <li xml:lang="ko">SVG 이미지: scour</li>
+      <li xml:lang="lt">SVG paveikslams – scour</li>
       <li xml:lang="lv">„scour“ SVG attēlu apstrādei</li>
       <li xml:lang="nl">scour voor SVG-afbeeldingen</li>
       <li xml:lang="pl">scour do obrazów SVG</li>
@@ -262,6 +270,7 @@
       <li xml:lang="it">cwebp per le immagini WebP</li>
       <li xml:lang="ka">cwebp-ს WebP გამოსახულებებისთვის</li>
       <li xml:lang="ko">WebP 이미지: cwebp</li>
+      <li xml:lang="lt">WebP paveikslams – cwebp</li>
       <li xml:lang="lv">„cwebp“ „WebP„ attēlu apstrādei</li>
       <li xml:lang="nl">cwebp voor WebP-afbeeldingen</li>
       <li xml:lang="pl">cwebp do obrazów WebP</li>
@@ -305,6 +314,7 @@
       <caption xml:lang="it">La vista principale di OptiImage che mostra un elenco di immagini che vengono elaborate</caption>
       <caption xml:lang="ka">Optiimage-ის მთავარი ხედი, რომელიც აჩვენებს გამოსახულებების სია, რომლებიც მუშავდება</caption>
       <caption xml:lang="ko">처리할 그림 목록이 표시된 OptiImage 주 보기</caption>
+      <caption xml:lang="lt">Pagrindinis OptiImage rodinys, atvaizduojantis paveikslų, kurie netrukus bus apdoroti, sąrašą</caption>
       <caption xml:lang="lv">„OptiImage“ galvenais logs, kurā redzami apstrādājamie attēli</caption>
       <caption xml:lang="nl">OptiImage hoofdweergave die een lijst toont van afbeeldingen om te worden verwerkt</caption>
       <caption xml:lang="pl">Główny widok OptiImage, pokazujący listę przetwarzanych obrazów</caption>
