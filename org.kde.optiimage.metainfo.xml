@@ -333,6 +333,12 @@
       <url>https://carlschwan.eu/2024/11/24/optiimage-1.0.0-is-out/</url>
       <description>
         <p>Initial release of OptiImage</p>
+        <p xml:lang="ca">Versió inicial de l'OptiImage</p>
+        <p xml:lang="he">המהדורה הראשונית של OptiImage</p>
+        <p xml:lang="ka">OptiImage-ის საწყისი გამოშვება</p>
+        <p xml:lang="pt-BR">Lançamento inicial do OptiImage</p>
+        <p xml:lang="sl">Začetna izdaja OptiImage</p>
+        <p xml:lang="uk">Початковий випуск OptiImage</p>
       </description>
     </release>
   </releases>
