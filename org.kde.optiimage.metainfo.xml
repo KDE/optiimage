@@ -333,12 +333,17 @@
       <url>https://carlschwan.eu/2024/11/24/optiimage-1.0.0-is-out/</url>
       <description>
         <p>Initial release of OptiImage</p>
+        <p xml:lang="ar">الإصدار الأولي من المحسّن</p>
         <p xml:lang="ca">Versió inicial de l'OptiImage</p>
+        <p xml:lang="ca-valencia">Versió inicial d'OptiImage</p>
+        <p xml:lang="es">Versión inicial de OptiImage</p>
         <p xml:lang="he">המהדורה הראשונית של OptiImage</p>
         <p xml:lang="ka">OptiImage-ის საწყისი გამოშვება</p>
+        <p xml:lang="nl">Initiële uitgave van OptiImage</p>
         <p xml:lang="pt-BR">Lançamento inicial do OptiImage</p>
         <p xml:lang="sl">Začetna izdaja OptiImage</p>
         <p xml:lang="uk">Початковий випуск OptiImage</p>
+        <p xml:lang="zh-CN">OptiImage 的首个正式版本</p>
       </description>
     </release>
   </releases>
