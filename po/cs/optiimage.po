@@ -1,37 +1,37 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the optiimage package.
-# SPDX-FileCopyrightText: 2024 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2024, 2026 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: 2024-06-26 17:04+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-03-30 11:40+0200\n"
+"Last-Translator:  Vít Pelčák <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.05.1\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr ""
+msgstr "Výstup na konzoli"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
 msgid "No log output"
-msgstr ""
+msgstr "Žádný výstup do protokolu"
 
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr ""
+msgstr "Optimalizujte své obrázky"
 
 #: contents/ui/OptimizePage.qml:33
 #, kde-format
@@ -43,7 +43,7 @@ msgstr "Znovu zkontrolovat"
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr ""
+msgstr "K správnému fungování OptiImage chybí následující programy:"
 
 #: contents/ui/OptimizePage.qml:54
 #, kde-format
@@ -117,7 +117,7 @@ msgstr "Vlastnosti"
 #: contents/ui/OptimizePage.qml:198
 #, kde-format
 msgid "No images to optimize"
-msgstr ""
+msgstr "Žádné obrázky k optimalizaci"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
@@ -143,12 +143,12 @@ msgstr "Bezpečný režim"
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr ""
+msgstr "Uložit komprimovaný obrázek do nového souboru"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr ""
+msgstr "Přípona, která se připojí na konec nového souboru"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
@@ -158,29 +158,30 @@ msgstr "JPG"
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr ""
+msgstr "Progresivní zakódování"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
 msgstr ""
+"Chcete-li povolit postupné vykreslování obrázku: z rozmazaného na ostrý."
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr ""
+msgstr "Použít bezztrátovou kompresi"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
-msgstr ""
+msgstr "Použít pouze kompresní algoritmy, které nesnižují kvalitu obrazu."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr ""
+msgstr "Výchozí úroveň ztrátové optimalizace:"
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
@@ -190,7 +191,7 @@ msgstr "PNG"
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr ""
+msgstr "Výchozí úroveň bezztrátové optimalizace:"
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
@@ -201,13 +202,13 @@ msgstr "SVG"
 #, kde-format
 msgctxt "@label"
 msgid "Maximum Compression Level"
-msgstr ""
+msgstr "Maximální úroveň komprese"
 
 #: contents/ui/SettingsPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr ""
+msgstr "Může to mít ještě negativnější dopad na obrázek."
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
@@ -232,7 +233,7 @@ msgstr "OptiImage"
 #: main.cpp:38
 #, kde-format
 msgid "Images Optimiser"
-msgstr ""
+msgstr "Optimalizace obrázků"
 
 #: main.cpp:40
 #, kde-format
