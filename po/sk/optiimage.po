@@ -19,7 +19,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Console output"
-msgstr ""
+msgstr "Výstup konzoly"
 
 #: contents/ui/LogOutputPage.qml:57
 #, kde-format
@@ -29,19 +29,19 @@ msgstr "Žiadne záznam výstup"
 #: contents/ui/OptimizePage.qml:17
 #, kde-format
 msgid "Optimize your images"
-msgstr ""
+msgstr "Optimalizujte vaše obrázky"
 
 #: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
-msgstr ""
+msgstr "Znova skontrolovať"
 
 #: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
-msgstr ""
+msgstr "Nasledujúce programy chýbajú pre správne fungovanie OptiImage:"
 
 #: contents/ui/OptimizePage.qml:54
 #, kde-format
@@ -58,7 +58,7 @@ msgstr "Nastavenia"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select an image to compress"
-msgstr ""
+msgstr "Vyberte obrázok na kompresiu"
 
 #: contents/ui/OptimizePage.qml:76
 #, kde-format
@@ -74,13 +74,13 @@ msgstr "Všetky súbory (*)"
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
-msgstr ""
+msgstr "%1 (Bez zmeny)"
 
 #: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
-msgstr ""
+msgstr "%1 -> %2 (%3 % zníženie)"
 
 #: contents/ui/OptimizePage.qml:138
 #, kde-format
@@ -115,7 +115,7 @@ msgstr "Vlastnosti"
 #: contents/ui/OptimizePage.qml:198
 #, kde-format
 msgid "No images to optimize"
-msgstr ""
+msgstr "Žiadne obrázky na optimalizáciu"
 
 #: contents/ui/SettingsPage.qml:15
 #, kde-format
@@ -136,17 +136,17 @@ msgstr "Keep Metadata"
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
 msgid "Safe mode"
-msgstr ""
+msgstr "Bezpečný režim"
 
 #: contents/ui/SettingsPage.qml:40
 #, kde-format
 msgid "Save the compressed image in a new file"
-msgstr ""
+msgstr "Uložiť komprimovaný obrázok do nového súboru"
 
 #: contents/ui/SettingsPage.qml:54
 #, kde-format
 msgid "Suffix to append at the end of new file"
-msgstr ""
+msgstr "Prípona na pridanie na koniec nového súboru"
 
 #: contents/ui/SettingsPage.qml:64
 #, kde-format
@@ -161,24 +161,24 @@ msgstr "Progressive Encode"
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "To enable incremental image rendering: blurry to clear."
-msgstr ""
+msgstr "Povoliť postupné vykresľovanie obrázkov: od rozmazaného po čistý."
 
 #: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
 #, kde-format
 msgctxt "@label"
 msgid "Use lossless compression"
-msgstr ""
+msgstr "Použiť bezstratovú kompresiu"
 
 #: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Only use compression algorithms which do not reduce image quality."
-msgstr ""
+msgstr "Používať iba kompresné algoritmy, ktoré neznižujú kvalitu obrázka."
 
 #: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
 #, kde-format
 msgid "Default optimization level of lossy optimization:"
-msgstr ""
+msgstr "Predvolená úroveň stratovej optimalizácie:"
 
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
@@ -188,7 +188,7 @@ msgstr "PNG"
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
 msgid "Default optimization level of lossless optimization:"
-msgstr ""
+msgstr "Predvolená úroveň bezstratovej optimalizácie:"
 
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
@@ -205,7 +205,7 @@ msgstr "Maximum Compression Level"
 #, kde-format
 msgctxt "@info"
 msgid "Can be more destructive for the image."
-msgstr ""
+msgstr "Môže byť pre obrázok deštruktívnejšie."
 
 #: contents/ui/SettingsPage.qml:146
 #, kde-format
@@ -215,7 +215,7 @@ msgstr "WebP"
 #: contents/ui/SettingsPage.qml:182
 #, kde-format
 msgid "About OptiImage"
-msgstr ""
+msgstr "O OptiImage"
 
 #: contents/ui/SettingsPage.qml:199
 #, kde-format
