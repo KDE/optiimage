@@ -64,6 +64,7 @@
   <summary xml:lang="pl">Optymalizator obrazów do zmniejszania rozmiaru obrazów</summary>
   <summary xml:lang="pt-BR">Otimizador de imagens para reduzir o tamanho das imagens</summary>
   <summary xml:lang="sa">चित्राणां आकारं न्यूनीकर्तुं चित्रानुकूलकः</summary>
+  <summary xml:lang="sk">Optimalizátor obrázkov na zmenšenie veľkosti obrázkov</summary>
   <summary xml:lang="sl">Optimizator slik za zmanjšanje velikosti slik</summary>
   <summary xml:lang="sv">Bildoptimering för att reducera bildstorlek</summary>
   <summary xml:lang="tr">Görsel Boyutu Eniyileyicisi</summary>
@@ -101,6 +102,7 @@
     <p xml:lang="pl">Optymalizuj swoje obrazy w OptiImage, użyteczny narzędziu do pakowania obrazów, który obsługuje pliki: PNG, JPEG, WebP oraz SVG.</p>
     <p xml:lang="pt-BR">Otimize suas imagens com o OptiImage, um compressor de imagens útil que suporta os tipos de arquivo PNG, JPEG, WebP e SVG.</p>
     <p xml:lang="sa">OptiImage इत्यनेन सह स्वस्य चित्राणि अनुकूलितं कुर्वन्तु, यत् उपयोगी चित्रसंपीडकं PNG, JPEG, WebP तथा SVG सञ्चिकाप्रकारं समर्थयति ।</p>
+    <p xml:lang="sk">Optimalizujte vaše obrázky pomocou OptiImage, užitočného kompresora obrázkov podporujúceho typy súborov PNG, JPEG, WebP a SVG.</p>
     <p xml:lang="sl">Optimizirajte svoje slike z OptiImage, uporabnim kompresorjem slik, ki podpira vrste datotek PNG, JPEG, WebP in SVG.</p>
     <p xml:lang="sv">Optimera dina bilder med Optibild, ett användbart bildkomprimeringsverktyg som stöder filtyperna PNG, JPEG, WebP och SVG.</p>
     <p xml:lang="tr">PNG, JPEG, WebP ve SVG türü görselleri destekleyen bir görsel sıkıştırıcısı olan OptiImage ile görsellerinizi eniyileyin.</p>
@@ -133,6 +135,7 @@
     <p xml:lang="pl">Obsługuje tryby pakowania zarówno bezstratne jak i stratne z możliwością zachowania lub porzucenia metadanych obrazów. Dodatkowo ma tryb bezpieczny, w którym tworzone są nowe obrazy zamiast zastępować stare.</p>
     <p xml:lang="pt-BR">Suporta os modos de compressão com e sem perdas, com a opção de manter ou não os metadados das imagens. Além disso, possui um modo de segurança, no qual uma nova imagem é criada em vez de sobrescrever a antiga.</p>
     <p xml:lang="sa">इदं चित्राणां मेटाडाटा स्थापयितव्यं वा न वा इति विकल्पेन सह हानिरहितं हानिरहितं च संपीडनविधानं समर्थयति । अस्य अतिरिक्तरूपेण सुरक्षितः मोडः अस्ति, यत्र पुरातनस्य उपरि लेखनस्य स्थाने नूतनं चित्रं निर्मीयते ।</p>
+    <p xml:lang="sk">Podporuje bezstratový aj stratový kompresný režim s možnosťou ponechať alebo neponechať metaúdaje.</p>
     <p xml:lang="sl">Podpira oba načina stiskanja tako brez izgub kot z izgubami z možnostjo da obdrži ali ne metapodatke slik. Poleg tega ima varen način, kjer se ustvari nova slika namesto, da se prepiše stara.</p>
     <p xml:lang="sv">Det stöder både förlustfri och förstörande komprimeringsmetoder med ett alternativ om du vill behålla metadata för bilder eller inte. Det har dessutom ett säkert läge, där en ny bild skapas istället för att skriva över den gamla.</p>
     <p xml:lang="tr">Görsellerin üst verisinin tutulup tutulmaması seçeneğiyle hem kayıpsız hem de kayıplı sıkıştırma kiplerini destekler. Ayrıca eskisinin üzerine yazmak yerine yeni bir görselin oluşturulduğu güvenli bir kipi de vardır.</p>
@@ -163,6 +166,7 @@
     <p xml:lang="pl">Używa następujących narzędzi:</p>
     <p xml:lang="pt-BR">Ele utiliza as seguintes ferramentas:</p>
     <p xml:lang="sa">अस्मिन् निम्नलिखितसाधनानाम् उपयोगः भवति ।</p>
+    <p xml:lang="sk">Používa nasledujúce nástroje:</p>
     <p xml:lang="sl">Uporablja naslednja orodja:</p>
     <p xml:lang="sv">Det använder följande verktyg:</p>
     <p xml:lang="tr">Aşağıdaki araçları kullanır:</p>
@@ -194,6 +198,7 @@
       <li xml:lang="pl">oxipng do obrazów PNG</li>
       <li xml:lang="pt-BR">oxipng para imagens PNG</li>
       <li xml:lang="sa">PNG चित्राणां कृते oxipng</li>
+      <li xml:lang="sk">oxipng pre obrázky PNG</li>
       <li xml:lang="sl">oxipng za slike PNG</li>
       <li xml:lang="sv">oxipng för PNG-bilder</li>
       <li xml:lang="tr">PNG görselleri için oxipng</li>
@@ -224,6 +229,7 @@
       <li xml:lang="pl">jpegoptim do obrazów JPEG</li>
       <li xml:lang="pt-BR">jpegoptim para imagens JPEG</li>
       <li xml:lang="sa">JPEG चित्राणां कृते jpegoptim</li>
+      <li xml:lang="sk">jpegoptim pre obrázky JPEG</li>
       <li xml:lang="sl">jpegoptim za slike JPEG</li>
       <li xml:lang="sv">jpegoptim för JPEG-bilder</li>
       <li xml:lang="tr">JPEG görselleri için jpegoptim</li>
@@ -254,6 +260,7 @@
       <li xml:lang="pl">scour do obrazów SVG</li>
       <li xml:lang="pt-BR">scour para imagens SVG</li>
       <li xml:lang="sa">SVG चित्राणां कृते scour</li>
+      <li xml:lang="sk">scour pre obrázky SVG</li>
       <li xml:lang="sl">scour za slike SVG</li>
       <li xml:lang="sv">scour for SVG-bilder</li>
       <li xml:lang="tr">SVG görselleri için scour</li>
@@ -284,6 +291,7 @@
       <li xml:lang="pl">cwebp do obrazów WebP</li>
       <li xml:lang="pt-BR">cwebp para imagens WebP</li>
       <li xml:lang="sa">WebP चित्राणां कृते cwebp</li>
+      <li xml:lang="sk">cwebp pre obrázky WebP</li>
       <li xml:lang="sl">cwebp za slike WebP</li>
       <li xml:lang="sv">cwebp för WebP-bilder</li>
       <li xml:lang="tr">WebP görselleri için cwebp</li>
@@ -329,6 +337,7 @@
       <caption xml:lang="pl">Główny widok OptiImage, pokazujący listę przetwarzanych obrazów</caption>
       <caption xml:lang="pt-BR">Visualização principal do OptiImage mostrando uma lista de imagens sendo processadas</caption>
       <caption xml:lang="sa">OptiImage मुख्यदृश्यं यत् संसाधितानां चित्राणां सूचीं दर्शयति</caption>
+      <caption xml:lang="sk">Hlavné zobrazenie OptiImage so zoznamom spracovávaných obrázkov</caption>
       <caption xml:lang="sl">Glavni pogled OptiImage, ki prikazuje seznam slik, ki se obdelujejo</caption>
       <caption xml:lang="sv">Huvudvy för Optibild som visar en lista över bilder som håller på att behandlas</caption>
       <caption xml:lang="tr">OptiImage ana görünümü, işlenen bir görsel listesini gösteriyor</caption>
@@ -357,6 +366,7 @@
         <p xml:lang="nl">Initiële uitgave van OptiImage</p>
         <p xml:lang="pl">Pierwsze wydanie OptiImage</p>
         <p xml:lang="pt-BR">Lançamento inicial do OptiImage</p>
+        <p xml:lang="sk">Prvé vydanie OptiImage</p>
         <p xml:lang="sl">Začetna izdaja OptiImage</p>
         <p xml:lang="tr">OptiImage’in ilk yayımı</p>
         <p xml:lang="uk">Початковий випуск OptiImage</p>
