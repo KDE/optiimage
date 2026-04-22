@@ -11,6 +11,7 @@
   <name xml:lang="ca">OptiImage</name>
   <name xml:lang="ca-valencia">OptiImage</name>
   <name xml:lang="cs">OptiImage</name>
+  <name xml:lang="de">OptiImage</name>
   <name xml:lang="en-GB">OptiImage</name>
   <name xml:lang="eo">OptiImage</name>
   <name xml:lang="es">OptiImage</name>
@@ -45,6 +46,7 @@
   <summary xml:lang="ca">Optimitzador d'imatges per a reduir la mida de les imatges</summary>
   <summary xml:lang="ca-valencia">Optimitzador d'imatges per a reduir-ne la mida</summary>
   <summary xml:lang="cs">Optimalizátor obrázků pro zmenšení jejich velikosti</summary>
+  <summary xml:lang="de">Bildoptimierung zur Verringerung der Dateigröße von Bildern</summary>
   <summary xml:lang="en-GB">Image optimiser to reduce the size of images</summary>
   <summary xml:lang="eo">Bild-optimumigilo por redukti la grandecon de bildoj</summary>
   <summary xml:lang="es">Optimizador de imágenes para reducir su tamaño</summary>
@@ -83,6 +85,7 @@
     <p xml:lang="ca">Optimitzeu les imatges amb l'OptiImage, un compressor d'imatges útil que admet tipus de fitxers PNG, JPEG, WebP i SVG.</p>
     <p xml:lang="ca-valencia">Optimitzeu les imatges amb OptiImage, un compressor d'imatges útil que admet tipus de fitxers PNG, JPEG, WebP i SVG.</p>
     <p xml:lang="cs">Optimalizujte své obrázky pomocí OptiImage, užitečného nástroje pro kompresi obrázků, který podporuje formáty PNG, JPEG, WebP a SVG.</p>
+    <p xml:lang="de">Optimieren Sie Ihre Bilder mit OptiImage, einem nützlichen Bildkompressor, der PNG-, JPEG-, WebP- und SVG-Dateien unterstützt.</p>
     <p xml:lang="en-GB">Optimise your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.</p>
     <p xml:lang="eo">Optimumigu viajn bildojn per OptiImage, utila bildkunpremilo kiu subtenas PNG, JPEG, WebP kaj SVG-dosiertipojn.</p>
     <p xml:lang="es">Optimice sus imágenes con OptiImage, un útil compresor de imágenes compatible con los tipos de archivo PNG, JPEG, WebP y SVG.</p>
@@ -116,6 +119,7 @@
     <p xml:lang="ca">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantenir o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="ca-valencia">És compatible tant amb els modes de compressió amb pèrdua i sense, amb una opció per a mantindre o no les metadades de les imatges. A més, té un mode segur, on es crea una imatge nova en lloc de sobreescriure l'antiga.</p>
     <p xml:lang="cs">Podporuje bezztrátový i ztrátový režim komprese s možností zachovat či nezachovat metadata obrázků. Navíc disponuje bezpečným režimem, v němž se místo přepsání starého obrázku vytvoří nový.</p>
+    <p xml:lang="de">Sowohl verlustfreie als auch verlustbehaftete Komprimierungsmodi werden unterstützt. Außerdem bietet die Anwendung die Möglichkeit, Metadaten zu behalten oder zu entfernen. Zusätzlich gibt es einen sicheren Modus, bei dem eine neue Bilddatei erstellt wird, statt die existierende zu überschreiben.</p>
     <p xml:lang="en-GB">It supports both lossless and lossy compression modes with an option whether to keep or not metadata of images. It additionally has a safe mode, where a new image is created instead of overwriting the old one.</p>
     <p xml:lang="eo">Ĝi subtenas ambaŭ senperdan kaj perdan kunpremajn reĝimojn kun eblo ĉu konservi aŭ ne metadatumojn de bildoj. Ĝi krome havas sekuran reĝimon, kie nova bildo estas kreita anstataŭ superskribi la malnovan.</p>
     <p xml:lang="es">Permite usar los modos de compresión con y sin pérdida, con la opción de conservar los metadatos de las imágenes. También dispone de un modo seguro que crea imágenes nuevas en lugar de sobrescribir las existentes.</p>
@@ -147,6 +151,7 @@
     <p xml:lang="ca">Utilitza les eines següents:</p>
     <p xml:lang="ca-valencia">Utilitza les eines següents:</p>
     <p xml:lang="cs">Využívá následující nástroje:</p>
+    <p xml:lang="de">Es verwendet folgende Dienstprogramme:</p>
     <p xml:lang="en-GB">It uses the following tools:</p>
     <p xml:lang="eo">Ĝi uzas la sekvajn ilojn:</p>
     <p xml:lang="es">Usa las siguientes herramientas:</p>
@@ -179,6 +184,7 @@
       <li xml:lang="ca">«oxipng» per a imatges PNG</li>
       <li xml:lang="ca-valencia">«oxipng» per a imatges PNG</li>
       <li xml:lang="cs">oxipng pro obrázky ve formátu PNG</li>
+      <li xml:lang="de">„oxipng“ für PNG-Bilder</li>
       <li xml:lang="en-GB">oxipng for PNG images</li>
       <li xml:lang="eo">oxipng por PNG-bildoj</li>
       <li xml:lang="es">oxipng para las imágenes PNG</li>
@@ -210,6 +216,7 @@
       <li xml:lang="ca">«jpegoptim» per a imatges JPEG</li>
       <li xml:lang="ca-valencia">«jpegoptim» per a imatges JPEG</li>
       <li xml:lang="cs">jpegoptim pro obrázky ve formátu JPEG</li>
+      <li xml:lang="de">„jpegoptim“ für JPEG-Bilder</li>
       <li xml:lang="en-GB">jpegoptim for JPEG images</li>
       <li xml:lang="eo">jpegoptim por JPEG-bildoj</li>
       <li xml:lang="es">jpegoptim para las imágenes JPEG</li>
@@ -241,6 +248,7 @@
       <li xml:lang="ca">«scour» per a imatges SVG</li>
       <li xml:lang="ca-valencia">«scour» per a imatges SVG</li>
       <li xml:lang="cs">scour pro obrázky ve formátu SVG</li>
+      <li xml:lang="de">„scour“ für SVG-Bilder</li>
       <li xml:lang="en-GB">scour for SVG images</li>
       <li xml:lang="eo">scour por SVG-bildoj</li>
       <li xml:lang="es">scour para las imágenes SVG</li>
@@ -272,6 +280,7 @@
       <li xml:lang="ca">«cwebp» per a imatges WebP</li>
       <li xml:lang="ca-valencia">«cwebp» per a imatges WebP</li>
       <li xml:lang="cs">cwebp pro obrázky ve formátu WebP</li>
+      <li xml:lang="de">„cwebp“ für WebP-Bilder</li>
       <li xml:lang="en-GB">cwebp for WebP images</li>
       <li xml:lang="eo">cwebp por WebP-bildoj</li>
       <li xml:lang="es">cwebp para las imágenes WebP</li>
@@ -319,6 +328,7 @@
       <caption xml:lang="ca">Vista principal de l'OptiImage que mostra una llista d'imatges que s'estan processant</caption>
       <caption xml:lang="ca-valencia">Vista principal d'OptiImage que mostra una llista d'imatges que s'estan processant</caption>
       <caption xml:lang="cs">Hlavní obrazovka aplikace OptiImage zobrazující seznam zpracovávaných obrázků</caption>
+      <caption xml:lang="de">Hauptansicht von OptiImage mit einer Liste von Bildern, die gerade verarbeitet werden</caption>
       <caption xml:lang="eo">Ĉefvido de OptiImage montrante liston de bildoj en prilaborado</caption>
       <caption xml:lang="es">Vista principal de OptiImage con la lista de imágenes que se están procesando</caption>
       <caption xml:lang="eu">OptiImage-ren ikuspegi nagusia, prozesatzen ari diren irudien zerrenda bat erakusten duena</caption>
@@ -355,6 +365,7 @@
         <p xml:lang="ca">Versió inicial de l'OptiImage</p>
         <p xml:lang="ca-valencia">Versió inicial d'OptiImage</p>
         <p xml:lang="cs">Úvodní vydání aplikace OptiImage</p>
+        <p xml:lang="de">Erste Veröffentlichung von OptiImage</p>
         <p xml:lang="es">Versión inicial de OptiImage</p>
         <p xml:lang="eu">OptiImage-ren hasierako askapena</p>
         <p xml:lang="fr">Première publication de OptiImage</p>
