@@ -35,6 +35,7 @@
   <name xml:lang="sl">OptiImage</name>
   <name xml:lang="sv">Optibild</name>
   <name xml:lang="tr">OptiImage</name>
+  <name xml:lang="ug">OptiImage</name>
   <name xml:lang="uk">OptiImage</name>
   <name xml:lang="zh-CN">OptiImage 图像压缩工具</name>
   <name xml:lang="zh-TW">OptiImage</name>
@@ -175,6 +176,7 @@
     <p xml:lang="sl">Uporablja naslednja orodja:</p>
     <p xml:lang="sv">Det använder följande verktyg:</p>
     <p xml:lang="tr">Aşağıdaki araçları kullanır:</p>
+    <p xml:lang="ug">ئۇ تۆۋەندىكى قورالنى ئىشلىتىدۇ:</p>
     <p xml:lang="uk">Використано такі інструменти:</p>
     <p xml:lang="zh-CN">它使用以下工具程序：</p>
     <p xml:lang="zh-TW">它會利用以下工具：</p>
