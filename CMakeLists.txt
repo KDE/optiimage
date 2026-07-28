@@ -18,7 +18,7 @@ set_package_properties(ECM PROPERTIES
     URL "https://api.kde.org/ecm/"
     DESCRIPTION "extra cmake modules")
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
 find_package(Qt6 ${QT_MIN_VERSION} NO_MODULE  COMPONENTS Core Gui Qml QuickControls2 Svg Widgets)
 set_package_properties(Qt6 PROPERTIES
