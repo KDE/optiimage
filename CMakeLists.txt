@@ -44,7 +44,7 @@ set_package_properties(KF6Crash PROPERTIES
         PURPOSE "For crash handling"
 )
 
-find_package(KF6KirigamiAddons 1.5.0)
+find_package(KF6KirigamiAddons 1.12.0)
 set_package_properties(KF6KirigamiAddons PROPERTIES
     TYPE REQUIRED
     PURPOSE "Required application components and runtime dependency"

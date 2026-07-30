@@ -41,6 +41,7 @@ target_link_libraries(optiimage_static PUBLIC
     KF6::KIOCore
     KF6::KIOFileWidgets
     KF6::IconThemes
+    KirigamiApp
     QCoro::Core
     QCoro::Qml
 )
