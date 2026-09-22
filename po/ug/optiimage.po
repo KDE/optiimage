@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-31 00:43+0000\n"
-"PO-Revision-Date: 2026-06-01 16:33-0400\n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -186,7 +186,7 @@ msgstr ""
 #: contents/ui/SettingsPage.qml:113
 #, kde-format
 msgid "PNG"
-msgstr "PNG"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:118
 #, kde-format
@@ -196,7 +196,7 @@ msgstr ""
 #: contents/ui/SettingsPage.qml:130
 #, kde-format
 msgid "SVG"
-msgstr "SVG"
+msgstr ""
 
 #: contents/ui/SettingsPage.qml:135
 #, kde-format
@@ -228,7 +228,7 @@ msgstr "KDE ھەققىدە"
 #: main.cpp:27
 #, kde-format
 msgid "OptiImage"
-msgstr "OptiImage"
+msgstr ""
 
 #: main.cpp:29
 #, kde-format
@@ -243,7 +243,7 @@ msgstr ""
 #: main.cpp:33
 #, kde-format
 msgid "Carl Schwan"
-msgstr "Carl Schwan"
+msgstr ""
 
 #: main.cpp:33
 #, kde-format
