@@ -30,6 +30,7 @@
   <name xml:lang="nl">OptiImage</name>
   <name xml:lang="pl">OptiImage</name>
   <name xml:lang="pt-BR">OptiImage</name>
+  <name xml:lang="ru">OptiImage</name>
   <name xml:lang="sa">ऑप्टिइमेज</name>
   <name xml:lang="sk">OptiImage</name>
   <name xml:lang="sl">OptiImage</name>
@@ -65,6 +66,7 @@
   <summary xml:lang="nl">Optimalisatie van afbeeldingen om de grootte van afbeeldingen te verminderen</summary>
   <summary xml:lang="pl">Optymalizator obrazów do zmniejszania rozmiaru obrazów</summary>
   <summary xml:lang="pt-BR">Otimizador de imagens para reduzir o tamanho das imagens</summary>
+  <summary xml:lang="ru">Оптимизатор для уменьшения размера изображений</summary>
   <summary xml:lang="sa">चित्राणां आकारं न्यूनीकर्तुं चित्रानुकूलकः</summary>
   <summary xml:lang="sk">Optimalizátor obrázkov na zmenšenie veľkosti obrázkov</summary>
   <summary xml:lang="sl">Optimizator slik za zmanjšanje velikosti slik</summary>
@@ -104,6 +106,7 @@
     <p xml:lang="nl">Optimaliseer uw afbeeldingen met OptiImage, een nuttige comprimeerder die PNG, JPEG, WebP en SVG typen bestanden ondersteunt.</p>
     <p xml:lang="pl">Optymalizuj swoje obrazy w OptiImage, użyteczny narzędziu do pakowania obrazów, który obsługuje pliki: PNG, JPEG, WebP oraz SVG.</p>
     <p xml:lang="pt-BR">Otimize suas imagens com o OptiImage, um compressor de imagens útil que suporta os tipos de arquivo PNG, JPEG, WebP e SVG.</p>
+    <p xml:lang="ru">Оптимизируйте изображения с помощью OptiImage — удобного компрессора изображений, поддерживающего форматы PNG, JPEG, WebP и SVG.</p>
     <p xml:lang="sa">OptiImage इत्यनेन सह स्वस्य चित्राणि अनुकूलितं कुर्वन्तु, यत् उपयोगी चित्रसंपीडकं PNG, JPEG, WebP तथा SVG सञ्चिकाप्रकारं समर्थयति ।</p>
     <p xml:lang="sk">Optimalizujte vaše obrázky pomocou OptiImage, užitočného kompresora obrázkov podporujúceho typy súborov PNG, JPEG, WebP a SVG.</p>
     <p xml:lang="sl">Optimizirajte svoje slike z OptiImage, uporabnim kompresorjem slik, ki podpira vrste datotek PNG, JPEG, WebP in SVG.</p>
@@ -138,6 +141,7 @@
     <p xml:lang="nl">Zowel modi voor compressie met als zonder verlies worden ondersteund met een optie voor het al dan niet behouden van metagegevens van afbeeldingen. Bovendien met een veilige modus, waar een nieuwe afbeelding wordt gemaakt in plaats van de oude te overschrijven.</p>
     <p xml:lang="pl">Obsługuje tryby pakowania zarówno bezstratne jak i stratne z możliwością zachowania lub porzucenia metadanych obrazów. Dodatkowo ma tryb bezpieczny, w którym tworzone są nowe obrazy zamiast zastępować stare.</p>
     <p xml:lang="pt-BR">Suporta os modos de compressão com e sem perdas, com a opção de manter ou não os metadados das imagens. Além disso, possui um modo de segurança, no qual uma nova imagem é criada em vez de sobrescrever a antiga.</p>
+    <p xml:lang="ru">Поддерживаются режимы сжатия без потерь и с потерями, метаданные изображений можно сохранять или удалять. Кроме того, есть безопасный режим, в котором вместо перезаписи старого изображения создаётся новое.</p>
     <p xml:lang="sa">इदं चित्राणां मेटाडाटा स्थापयितव्यं वा न वा इति विकल्पेन सह हानिरहितं हानिरहितं च संपीडनविधानं समर्थयति । अस्य अतिरिक्तरूपेण सुरक्षितः मोडः अस्ति, यत्र पुरातनस्य उपरि लेखनस्य स्थाने नूतनं चित्रं निर्मीयते ।</p>
     <p xml:lang="sk">Podporuje bezstratový aj stratový kompresný režim s možnosťou ponechať alebo neponechať metaúdaje.</p>
     <p xml:lang="sl">Podpira oba načina stiskanja tako brez izgub kot z izgubami z možnostjo da obdrži ali ne metapodatke slik. Poleg tega ima varen način, kjer se ustvari nova slika namesto, da se prepiše stara.</p>
@@ -170,6 +174,7 @@
     <p xml:lang="nl">De volgende hulpmiddelen worden gebruikt:</p>
     <p xml:lang="pl">Używa następujących narzędzi:</p>
     <p xml:lang="pt-BR">Ele utiliza as seguintes ferramentas:</p>
+    <p xml:lang="ru">Используются следующие инструменты:</p>
     <p xml:lang="sa">अस्मिन् निम्नलिखितसाधनानाम् उपयोगः भवति ।</p>
     <p xml:lang="sk">Používa nasledujúce nástroje:</p>
     <p xml:lang="sl">Uporablja naslednja orodja:</p>
@@ -204,6 +209,7 @@
       <li xml:lang="nl">oxipng voor PNG-afbeeldingen</li>
       <li xml:lang="pl">oxipng do obrazów PNG</li>
       <li xml:lang="pt-BR">oxipng para imagens PNG</li>
+      <li xml:lang="ru">oxipng для изображений PNG</li>
       <li xml:lang="sa">PNG चित्राणां कृते oxipng</li>
       <li xml:lang="sk">oxipng pre obrázky PNG</li>
       <li xml:lang="sl">oxipng za slike PNG</li>
@@ -236,6 +242,7 @@
       <li xml:lang="nl">jpegoptim voor JPEG-afbeeldingen</li>
       <li xml:lang="pl">jpegoptim do obrazów JPEG</li>
       <li xml:lang="pt-BR">jpegoptim para imagens JPEG</li>
+      <li xml:lang="ru">jpegoptim для изображений JPEG</li>
       <li xml:lang="sa">JPEG चित्राणां कृते jpegoptim</li>
       <li xml:lang="sk">jpegoptim pre obrázky JPEG</li>
       <li xml:lang="sl">jpegoptim za slike JPEG</li>
@@ -268,6 +275,7 @@
       <li xml:lang="nl">scour voor SVG-afbeeldingen</li>
       <li xml:lang="pl">scour do obrazów SVG</li>
       <li xml:lang="pt-BR">scour para imagens SVG</li>
+      <li xml:lang="ru">scour для изображений SVG</li>
       <li xml:lang="sa">SVG चित्राणां कृते scour</li>
       <li xml:lang="sk">scour pre obrázky SVG</li>
       <li xml:lang="sl">scour za slike SVG</li>
@@ -300,6 +308,7 @@
       <li xml:lang="nl">cwebp voor WebP-afbeeldingen</li>
       <li xml:lang="pl">cwebp do obrazów WebP</li>
       <li xml:lang="pt-BR">cwebp para imagens WebP</li>
+      <li xml:lang="ru">cwebp для изображений WebP</li>
       <li xml:lang="sa">WebP चित्राणां कृते cwebp</li>
       <li xml:lang="sk">cwebp pre obrázky WebP</li>
       <li xml:lang="sl">cwebp za slike WebP</li>
@@ -347,6 +356,7 @@
       <caption xml:lang="nl">OptiImage hoofdweergave die een lijst toont van afbeeldingen om te worden verwerkt</caption>
       <caption xml:lang="pl">Główny widok OptiImage, pokazujący listę przetwarzanych obrazów</caption>
       <caption xml:lang="pt-BR">Visualização principal do OptiImage mostrando uma lista de imagens sendo processadas</caption>
+      <caption xml:lang="ru">Главное окно OptiImage со списком обрабатываемых изображений</caption>
       <caption xml:lang="sa">OptiImage मुख्यदृश्यं यत् संसाधितानां चित्राणां सूचीं दर्शयति</caption>
       <caption xml:lang="sk">Hlavné zobrazenie OptiImage so zoznamom spracovávaných obrázkov</caption>
       <caption xml:lang="sl">Glavni pogled OptiImage, ki prikazuje seznam slik, ki se obdelujejo</caption>
@@ -380,6 +390,7 @@
         <p xml:lang="nl">Initiële uitgave van OptiImage</p>
         <p xml:lang="pl">Pierwsze wydanie OptiImage</p>
         <p xml:lang="pt-BR">Lançamento inicial do OptiImage</p>
+        <p xml:lang="ru">Первый выпуск OptiImage</p>
         <p xml:lang="sk">Prvé vydanie OptiImage</p>
         <p xml:lang="sl">Začetna izdaja OptiImage</p>
         <p xml:lang="sv">Originalutgåva av Optibild</p>
